@@ -1,0 +1,4142 @@
+{
+  "id": "language",
+  "name": "Lengua",
+  "lessons": [
+    {
+      "id": "leccion-1",
+      "name": "Lección 1",
+      "topics": [
+        {
+          "id": "morfemas",
+          "name": "Los morfemas",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Las palabras están hechas de piezas más pequeñas que tienen significado. Cada pieza se llama morfema. «Gatos» tiene tres morfemas: gat-o-s.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "o",
+                        "kind": "flexivo"
+                      },
+                      {
+                        "text": "s",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "El lexema (o raíz) es la pieza que lleva el significado principal. Se repite en todas las palabras de la misma familia.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "o",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ito",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "uno",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Los morfemas flexivos añaden información de género (masculino o femenino) y número (singular o plural). No crean una palabra nueva.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "niñ",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "o",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "niñ",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "a",
+                        "kind": "flexivo"
+                      },
+                      {
+                        "text": "s",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "En los verbos, los morfemas flexivos se llaman desinencias: indican la persona, el número y el tiempo. En «cantábamos»: nosotros, en pasado.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "cant",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ábamos",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Los morfemas derivativos sirven para formar palabras nuevas. Los prefijos van delante del lexema: «inútil» significa «no útil».",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "in",
+                        "kind": "prefijo"
+                      },
+                      {
+                        "text": "útil",
+                        "kind": "lexema"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "des",
+                        "kind": "prefijo"
+                      },
+                      {
+                        "text": "leal",
+                        "kind": "lexema"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Los sufijos van detrás del lexema y también forman palabras nuevas: de «feliz», «felizmente»; de «zapato», «zapatería».",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "feliz",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "mente",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "zapat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ería",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Los interfijos son piezas pequeñas sin significado propio que unen el lexema con el sufijo.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "pan",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ec",
+                        "kind": "interfijo"
+                      },
+                      {
+                        "text": "illo",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "polv",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ar",
+                        "kind": "interfijo"
+                      },
+                      {
+                        "text": "eda",
+                        "kind": "sufijo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "¡Todo junto! Una palabra puede tener prefijo, lexema, interfijo, sufijo y morfemas flexivos a la vez.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "in",
+                        "kind": "prefijo"
+                      },
+                      {
+                        "text": "útil",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "es",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "pan",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ec",
+                        "kind": "interfijo"
+                      },
+                      {
+                        "text": "illo",
+                        "kind": "sufijo"
+                      },
+                      {
+                        "text": "s",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "morfemas-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "mor-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es un morfema?",
+                  "options": [
+                    "La pieza más pequeña de una palabra que tiene significado",
+                    "Una letra de la palabra",
+                    "Una sílaba de la palabra",
+                    "Una palabra muy corta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Un morfema es la pieza mínima con significado. No es una sílaba: «gatos» tiene 2 sílabas (ga-tos) y 3 morfemas (gat-o-s)."
+                },
+                {
+                  "id": "mor-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el lexema de «panadero»?",
+                  "options": [
+                    "panad",
+                    "pan",
+                    "ero",
+                    "dero"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "El lexema es la parte que comparten pan, panadero y panadería: «pan»."
+                },
+                {
+                  "id": "mor-1-3",
+                  "type": "numeric",
+                  "prompt": "¿Cuántos morfemas tiene la palabra «niñas»?",
+                  "answer": 3,
+                  "explanation": "niñ (lexema) + a (femenino) + s (plural): 3 morfemas."
+                },
+                {
+                  "id": "mor-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra NO es de la familia de «mar»?",
+                  "options": [
+                    "marinero",
+                    "submarino",
+                    "marchar",
+                    "marítimo"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Marinero, submarino y marítimo tienen el lexema «mar» y hablan del mar. «Marchar» empieza igual, pero no tiene nada que ver con el mar."
+                },
+                {
+                  "id": "mor-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el lexema de «zapatería»?",
+                  "options": [
+                    "ería",
+                    "zapa",
+                    "tería",
+                    "zapat"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Zapat» se repite en zapato, zapatero y zapatería; «-ería» es un sufijo que indica tienda."
+                }
+              ]
+            },
+            {
+              "id": "morfemas-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "mor-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "En «inútil», ¿qué tipo de morfema es «in»?",
+                  "options": [
+                    "Sufijo",
+                    "Prefijo",
+                    "Interfijo",
+                    "Lexema"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«In» va delante del lexema «útil» y forma una palabra nueva con el significado contrario: es un prefijo."
+                },
+                {
+                  "id": "mor-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "En «gatos», ¿qué información da el morfema «s»?",
+                  "options": [
+                    "Que es femenino",
+                    "Que es pequeño",
+                    "Que es plural",
+                    "Que es un oficio"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La «-s» es un morfema flexivo de número: indica plural."
+                },
+                {
+                  "id": "mor-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra tiene un interfijo?",
+                  "options": [
+                    "panes",
+                    "pan",
+                    "panadero",
+                    "panecillo"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "En pan-ec-illo, «ec» une el lexema «pan» con el sufijo «-illo» y no tiene significado propio: es un interfijo."
+                },
+                {
+                  "id": "mor-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estos morfemas es derivativo?",
+                  "options": [
+                    "la -s de «casas»",
+                    "la -a de «niña»",
+                    "-mente en «felizmente»",
+                    "-ábamos en «cantábamos»"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«-mente» forma una palabra nueva a partir de «feliz»: es un sufijo derivativo. Los otros son flexivos (número, género y desinencia verbal)."
+                },
+                {
+                  "id": "mor-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se divide «inútiles»?",
+                  "options": [
+                    "in (prefijo) + útil (lexema) + es (flexivo)",
+                    "inú (lexema) + tiles (sufijo)",
+                    "in (lexema) + útiles (sufijo)",
+                    "inútil (prefijo) + es (lexema)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«In» es prefijo, «útil» es el lexema y «-es» es el morfema flexivo de plural."
+                },
+                {
+                  "id": "mor-2-6",
+                  "type": "numeric",
+                  "prompt": "¿Cuántos morfemas tiene la palabra «panecillos»?",
+                  "answer": 4,
+                  "explanation": "pan (lexema) + ec (interfijo) + illo (sufijo) + s (plural): 4 morfemas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "silabas",
+          "name": "Las sílabas",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Una sílaba es un grupo de sonidos que pronunciamos de una sola vez, en un solo golpe de voz. «Mariposa» tiene cuatro sílabas: ma-ri-po-sa.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ma",
+                      "ri",
+                      "po",
+                      "sa"
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Para contar las sílabas, da una palmada en cada golpe de voz. «Pelota»: pe-lo-ta. ¡Tres palmadas, tres sílabas!",
+                "syllables": [
+                  {
+                    "parts": [
+                      "pe",
+                      "lo",
+                      "ta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Toda sílaba tiene al menos una vocal. Puede llevar consonantes delante o detrás, como en «sol», «ár-bol» o «pan-ta-lón».",
+                "syllables": [
+                  {
+                    "parts": [
+                      "sol"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      "ár",
+                      "bol"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      "pan",
+                      "ta",
+                      "lón"
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Las palabras de una sola sílaba se llaman monosílabas.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "sol"
+                    ],
+                    "label": "monosílaba"
+                  },
+                  {
+                    "parts": [
+                      "pan"
+                    ],
+                    "label": "monosílaba"
+                  },
+                  {
+                    "parts": [
+                      "mar"
+                    ],
+                    "label": "monosílaba"
+                  }
+                ]
+              },
+              {
+                "caption": "Las palabras de dos sílabas son bisílabas y las de tres sílabas son trisílabas.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ca",
+                      "sa"
+                    ],
+                    "label": "bisílaba"
+                  },
+                  {
+                    "parts": [
+                      "lá",
+                      "piz"
+                    ],
+                    "label": "bisílaba"
+                  },
+                  {
+                    "parts": [
+                      "pe",
+                      "lo",
+                      "ta"
+                    ],
+                    "label": "trisílaba"
+                  }
+                ]
+              },
+              {
+                "caption": "Las palabras de cuatro sílabas o más se llaman polisílabas.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ma",
+                      "ri",
+                      "po",
+                      "sa"
+                    ],
+                    "label": "polisílaba"
+                  },
+                  {
+                    "parts": [
+                      "bi",
+                      "ci",
+                      "cle",
+                      "ta"
+                    ],
+                    "label": "polisílaba"
+                  }
+                ]
+              },
+              {
+                "caption": "Resumen: según cuántas sílabas tiene, una palabra es monosílaba, bisílaba, trisílaba o polisílaba.",
+                "tiles": [
+                  {
+                    "symbol": "1",
+                    "label": "monosílaba"
+                  },
+                  {
+                    "symbol": "2",
+                    "label": "bisílaba"
+                  },
+                  {
+                    "symbol": "3",
+                    "label": "trisílaba"
+                  },
+                  {
+                    "symbol": "4 o más",
+                    "label": "polisílaba"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "silabas-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "sil-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas sílabas tiene la palabra «camisa»?",
+                  "answer": 3,
+                  "explanation": "ca-mi-sa: tres golpes de voz, tres sílabas."
+                },
+                {
+                  "id": "sil-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas sílabas tiene la palabra «chocolate»?",
+                  "answer": 4,
+                  "explanation": "cho-co-la-te: cuatro golpes de voz. La «ch» es un solo sonido y no se separa."
+                },
+                {
+                  "id": "sil-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se separa en sílabas «ventana»?",
+                  "options": [
+                    "ve-nta-na",
+                    "ven-ta-na",
+                    "vent-a-na",
+                    "ven-tan-a"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "ven-ta-na: tres golpes de voz. La «n» se queda en la primera sílaba, detrás de la vocal «e»."
+                },
+                {
+                  "id": "sil-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es una sílaba?",
+                  "options": [
+                    "Un grupo de sonidos que se pronuncian en un solo golpe de voz",
+                    "Una letra de la palabra",
+                    "La parte de la palabra que lleva el significado",
+                    "Una palabra muy larga"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Una sílaba es un golpe de voz. No es lo mismo que un morfema: los morfemas son piezas con significado."
+                },
+                {
+                  "id": "sil-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es monosílaba?",
+                  "options": [
+                    "mesa",
+                    "pan",
+                    "coche",
+                    "pelo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Pan» se dice en un solo golpe de voz: tiene una sílaba, es monosílaba. Las otras tienen dos."
+                },
+                {
+                  "id": "sil-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué tiene siempre toda sílaba?",
+                  "options": [
+                    "Una consonante",
+                    "Al menos una vocal",
+                    "Una tilde",
+                    "Dos letras"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sin vocal no hay sílaba. En «o-so», la primera sílaba es solo la vocal «o»: no necesita consonante ni dos letras."
+                }
+              ]
+            },
+            {
+              "id": "silabas-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "sil-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas sílabas tiene la palabra «helicóptero»?",
+                  "answer": 5,
+                  "explanation": "he-li-cóp-te-ro: cinco golpes de voz, cinco sílabas."
+                },
+                {
+                  "id": "sil-2-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas sílabas tiene la palabra «escalera»?",
+                  "answer": 4,
+                  "explanation": "es-ca-le-ra: cuatro sílabas. La «s» se queda con la «e» en la primera sílaba."
+                },
+                {
+                  "id": "sil-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se separa en sílabas «pantalón»?",
+                  "options": [
+                    "pa-nta-lón",
+                    "pan-tal-ón",
+                    "pan-ta-lón",
+                    "pant-a-lón"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "pan-ta-lón: tres golpes de voz. Cada sílaba tiene su vocal: a, a, o."
+                },
+                {
+                  "id": "sil-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Según su número de sílabas, «teléfono» es una palabra…",
+                  "options": [
+                    "monosílaba",
+                    "bisílaba",
+                    "trisílaba",
+                    "polisílaba"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "te-lé-fo-no tiene cuatro sílabas. Las palabras de cuatro sílabas o más son polisílabas."
+                },
+                {
+                  "id": "sil-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es trisílaba?",
+                  "options": [
+                    "luz",
+                    "flor",
+                    "conejo",
+                    "mariposa"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "co-ne-jo tiene tres sílabas: es trisílaba. «Luz» y «flor» son monosílabas y «mariposa» es polisílaba."
+                },
+                {
+                  "id": "sil-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien separada en sílabas?",
+                  "options": [
+                    "car-a-co-la",
+                    "ca-ra-co-la",
+                    "ca-rac-o-la",
+                    "ca-ra-col-a"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "ca-ra-co-la: cuatro golpes de voz. Cada consonante va con la vocal que tiene detrás."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "silaba-tonica",
+          "name": "La sílaba tónica",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Al decir una palabra, hay una sílaba que suena con más fuerza: es la sílaba tónica. En «mesa» decimos ME-sa.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "me",
+                      "sa"
+                    ],
+                    "tonic": 0
+                  }
+                ]
+              },
+              {
+                "caption": "Las demás sílabas se pronuncian con menos fuerza: son las sílabas átonas. En «camisa», «mi» es la tónica; «ca» y «sa» son átonas.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ca",
+                      "mi",
+                      "sa"
+                    ],
+                    "tonic": 1
+                  }
+                ]
+              },
+              {
+                "caption": "Toda palabra de dos o más sílabas tiene una sola sílaba tónica. Truco: di la palabra como si llamaras a alguien desde lejos. La sílaba que alargas es la tónica.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "pe",
+                      "lo",
+                      "ta"
+                    ],
+                    "tonic": 1
+                  },
+                  {
+                    "parts": [
+                      "ca",
+                      "ra",
+                      "col"
+                    ],
+                    "tonic": 2
+                  }
+                ]
+              },
+              {
+                "caption": "La sílaba tónica a veces lleva tilde (´) y a veces no. La tilde solo se escribe cuando lo piden las reglas, que aprenderás más adelante.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ca",
+                      "mión"
+                    ],
+                    "tonic": 1
+                  },
+                  {
+                    "parts": [
+                      "ca",
+                      "mi",
+                      "sa"
+                    ],
+                    "tonic": 1
+                  }
+                ]
+              },
+              {
+                "caption": "Si cambia la sílaba tónica, puede cambiar la palabra: «papa» (la patata) no es lo mismo que «papá» (tu padre).",
+                "syllables": [
+                  {
+                    "parts": [
+                      "pa",
+                      "pa"
+                    ],
+                    "tonic": 0
+                  },
+                  {
+                    "parts": [
+                      "pa",
+                      "pá"
+                    ],
+                    "tonic": 1
+                  }
+                ]
+              },
+              {
+                "caption": "Lo mismo pasa con «término», «termino» y «terminó»: tienen las mismas letras, pero son tres palabras distintas.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "tér",
+                      "mi",
+                      "no"
+                    ],
+                    "tonic": 0
+                  },
+                  {
+                    "parts": [
+                      "ter",
+                      "mi",
+                      "no"
+                    ],
+                    "tonic": 1
+                  },
+                  {
+                    "parts": [
+                      "ter",
+                      "mi",
+                      "nó"
+                    ],
+                    "tonic": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "silaba-tonica-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "ton-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es la sílaba tónica?",
+                  "options": [
+                    "La sílaba que se pronuncia con más fuerza",
+                    "La primera sílaba de la palabra",
+                    "La última sílaba de la palabra",
+                    "La sílaba que tiene más letras"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "La sílaba tónica es la que suena con más fuerza. Puede estar al principio, en medio o al final de la palabra."
+                },
+                {
+                  "id": "ton-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la sílaba tónica de «pelota»?",
+                  "options": [
+                    "pe",
+                    "lo",
+                    "ta",
+                    "No tiene"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Decimos pe-LO-ta: «lo» suena con más fuerza. «Pe» y «ta» son átonas."
+                },
+                {
+                  "id": "ton-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la sílaba tónica de «sofá»?",
+                  "options": [
+                    "so",
+                    "fá",
+                    "Las dos",
+                    "Ninguna"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Decimos so-FÁ: «fá» suena con más fuerza y, además, lleva tilde."
+                },
+                {
+                  "id": "ton-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la sílaba tónica de «lápiz»?",
+                  "options": [
+                    "lá",
+                    "piz",
+                    "Las dos",
+                    "Ninguna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Decimos LÁ-piz: «lá» es la sílaba tónica. Una palabra solo tiene una sílaba tónica."
+                },
+                {
+                  "id": "ton-1-5",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas sílabas tónicas tiene la palabra «mariposa»?",
+                  "answer": 1,
+                  "explanation": "Toda palabra tiene una sola sílaba tónica. En ma-ri-PO-sa es «po»; las otras tres son átonas."
+                },
+                {
+                  "id": "ton-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "En «ventana», ¿cuáles son las sílabas átonas?",
+                  "options": [
+                    "ven y na",
+                    "ven y ta",
+                    "ta y na",
+                    "Todas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Decimos ven-TA-na: «ta» es la tónica, así que «ven» y «na» son las átonas."
+                }
+              ]
+            },
+            {
+              "id": "silaba-tonica-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "ton-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué palabra la sílaba tónica es la primera?",
+                  "options": [
+                    "camión",
+                    "pelota",
+                    "árbol",
+                    "reloj"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Decimos ÁR-bol: la tónica es la primera sílaba. En ca-MIÓN y re-LOJ es la última y en pe-LO-ta, la del medio."
+                },
+                {
+                  "id": "ton-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la sílaba tónica de «reloj»?",
+                  "options": [
+                    "re",
+                    "loj",
+                    "Las dos",
+                    "Ninguna"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Decimos re-LOJ: la tónica es «loj», aunque no lleve tilde."
+                },
+                {
+                  "id": "ton-2-3",
+                  "type": "numeric",
+                  "prompt": "Contando desde el principio, ¿en qué número de sílaba está la tónica de «teléfono»?",
+                  "answer": 2,
+                  "explanation": "te-LÉ-fo-no: la tónica «lé» es la segunda sílaba empezando por el principio."
+                },
+                {
+                  "id": "ton-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Completa: «Mi ___ me lleva al colegio.»",
+                  "options": [
+                    "papa",
+                    "papá",
+                    "pápa",
+                    "papas"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hablamos del padre: pa-PÁ, con la tónica en la última sílaba. «Papa», con la tónica en la primera, es la patata."
+                },
+                {
+                  "id": "ton-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué se diferencian «término», «termino» y «terminó»?",
+                  "options": [
+                    "En las letras",
+                    "En la sílaba tónica",
+                    "En el número de sílabas",
+                    "En nada, son la misma palabra"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Las tres tienen las mismas letras y tres sílabas, pero la tónica cambia: TÉR-mi-no, ter-MI-no, ter-mi-NÓ."
+                },
+                {
+                  "id": "ton-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la sílaba tónica de «helicóptero»?",
+                  "options": [
+                    "he",
+                    "li",
+                    "cóp",
+                    "te"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Decimos he-li-CÓP-te-ro: la tónica es «cóp», que además lleva tilde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reglas-ortograficas",
+          "name": "Reglas de ortografía",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Algunas letras se escriben de una forma u otra según la letra que va a su lado. En esta lección vas a aprender cinco reglas muy útiles.",
+                "tiles": [
+                  {
+                    "symbol": "mb, mp",
+                    "label": "m antes de b y p"
+                  },
+                  {
+                    "symbol": "nv",
+                    "label": "n antes de v"
+                  },
+                  {
+                    "symbol": "br, bl",
+                    "label": "br y bl con b"
+                  },
+                  {
+                    "symbol": "r, rr",
+                    "label": "sonido fuerte: r o rr"
+                  },
+                  {
+                    "symbol": "za, ce",
+                    "label": "z con a, o, u; c con e, i"
+                  }
+                ]
+              },
+              {
+                "caption": "Siempre se escribe m antes de b y p. Nunca escribimos «nb» ni «np».",
+                "tiles": [
+                  {
+                    "symbol": "mb",
+                    "label": "hombre"
+                  },
+                  {
+                    "symbol": "mb",
+                    "label": "tambor"
+                  },
+                  {
+                    "symbol": "mp",
+                    "label": "campo"
+                  },
+                  {
+                    "symbol": "mp",
+                    "label": "siempre"
+                  }
+                ]
+              },
+              {
+                "caption": "Siempre se escribe n antes de v. Nunca escribimos «mv».",
+                "tiles": [
+                  {
+                    "symbol": "nv",
+                    "label": "invierno"
+                  },
+                  {
+                    "symbol": "nv",
+                    "label": "enviar"
+                  },
+                  {
+                    "symbol": "nv",
+                    "label": "invitar"
+                  }
+                ]
+              },
+              {
+                "caption": "Los grupos br y bl siempre se escriben con b. Nunca escribimos «vr» ni «vl».",
+                "tiles": [
+                  {
+                    "symbol": "br",
+                    "label": "brazo"
+                  },
+                  {
+                    "symbol": "br",
+                    "label": "libro"
+                  },
+                  {
+                    "symbol": "bl",
+                    "label": "blanco"
+                  },
+                  {
+                    "symbol": "bl",
+                    "label": "tabla"
+                  }
+                ]
+              },
+              {
+                "caption": "El sonido fuerte de la r se escribe rr entre dos vocales. Al principio de palabra y después de l, n o s se escribe una sola r.",
+                "tiles": [
+                  {
+                    "symbol": "rr",
+                    "label": "perro"
+                  },
+                  {
+                    "symbol": "r-",
+                    "label": "ratón"
+                  },
+                  {
+                    "symbol": "nr",
+                    "label": "Enrique"
+                  },
+                  {
+                    "symbol": "lr",
+                    "label": "alrededor"
+                  }
+                ]
+              },
+              {
+                "caption": "Delante de a, o, u se escribe z. Delante de e, i se escribe c.",
+                "tiles": [
+                  {
+                    "symbol": "za",
+                    "label": "zapato"
+                  },
+                  {
+                    "symbol": "zo",
+                    "label": "zorro"
+                  },
+                  {
+                    "symbol": "zu",
+                    "label": "zumo"
+                  },
+                  {
+                    "symbol": "ce",
+                    "label": "cena"
+                  },
+                  {
+                    "symbol": "ci",
+                    "label": "cielo"
+                  }
+                ]
+              },
+              {
+                "caption": "Resumen: m antes de b y p; n antes de v; br y bl con b; rr entre vocales y r al principio o después de l, n, s; z con a, o, u y c con e, i.",
+                "tiles": [
+                  {
+                    "symbol": "mb, mp",
+                    "label": "m antes de b y p"
+                  },
+                  {
+                    "symbol": "nv",
+                    "label": "n antes de v"
+                  },
+                  {
+                    "symbol": "br, bl",
+                    "label": "br y bl con b"
+                  },
+                  {
+                    "symbol": "r, rr",
+                    "label": "sonido fuerte: r o rr"
+                  },
+                  {
+                    "symbol": "za, ce",
+                    "label": "z con a, o, u; c con e, i"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "reglas-ortograficas-1",
+              "name": "mb, mp y nv",
+              "questions": [
+                {
+                  "id": "ort-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "canpo",
+                    "campo",
+                    "canbo",
+                    "cambo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Antes de p se escribe m, nunca n: cam-po. Regla: m antes de p."
+                },
+                {
+                  "id": "ort-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "hombre",
+                    "sonbra",
+                    "canpana",
+                    "tienpo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antes de b se escribe m: hom-bre. Las otras se escriben sombra, campana y tiempo. Regla: m antes de b y p."
+                },
+                {
+                  "id": "ort-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "sienpre",
+                    "tanbién",
+                    "lámpara",
+                    "conpás"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Antes de p se escribe m: lám-pa-ra. Las otras se escriben siempre, también y compás. Regla: m antes de b y p."
+                },
+                {
+                  "id": "ort-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "imvierno",
+                    "imbierno",
+                    "inbierno",
+                    "invierno"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Antes de v se escribe n, nunca m: in-vier-no. Regla: n antes de v."
+                },
+                {
+                  "id": "ort-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "comvento",
+                    "enviar",
+                    "imvitar",
+                    "comvivir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Antes de v se escribe n: en-viar. Las otras se escriben convento, invitar y convivir. Regla: n antes de v."
+                },
+                {
+                  "id": "ort-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué regla se cumple en «tambor» y «campo»?",
+                  "options": [
+                    "Antes de b y p se escribe n.",
+                    "Antes de v se escribe m.",
+                    "Antes de b y p se escribe m.",
+                    "Después de b y p se escribe m."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "En tam-bor y cam-po hay una m justo antes de b y de p. Regla: siempre se escribe m antes de b y p."
+                }
+              ]
+            },
+            {
+              "id": "reglas-ortograficas-2",
+              "name": "br, bl, r, rr, z y c",
+              "questions": [
+                {
+                  "id": "ort-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "vrazo",
+                    "blanco",
+                    "havlar",
+                    "livro"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Los grupos br y bl se escriben siempre con b: blan-co. Las otras se escriben brazo, hablar y libro. Regla: br y bl con b."
+                },
+                {
+                  "id": "ort-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "povre",
+                    "avrigo",
+                    "cabra",
+                    "nuvlado"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Los grupos br y bl se escriben siempre con b: ca-bra. Las otras se escriben pobre, abrigo y nublado. Regla: br y bl con b."
+                },
+                {
+                  "id": "ort-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "rratón",
+                    "guitara",
+                    "tierra",
+                    "alrrededor"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Entre dos vocales, el sonido fuerte de la r se escribe rr: tie-rra. Las otras se escriben ratón, guitarra y alrededor. Regla: r o rr."
+                },
+                {
+                  "id": "ort-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "Enrrique",
+                    "Enrique",
+                    "Enrriqe",
+                    "Enriqe"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Después de n, el sonido fuerte de la r se escribe con una sola r: En-ri-que."
+                },
+                {
+                  "id": "ort-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está bien escrita?",
+                  "options": [
+                    "zapato",
+                    "zielo",
+                    "zena",
+                    "zirco"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delante de a se escribe z: za-pa-to. Las otras se escriben cielo, cena y circo. Regla: z con a, o, u; c con e, i."
+                },
+                {
+                  "id": "ort-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "zereza",
+                    "cereca",
+                    "zereca",
+                    "cereza"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Delante de e se escribe c y delante de a se escribe z: ce-re-za. Regla: z con a, o, u; c con e, i."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mayusculas",
+          "name": "Las mayúsculas",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "La mayúscula es la letra grande: A, B, C… No se pone en cualquier sitio. En esta oración hay tres: Ana, Toby y Sevilla. ¿Sabes por qué?",
+                "sentence": [
+                  {
+                    "text": "Ana",
+                    "tag": "mayúscula"
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "su"
+                  },
+                  {
+                    "text": "perro"
+                  },
+                  {
+                    "text": "Toby",
+                    "tag": "mayúscula"
+                  },
+                  {
+                    "text": "viven"
+                  },
+                  {
+                    "text": "en"
+                  },
+                  {
+                    "text": "Sevilla.",
+                    "tag": "mayúscula"
+                  }
+                ]
+              },
+              {
+                "caption": "Va mayúscula en la primera palabra de un texto y después de un punto: «Hoy» abre el texto y «Mañana» va justo después del punto.",
+                "sentence": [
+                  {
+                    "text": "Hoy",
+                    "tag": "principio"
+                  },
+                  {
+                    "text": "llueve"
+                  },
+                  {
+                    "text": "mucho."
+                  },
+                  {
+                    "text": "Mañana",
+                    "tag": "después de punto"
+                  },
+                  {
+                    "text": "saldrá"
+                  },
+                  {
+                    "text": "el"
+                  },
+                  {
+                    "text": "sol."
+                  }
+                ]
+              },
+              {
+                "caption": "Los nombres propios llevan mayúscula: de personas (Lucía), de animales (Rufo) y de lugares (Madrid). Las mayúsculas mantienen su tilde: Álvaro, África.",
+                "sentence": [
+                  {
+                    "text": "Mi",
+                    "tag": "principio"
+                  },
+                  {
+                    "text": "prima"
+                  },
+                  {
+                    "text": "Lucía",
+                    "tag": "persona"
+                  },
+                  {
+                    "text": "pasea"
+                  },
+                  {
+                    "text": "a"
+                  },
+                  {
+                    "text": "Rufo",
+                    "tag": "animal"
+                  },
+                  {
+                    "text": "por"
+                  },
+                  {
+                    "text": "Madrid.",
+                    "tag": "lugar"
+                  }
+                ]
+              },
+              {
+                "caption": "Después de ? o ! que cierran la oración va mayúscula. Pero si la pregunta o la exclamación empieza en mitad de la oración, tras ¿ o ¡ va minúscula: «Si sales, ¿llevas gorro?».",
+                "sentence": [
+                  {
+                    "text": "¡Qué",
+                    "tag": "principio"
+                  },
+                  {
+                    "text": "frío!"
+                  },
+                  {
+                    "text": "Ponte",
+                    "tag": "después de !"
+                  },
+                  {
+                    "text": "el"
+                  },
+                  {
+                    "text": "abrigo."
+                  },
+                  {
+                    "text": "Si",
+                    "tag": "después de punto"
+                  },
+                  {
+                    "text": "sales,"
+                  },
+                  {
+                    "text": "¿llevas",
+                    "tag": "minúscula",
+                    "detail": "¿ en mitad de la oración"
+                  },
+                  {
+                    "text": "gorro?"
+                  }
+                ]
+              },
+              {
+                "caption": "En un título solo va mayúscula la primera palabra (y los nombres propios): La isla del tesoro. Las siglas van enteras en mayúscula (ONU) y las abreviaturas de tratamiento también: Sr., Dra.",
+                "sentence": [
+                  {
+                    "text": "La",
+                    "tag": "principio"
+                  },
+                  {
+                    "text": "Dra.",
+                    "tag": "abreviatura"
+                  },
+                  {
+                    "text": "Ruiz",
+                    "tag": "nombre propio"
+                  },
+                  {
+                    "text": "trabaja"
+                  },
+                  {
+                    "text": "en"
+                  },
+                  {
+                    "text": "la"
+                  },
+                  {
+                    "text": "ONU",
+                    "tag": "sigla"
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "lee"
+                  },
+                  {
+                    "text": "La",
+                    "tag": "título"
+                  },
+                  {
+                    "text": "isla"
+                  },
+                  {
+                    "text": "del"
+                  },
+                  {
+                    "text": "tesoro."
+                  }
+                ]
+              },
+              {
+                "caption": "Con minúscula se escriben los días de la semana, los meses, las estaciones, los idiomas y los gentilicios, que dicen de dónde es alguien: lunes, mayo, primavera, inglés, francesa.",
+                "sentence": [
+                  {
+                    "text": "El"
+                  },
+                  {
+                    "text": "lunes",
+                    "tag": "minúscula",
+                    "detail": "día"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "de"
+                  },
+                  {
+                    "text": "mayo,",
+                    "tag": "minúscula",
+                    "detail": "mes"
+                  },
+                  {
+                    "text": "en"
+                  },
+                  {
+                    "text": "primavera,",
+                    "tag": "minúscula",
+                    "detail": "estación"
+                  },
+                  {
+                    "text": "una"
+                  },
+                  {
+                    "text": "niña"
+                  },
+                  {
+                    "text": "francesa",
+                    "tag": "minúscula",
+                    "detail": "gentilicio"
+                  },
+                  {
+                    "text": "habló"
+                  },
+                  {
+                    "text": "inglés.",
+                    "tag": "minúscula",
+                    "detail": "idioma"
+                  }
+                ]
+              },
+              {
+                "caption": "Resumen: mayúscula al principio, después de punto y de ? o ! finales, en nombres propios, siglas, abreviaturas y la primera palabra de un título. Días, meses, estaciones, idiomas y gentilicios, con minúscula.",
+                "tiles": [
+                  {
+                    "symbol": "Hoy",
+                    "label": "al principio del texto"
+                  },
+                  {
+                    "symbol": "Mañana",
+                    "label": "después de punto"
+                  },
+                  {
+                    "symbol": "Ponte",
+                    "label": "después de ? o ! que cierran"
+                  },
+                  {
+                    "symbol": "Lucía",
+                    "label": "nombres propios"
+                  },
+                  {
+                    "symbol": "ONU",
+                    "label": "siglas"
+                  },
+                  {
+                    "symbol": "Sr.",
+                    "label": "abreviaturas de tratamiento"
+                  },
+                  {
+                    "symbol": "La isla…",
+                    "label": "primera palabra de un título"
+                  },
+                  {
+                    "symbol": "lunes",
+                    "label": "días, meses, estaciones, idiomas y gentilicios: minúscula"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "mayusculas-1",
+              "name": "Nivel 1 · Cuándo va mayúscula",
+              "questions": [
+                {
+                  "id": "may-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas palabras es un nombre propio y debe escribirse con mayúscula?",
+                  "options": [
+                    "toledo",
+                    "ciudad",
+                    "río",
+                    "calle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Toledo» es el nombre propio de un lugar, por eso se escribe con mayúscula: Toledo. Las otras son nombres comunes."
+                },
+                {
+                  "id": "may-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "mi gato se llama Bigotes.",
+                    "Mi gato se llama Bigotes.",
+                    "Mi gato se llama bigotes.",
+                    "Mi Gato se llama Bigotes."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La primera palabra del texto lleva mayúscula (Mi) y también el nombre del animal (Bigotes); «gato» es un nombre común."
+                },
+                {
+                  "id": "may-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "En «Ya es tarde. vamos a casa.», ¿qué palabra debería llevar mayúscula?",
+                  "options": [
+                    "tarde",
+                    "casa",
+                    "vamos",
+                    "es"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Después de punto se escribe mayúscula: «Ya es tarde. Vamos a casa.»"
+                },
+                {
+                  "id": "may-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe la sigla de la Organización de las Naciones Unidas?",
+                  "options": [
+                    "onu",
+                    "Onu",
+                    "oNU",
+                    "ONU"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Las siglas se escriben enteras en mayúscula: ONU."
+                },
+                {
+                  "id": "may-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "¡Qué susto! creía que no había nadie.",
+                    "¡Qué susto! Creía que no había nadie.",
+                    "¡qué susto! creía que no había nadie.",
+                    "¡Qué Susto! Creía que no había nadie."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La oración empieza con mayúscula (¡Qué) y, como el signo ! cierra la exclamación, la palabra siguiente también la lleva: Creía."
+                },
+                {
+                  "id": "may-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe bien el título de este libro?",
+                  "options": [
+                    "Las Aventuras De Tom Sawyer",
+                    "las aventuras de Tom Sawyer",
+                    "Las aventuras de Tom Sawyer",
+                    "Las Aventuras de Tom Sawyer"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "En los títulos solo va con mayúscula la primera palabra y los nombres propios que contenga: Las aventuras de Tom Sawyer."
+                }
+              ]
+            },
+            {
+              "id": "mayusculas-2",
+              "name": "Nivel 2 · ¿Mayúscula o minúscula?",
+              "questions": [
+                {
+                  "id": "may-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "Mi cumpleaños es el Martes 4 de Junio.",
+                    "Mi cumpleaños es el martes 4 de junio.",
+                    "Mi cumpleaños es el Martes 4 de junio.",
+                    "mi cumpleaños es el martes 4 de junio."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Los días de la semana y los meses se escriben con minúscula: martes, junio. Solo «Mi» lleva mayúscula, por ser la primera palabra."
+                },
+                {
+                  "id": "may-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "Pierre es francés y habla francés.",
+                    "Pierre es Francés y habla francés.",
+                    "Pierre es francés y habla Francés.",
+                    "pierre es francés y habla francés."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Los gentilicios (francés, de Francia) y los idiomas se escriben con minúscula. «Pierre» sí lleva mayúscula: es un nombre propio."
+                },
+                {
+                  "id": "may-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente el nombre de este continente?",
+                  "options": [
+                    "Africa",
+                    "áfrica",
+                    "africa",
+                    "África"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Es un nombre propio de lugar, así que va con mayúscula, y las mayúsculas conservan la tilde: África."
+                },
+                {
+                  "id": "may-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Si escribes bien «en verano viajamos a italia», ¿qué palabras llevan mayúscula?",
+                  "options": [
+                    "En, verano e Italia",
+                    "Solo Italia",
+                    "En e Italia",
+                    "En, verano, viajamos e Italia"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«En» es la primera palabra e «Italia» es un nombre propio. «Verano» es una estación y va con minúscula."
+                },
+                {
+                  "id": "may-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "Si llueve, ¿nos quedamos en casa?",
+                    "Si llueve, ¿Nos quedamos en casa?",
+                    "si llueve, ¿nos quedamos en casa?",
+                    "Si Llueve, ¿nos quedamos en casa?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "La pregunta empieza en mitad de la oración, así que tras ¿ va minúscula: «¿nos». Solo «Si» lleva mayúscula, por ser la primera palabra."
+                },
+                {
+                  "id": "may-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué oración está bien escrita?",
+                  "options": [
+                    "El Sr. López es Español.",
+                    "El sr. López es español.",
+                    "El Sr. López es español.",
+                    "El Sr. lópez es español."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La abreviatura de tratamiento «Sr.» va con mayúscula, «López» es un nombre propio y el gentilicio «español» va con minúscula."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "clases-de-palabras",
+          "name": "La palabra: clases y estructura",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Cada palabra pertenece a una clase según lo que hace: el sustantivo nombra, el adjetivo dice cómo es, el verbo indica una acción y el determinante acompaña al sustantivo.",
+                "sentence": [
+                  {
+                    "text": "La",
+                    "tag": "determinante"
+                  },
+                  {
+                    "text": "niña",
+                    "tag": "sustantivo"
+                  },
+                  {
+                    "text": "pequeña",
+                    "tag": "adjetivo"
+                  },
+                  {
+                    "text": "lee",
+                    "tag": "verbo"
+                  },
+                  {
+                    "text": "un",
+                    "tag": "determinante"
+                  },
+                  {
+                    "text": "cuento.",
+                    "tag": "sustantivo"
+                  }
+                ]
+              },
+              {
+                "caption": "Por dentro, una palabra tiene un lexema, que lleva el significado, y morfemas. Los morfemas flexivos indican el género y el número (niñ-a-s) o la persona y el tiempo (cant-ábamos).",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "niñ",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "a",
+                        "kind": "flexivo"
+                      },
+                      {
+                        "text": "s",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "cant",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "ábamos",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Las palabras variables cambian de forma (hermano, hermanos; juega, jugamos). Las invariables nunca cambian: «siempre» y «con» se escriben igual en cualquier oración.",
+                "sentence": [
+                  {
+                    "text": "Mi",
+                    "tag": "variable",
+                    "detail": "determinante"
+                  },
+                  {
+                    "text": "hermano",
+                    "tag": "variable",
+                    "detail": "sustantivo"
+                  },
+                  {
+                    "text": "siempre",
+                    "tag": "invariable",
+                    "detail": "adverbio"
+                  },
+                  {
+                    "text": "juega",
+                    "tag": "variable",
+                    "detail": "verbo"
+                  },
+                  {
+                    "text": "con",
+                    "tag": "invariable",
+                    "detail": "preposición"
+                  },
+                  {
+                    "text": "sus",
+                    "tag": "variable",
+                    "detail": "determinante"
+                  },
+                  {
+                    "text": "amigos.",
+                    "tag": "variable",
+                    "detail": "sustantivo"
+                  }
+                ]
+              },
+              {
+                "caption": "Las clases variables son cinco: sustantivo, adjetivo, determinante, pronombre y verbo. Cambian en género y número (alto, altas); el pronombre y el verbo, también en persona (yo, tú).",
+                "tiles": [
+                  {
+                    "symbol": "casa",
+                    "label": "sustantivo"
+                  },
+                  {
+                    "symbol": "alto",
+                    "label": "adjetivo"
+                  },
+                  {
+                    "symbol": "el",
+                    "label": "determinante"
+                  },
+                  {
+                    "symbol": "ella",
+                    "label": "pronombre"
+                  },
+                  {
+                    "symbol": "saltar",
+                    "label": "verbo"
+                  }
+                ]
+              },
+              {
+                "caption": "Gato, gata y gatos comparten el lexema gat-, que da el significado. Solo cambian los morfemas flexivos: -o masculino, -a femenino y -s plural.",
+                "words": [
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "o",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "a",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "gat",
+                        "kind": "lexema"
+                      },
+                      {
+                        "text": "o",
+                        "kind": "flexivo"
+                      },
+                      {
+                        "text": "s",
+                        "kind": "flexivo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "caption": "Las clases invariables son cuatro: adverbio, preposición, conjunción e interjección. Nunca cambian de forma: no tienen género, ni número, ni persona.",
+                "tiles": [
+                  {
+                    "symbol": "aquí",
+                    "label": "adverbio"
+                  },
+                  {
+                    "symbol": "con",
+                    "label": "preposición"
+                  },
+                  {
+                    "symbol": "y",
+                    "label": "conjunción"
+                  },
+                  {
+                    "symbol": "¡ay!",
+                    "label": "interjección"
+                  }
+                ]
+              },
+              {
+                "caption": "Aquí hay una palabra de cada clase invariable: «¡Uf!» es una interjección, «despacio» es un adverbio, «y» es una conjunción y «con» es una preposición.",
+                "sentence": [
+                  {
+                    "text": "¡Uf!",
+                    "tag": "interjección",
+                    "detail": "expresa una emoción"
+                  },
+                  {
+                    "text": "Ana"
+                  },
+                  {
+                    "text": "come"
+                  },
+                  {
+                    "text": "despacio",
+                    "tag": "adverbio",
+                    "detail": "de modo"
+                  },
+                  {
+                    "text": "y",
+                    "tag": "conjunción",
+                    "detail": "une"
+                  },
+                  {
+                    "text": "bebe"
+                  },
+                  {
+                    "text": "con",
+                    "tag": "preposición",
+                    "detail": "enlaza"
+                  },
+                  {
+                    "text": "calma."
+                  }
+                ]
+              },
+              {
+                "caption": "Ponte a prueba: piensa de qué clase es cada palabra y si es variable o invariable. Después, toca la tarjeta para comprobarlo.",
+                "cards": [
+                  {
+                    "front": "ventana",
+                    "back": "sustantivo · variable"
+                  },
+                  {
+                    "front": "feliz",
+                    "back": "adjetivo · variable"
+                  },
+                  {
+                    "front": "nosotros",
+                    "back": "pronombre · variable"
+                  },
+                  {
+                    "front": "corremos",
+                    "back": "verbo · variable"
+                  },
+                  {
+                    "front": "ayer",
+                    "back": "adverbio · invariable"
+                  },
+                  {
+                    "front": "pero",
+                    "back": "conjunción · invariable"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "clases-de-palabras-1",
+              "name": "Nivel 1 · Variables e invariables",
+              "questions": [
+                {
+                  "id": "clas-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas palabras es invariable?",
+                  "options": [
+                    "mesa",
+                    "bonito",
+                    "nunca",
+                    "cantar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Nunca» es un adverbio: no cambia de género ni de número, siempre se escribe igual. Las otras tienen otras formas: mesas, bonitas, canté."
+                },
+                {
+                  "id": "clas-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas palabras es variable?",
+                  "options": [
+                    "con",
+                    "pequeño",
+                    "y",
+                    "allí"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Pequeño» es un adjetivo y cambia de forma: pequeña, pequeños, pequeñas. Las otras tres son invariables."
+                },
+                {
+                  "id": "clas-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el lexema de «niños»?",
+                  "options": [
+                    "niñ",
+                    "niño",
+                    "os",
+                    "n"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El lexema es la parte que lleva el significado y se repite en niño, niña y niñas: niñ-. Las terminaciones -o y -s son morfemas flexivos."
+                },
+                {
+                  "id": "clas-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué indican los morfemas flexivos de «gatas»?",
+                  "options": [
+                    "Masculino y singular",
+                    "Femenino y singular",
+                    "Masculino y plural",
+                    "Femenino y plural"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "En gat-a-s, la -a indica femenino y la -s indica plural."
+                },
+                {
+                  "id": "clas-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuántas clases de palabras invariables hay?",
+                  "options": [
+                    "Dos",
+                    "Tres",
+                    "Cuatro",
+                    "Cinco"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Son cuatro: adverbio, preposición, conjunción e interjección."
+                },
+                {
+                  "id": "clas-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "En «Los niños juegan aquí», ¿qué palabra es invariable?",
+                  "options": [
+                    "Los",
+                    "niños",
+                    "juegan",
+                    "aquí"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Aquí» es un adverbio de lugar y nunca cambia. «Los», «niños» y «juegan» son variables: el niño juega."
+                }
+              ]
+            },
+            {
+              "id": "clases-de-palabras-2",
+              "name": "Nivel 2 · Clases de palabras",
+              "questions": [
+                {
+                  "id": "clas-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿De qué clase es la palabra «montaña»?",
+                  "options": [
+                    "sustantivo",
+                    "adjetivo",
+                    "verbo",
+                    "adverbio"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Montaña» nombra un lugar: es un sustantivo. Además es variable: montañas."
+                },
+                {
+                  "id": "clas-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "En «El perro grande ladra», ¿qué palabra es un adjetivo?",
+                  "options": [
+                    "El",
+                    "grande",
+                    "ladra",
+                    "perro"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Grande» dice cómo es el perro: es un adjetivo."
+                },
+                {
+                  "id": "clas-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es un pronombre personal?",
+                  "options": [
+                    "mesa",
+                    "dulce",
+                    "ellos",
+                    "sobre"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Ellos» sustituye a un sustantivo y señala la 3ª persona del plural: es un pronombre personal."
+                },
+                {
+                  "id": "clas-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿De qué clase es «pero» en «Quiero ir, pero llueve»?",
+                  "options": [
+                    "preposición",
+                    "adverbio",
+                    "interjección",
+                    "conjunción"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Pero» une dos partes de la oración: es una conjunción, una palabra invariable."
+                },
+                {
+                  "id": "clas-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es una preposición?",
+                  "options": [
+                    "desde",
+                    "alegre",
+                    "saltan",
+                    "¡olé!"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Desde» es una preposición: enlaza palabras (desde mi casa) y nunca cambia de forma."
+                },
+                {
+                  "id": "clas-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "En «¡Ay! Me he caído», ¿de qué clase es «¡Ay!»?",
+                  "options": [
+                    "adverbio",
+                    "interjección",
+                    "verbo",
+                    "determinante"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«¡Ay!» expresa una emoción, el dolor, y va entre signos de exclamación: es una interjección."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "analisis-morfologico",
+          "name": "Análisis morfológico",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Hacer el análisis morfológico es decir de cada palabra su clase y sus rasgos: género, número, persona, tiempo… Fíjate en «El perro corre.».",
+                "sentence": [
+                  {
+                    "text": "El",
+                    "tag": "determinante",
+                    "detail": "artículo determinado, masc. sing."
+                  },
+                  {
+                    "text": "perro",
+                    "tag": "sustantivo",
+                    "detail": "común, masc. sing."
+                  },
+                  {
+                    "text": "corre.",
+                    "tag": "verbo",
+                    "detail": "correr, 3ª pers. sing., presente"
+                  }
+                ]
+              },
+              {
+                "caption": "El sustantivo puede ser común (gatas, pez) o propio (Lucía). Tiene género, masculino o femenino, y número, singular o plural.",
+                "sentence": [
+                  {
+                    "text": "Lucía",
+                    "tag": "sustantivo",
+                    "detail": "propio, fem. sing."
+                  },
+                  {
+                    "text": "tiene"
+                  },
+                  {
+                    "text": "dos"
+                  },
+                  {
+                    "text": "gatas",
+                    "tag": "sustantivo",
+                    "detail": "común, fem. pl."
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "un"
+                  },
+                  {
+                    "text": "pez.",
+                    "tag": "sustantivo",
+                    "detail": "común, masc. sing."
+                  }
+                ]
+              },
+              {
+                "caption": "Los determinantes acompañan al sustantivo: artículos (el, una), demostrativos (esta), posesivos (nuestros)… El adjetivo dice cómo es. Los dos concuerdan con él en género y número.",
+                "sentence": [
+                  {
+                    "text": "Esta",
+                    "tag": "determinante",
+                    "detail": "demostrativo, fem. sing."
+                  },
+                  {
+                    "text": "casa"
+                  },
+                  {
+                    "text": "blanca",
+                    "tag": "adjetivo",
+                    "detail": "fem. sing."
+                  },
+                  {
+                    "text": "guarda"
+                  },
+                  {
+                    "text": "nuestros",
+                    "tag": "determinante",
+                    "detail": "posesivo, masc. pl."
+                  },
+                  {
+                    "text": "libros"
+                  },
+                  {
+                    "text": "viejos.",
+                    "tag": "adjetivo",
+                    "detail": "masc. pl."
+                  }
+                ]
+              },
+              {
+                "caption": "Del verbo decimos persona, número y tiempo (presente, pasado o futuro) y su infinitivo: cantar es de la 1ª conjugación (-ar), comer de la 2ª (-er) y vivir de la 3ª (-ir).",
+                "sentence": [
+                  {
+                    "text": "Ayer"
+                  },
+                  {
+                    "text": "canté,",
+                    "tag": "verbo",
+                    "detail": "cantar, 1ª pers. sing., pasado"
+                  },
+                  {
+                    "text": "hoy"
+                  },
+                  {
+                    "text": "como",
+                    "tag": "verbo",
+                    "detail": "comer, 1ª pers. sing., presente"
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "mañana"
+                  },
+                  {
+                    "text": "viviré.",
+                    "tag": "verbo",
+                    "detail": "vivir, 1ª pers. sing., futuro"
+                  }
+                ]
+              },
+              {
+                "caption": "Los pronombres personales sustituyen al sustantivo y señalan la persona: yo, tú, él, ella en singular; nosotros, vosotros, ellos, ellas en plural.",
+                "sentence": [
+                  {
+                    "text": "Yo",
+                    "tag": "pronombre",
+                    "detail": "personal, 1ª pers. sing."
+                  },
+                  {
+                    "text": "leo"
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "tú",
+                    "tag": "pronombre",
+                    "detail": "personal, 2ª pers. sing."
+                  },
+                  {
+                    "text": "escribes;"
+                  },
+                  {
+                    "text": "ellas",
+                    "tag": "pronombre",
+                    "detail": "personal, 3ª pers. pl."
+                  },
+                  {
+                    "text": "dibujan."
+                  }
+                ]
+              },
+              {
+                "caption": "Las invariables solo tienen clase. El adverbio puede ser de lugar, de tiempo, de modo o de cantidad (luego, muy, poco). También hay preposiciones (en) y conjunciones (pero).",
+                "sentence": [
+                  {
+                    "text": "Luego",
+                    "tag": "adverbio",
+                    "detail": "de tiempo"
+                  },
+                  {
+                    "text": "jugamos"
+                  },
+                  {
+                    "text": "en",
+                    "tag": "preposición"
+                  },
+                  {
+                    "text": "el"
+                  },
+                  {
+                    "text": "parque,"
+                  },
+                  {
+                    "text": "pero",
+                    "tag": "conjunción"
+                  },
+                  {
+                    "text": "muy",
+                    "tag": "adverbio",
+                    "detail": "de cantidad"
+                  },
+                  {
+                    "text": "poco.",
+                    "tag": "adverbio",
+                    "detail": "de cantidad"
+                  }
+                ]
+              },
+              {
+                "caption": "Ahora, toda la oración analizada: determinante, sustantivo, adjetivo, verbo y dos adverbios. ¡Ya sabes hacer un análisis morfológico!",
+                "sentence": [
+                  {
+                    "text": "Mi",
+                    "tag": "determinante",
+                    "detail": "posesivo, 1ª pers. sing."
+                  },
+                  {
+                    "text": "hermana",
+                    "tag": "sustantivo",
+                    "detail": "común, fem. sing."
+                  },
+                  {
+                    "text": "pequeña",
+                    "tag": "adjetivo",
+                    "detail": "fem. sing."
+                  },
+                  {
+                    "text": "canta",
+                    "tag": "verbo",
+                    "detail": "cantar, 3ª pers. sing., presente"
+                  },
+                  {
+                    "text": "muy",
+                    "tag": "adverbio",
+                    "detail": "de cantidad"
+                  },
+                  {
+                    "text": "bien.",
+                    "tag": "adverbio",
+                    "detail": "de modo"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "analisis-morfologico-1",
+              "name": "Nivel 1 · Sustantivos, determinantes y adjetivos",
+              "questions": [
+                {
+                  "id": "amorf-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "En «La cometa roja vuela alto», ¿cuál es el análisis de «cometa»?",
+                  "options": [
+                    "sustantivo común, femenino, singular",
+                    "adjetivo, femenino, singular",
+                    "sustantivo propio, femenino, singular",
+                    "verbo, 3ª persona, singular"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Cometa» nombra un objeto (común), va con «la» (femenino) y es una sola (singular)."
+                },
+                {
+                  "id": "amorf-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué tipo de determinante es «aquellos» en «aquellos árboles»?",
+                  "options": [
+                    "artículo",
+                    "demostrativo",
+                    "posesivo",
+                    "numeral"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Aquellos» señala los árboles e indica que están lejos: es un determinante demostrativo, masculino, plural."
+                },
+                {
+                  "id": "amorf-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el género y el número de «flores»?",
+                  "options": [
+                    "masculino, singular",
+                    "masculino, plural",
+                    "femenino, plural",
+                    "femenino, singular"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Decimos «las flores»: es femenino, y la terminación -es indica plural."
+                },
+                {
+                  "id": "amorf-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "En «Mi tío Andrés vive en Cádiz», ¿qué palabras son sustantivos propios?",
+                  "options": [
+                    "tío y Andrés",
+                    "Mi y Cádiz",
+                    "tío y Cádiz",
+                    "Andrés y Cádiz"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Andrés» (persona) y «Cádiz» (lugar) son sustantivos propios; «tío» es un sustantivo común."
+                },
+                {
+                  "id": "amorf-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué análisis corresponde a «unas» en «unas botas nuevas»?",
+                  "options": [
+                    "determinante, artículo indeterminado, femenino, plural",
+                    "determinante, artículo determinado, femenino, plural",
+                    "adjetivo, femenino, plural",
+                    "pronombre, 3ª persona, plural"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Unas» es un artículo indeterminado: presenta las botas sin concretar cuáles. Es femenino y plural, como «botas»."
+                },
+                {
+                  "id": "amorf-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "En «el abrigo azul», ¿de qué clase es «azul» y en qué número está?",
+                  "options": [
+                    "sustantivo, singular",
+                    "adjetivo, singular",
+                    "adjetivo, plural",
+                    "determinante, singular"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Azul» dice cómo es el abrigo: es un adjetivo. Está en singular, como «abrigo»."
+                }
+              ]
+            },
+            {
+              "id": "analisis-morfologico-2",
+              "name": "Nivel 2 · Verbos, pronombres e invariables",
+              "questions": [
+                {
+                  "id": "amorf-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué tiempo está «saltaremos»?",
+                  "options": [
+                    "pasado",
+                    "presente",
+                    "futuro",
+                    "ninguno: es un infinitivo"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Saltaremos» habla de algo que todavía no ha pasado: es futuro, 1ª persona del plural, del verbo saltar."
+                },
+                {
+                  "id": "amorf-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el infinitivo de «bebimos» y de qué conjugación es?",
+                  "options": [
+                    "beber, 2ª conjugación",
+                    "bebir, 3ª conjugación",
+                    "beber, 1ª conjugación",
+                    "bebimos, 2ª conjugación"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su infinitivo es beber, y los verbos acabados en -er son de la 2ª conjugación."
+                },
+                {
+                  "id": "amorf-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué persona y número tiene el pronombre «vosotros»?",
+                  "options": [
+                    "1ª persona, plural",
+                    "2ª persona, singular",
+                    "3ª persona, plural",
+                    "2ª persona, plural"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Vosotros» se refiere a las personas a las que hablamos: es el pronombre personal de 2ª persona del plural."
+                },
+                {
+                  "id": "amorf-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "En «Ellos llegaron tarde», ¿de qué clase es «tarde»?",
+                  "options": [
+                    "sustantivo",
+                    "adverbio de tiempo",
+                    "adjetivo",
+                    "verbo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aquí «tarde» dice cuándo llegaron: es un adverbio de tiempo y no cambia de forma."
+                },
+                {
+                  "id": "amorf-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué análisis corresponde a «escribe» en «Ella escribe un poema»?",
+                  "options": [
+                    "verbo, 1ª persona, singular, presente",
+                    "verbo, 3ª persona, plural, presente",
+                    "verbo, 3ª persona, singular, presente",
+                    "verbo, 3ª persona, singular, pasado"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Escribe» es del verbo escribir (3ª conjugación) y está en 3ª persona del singular, como «ella», y en presente."
+                },
+                {
+                  "id": "amorf-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "En «Voy a casa de Rosa y de Juan», ¿cuál es la conjunción?",
+                  "options": [
+                    "a",
+                    "de",
+                    "Voy",
+                    "y"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Y» une «de Rosa» con «de Juan»: es una conjunción. «A» y «de» son preposiciones."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leccion-2",
+      "name": "Lección 2",
+      "topics": [
+        {
+          "id": "la-noticia",
+          "name": "La noticia",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Una noticia es un texto que informa de un hecho real, reciente e interesante para mucha gente. Lo cuenta de forma objetiva, sin dar opiniones.",
+                "tiles": [
+                  {
+                    "symbol": "✅",
+                    "label": "real"
+                  },
+                  {
+                    "symbol": "🕒",
+                    "label": "reciente"
+                  },
+                  {
+                    "symbol": "⭐",
+                    "label": "interesante"
+                  },
+                  {
+                    "symbol": "⚖️",
+                    "label": "objetiva"
+                  }
+                ]
+              },
+              {
+                "caption": "Partes de la noticia: el titular (breve y llamativo), la entradilla (resume lo más importante), el cuerpo (cuenta los detalles) y, a veces, una foto con su pie de foto.",
+                "tiles": [
+                  {
+                    "symbol": "🔠",
+                    "label": "titular"
+                  },
+                  {
+                    "symbol": "📝",
+                    "label": "entradilla"
+                  },
+                  {
+                    "symbol": "📄",
+                    "label": "cuerpo"
+                  },
+                  {
+                    "symbol": "📷",
+                    "label": "foto y pie de foto"
+                  }
+                ]
+              },
+              {
+                "caption": "Una buena noticia responde a seis preguntas básicas. Pulsa cada tarjeta para ver qué información da cada una.",
+                "cards": [
+                  {
+                    "front": "¿Qué?",
+                    "back": "Lo que ha ocurrido"
+                  },
+                  {
+                    "front": "¿Quién?",
+                    "back": "Las personas que participan"
+                  },
+                  {
+                    "front": "¿Cuándo?",
+                    "back": "El momento en que pasó"
+                  },
+                  {
+                    "front": "¿Dónde?",
+                    "back": "El lugar del hecho"
+                  },
+                  {
+                    "front": "¿Cómo?",
+                    "back": "La manera en que sucedió"
+                  },
+                  {
+                    "front": "¿Por qué?",
+                    "back": "La causa del hecho"
+                  }
+                ]
+              },
+              {
+                "caption": "La entradilla suele responder a esas preguntas en pocas líneas. Fíjate en las etiquetas de este ejemplo.",
+                "sentence": [
+                  {
+                    "text": "Ayer,",
+                    "tag": "¿cuándo?"
+                  },
+                  {
+                    "text": "los alumnos de sexto",
+                    "tag": "¿quién?"
+                  },
+                  {
+                    "text": "ganaron el concurso de robótica",
+                    "tag": "¿qué?"
+                  },
+                  {
+                    "text": "en Valencia",
+                    "tag": "¿dónde?"
+                  },
+                  {
+                    "text": "con un robot que separa la basura,",
+                    "tag": "¿cómo?"
+                  },
+                  {
+                    "text": "porque querían ayudar a reciclar.",
+                    "tag": "¿por qué?"
+                  }
+                ]
+              },
+              {
+                "caption": "La información se ordena como una pirámide invertida: primero lo más importante y después los detalles. Así, quien lee solo el principio ya conoce lo esencial.",
+                "chain": [
+                  {
+                    "symbol": "🔝",
+                    "label": "lo más importante"
+                  },
+                  {
+                    "symbol": "📌",
+                    "label": "datos necesarios"
+                  },
+                  {
+                    "symbol": "🔎",
+                    "label": "detalles"
+                  }
+                ]
+              },
+              {
+                "caption": "La noticia se escribe en tercera persona y con lenguaje objetivo: cuenta los hechos tal como ocurrieron, sin las opiniones del periodista.",
+                "cards": [
+                  {
+                    "symbol": "📰",
+                    "front": "«Los alumnos ganaron el concurso.»",
+                    "back": "Noticia: tercera persona y hechos"
+                  },
+                  {
+                    "symbol": "💬",
+                    "front": "«¡Ganamos el mejor concurso del mundo!»",
+                    "back": "No es noticia: primera persona y opinión"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "la-noticia-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "not-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es una noticia?",
+                  "options": [
+                    "Un cuento inventado con personajes fantásticos",
+                    "Un texto que informa de un hecho real, reciente e interesante",
+                    "Un texto en el que el autor da su opinión",
+                    "Un poema sobre la actualidad"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La noticia informa de forma objetiva de un hecho real, reciente y de interés para mucha gente."
+                },
+                {
+                  "id": "not-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué parte de la noticia va al principio, en letra grande, y sirve para llamar la atención?",
+                  "options": [
+                    "El titular",
+                    "El cuerpo",
+                    "El pie de foto",
+                    "La entradilla"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El titular es la frase breve y destacada que encabeza la noticia y atrae al lector."
+                },
+                {
+                  "id": "not-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué parte de la noticia resume lo más importante justo después del titular?",
+                  "options": [
+                    "El cuerpo",
+                    "El pie de foto",
+                    "La entradilla",
+                    "La firma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La entradilla es el primer párrafo: resume lo esencial y responde a las preguntas básicas."
+                },
+                {
+                  "id": "not-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué parte de la noticia desarrolla los detalles del hecho?",
+                  "options": [
+                    "El titular",
+                    "La entradilla",
+                    "El pie de foto",
+                    "El cuerpo"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "El cuerpo amplía la información con todos los detalles, de lo más a lo menos importante."
+                },
+                {
+                  "id": "not-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es el pie de foto?",
+                  "options": [
+                    "El titular de la noticia",
+                    "Un texto breve debajo de la foto que explica lo que se ve",
+                    "El nombre del periódico",
+                    "El último párrafo del cuerpo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "El pie de foto es el texto corto que acompaña a la fotografía y explica qué muestra."
+                },
+                {
+                  "id": "not-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estos hechos podría ser una noticia?",
+                  "options": [
+                    "Lo que soñé anoche",
+                    "Mi opinión sobre las lentejas",
+                    "La inauguración, ayer, de la nueva biblioteca del barrio",
+                    "Un cuento de dragones"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La inauguración de la biblioteca es un hecho real, reciente y de interés para los vecinos."
+                }
+              ]
+            },
+            {
+              "id": "la-noticia-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "not-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "En «Ayer, los bomberos rescataron a un gato en el parque», ¿qué responde a la pregunta «¿cuándo?»?",
+                  "options": [
+                    "Ayer",
+                    "los bomberos",
+                    "a un gato",
+                    "en el parque"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "«Ayer» indica el momento en que ocurrió el hecho, así que responde a «¿cuándo?»."
+                },
+                {
+                  "id": "not-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "En «La alcaldesa inauguró el puente el lunes en Toledo», ¿qué responde a la pregunta «¿quién?»?",
+                  "options": [
+                    "el puente",
+                    "el lunes",
+                    "en Toledo",
+                    "La alcaldesa"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«La alcaldesa» es la persona que realiza la acción, así que responde a «¿quién?»."
+                },
+                {
+                  "id": "not-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "En una noticia, ¿a qué pregunta responde «porque había mucha niebla»?",
+                  "options": [
+                    "¿Dónde?",
+                    "¿Por qué?",
+                    "¿Cuándo?",
+                    "¿Quién?"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Porque había mucha niebla» explica la causa del hecho, es decir, responde a «¿por qué?»."
+                },
+                {
+                  "id": "not-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se ordena la información en una noticia?",
+                  "options": [
+                    "De lo menos importante a lo más importante",
+                    "Por orden alfabético",
+                    "De lo más importante a los detalles",
+                    "Al azar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La noticia sigue la pirámide invertida: primero lo más importante y al final los detalles."
+                },
+                {
+                  "id": "not-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué persona se escribe normalmente una noticia?",
+                  "options": [
+                    "En tercera persona",
+                    "En primera persona",
+                    "En segunda persona",
+                    "En primera y segunda persona"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "La noticia se escribe en tercera persona porque el periodista cuenta hechos que les ocurren a otros."
+                },
+                {
+                  "id": "not-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué frase es propia de una noticia?",
+                  "options": [
+                    "¡Fue el partido más aburrido de la historia!",
+                    "Creo que el nuevo parque es precioso.",
+                    "Yo pienso que llovió demasiado.",
+                    "El nuevo parque abrió el sábado con más de 500 visitantes."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Es la única frase objetiva: informa de un hecho y de un dato, sin opiniones."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "noticias-medios",
+          "name": "Las noticias en los medios",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Las noticias nos llegan a través de los medios de comunicación: la prensa escrita (periódicos y revistas), la radio, la televisión e internet.",
+                "tiles": [
+                  {
+                    "symbol": "📰",
+                    "label": "prensa escrita"
+                  },
+                  {
+                    "symbol": "📻",
+                    "label": "radio"
+                  },
+                  {
+                    "symbol": "📺",
+                    "label": "televisión"
+                  },
+                  {
+                    "symbol": "💻",
+                    "label": "internet"
+                  }
+                ]
+              },
+              {
+                "caption": "Cada medio cuenta la noticia a su manera. Pulsa las tarjetas para descubrir cómo lo hace cada uno.",
+                "cards": [
+                  {
+                    "symbol": "📰",
+                    "front": "Periódico",
+                    "back": "Texto escrito y fotografías"
+                  },
+                  {
+                    "symbol": "📻",
+                    "front": "Radio",
+                    "back": "Voz, música y sonidos"
+                  },
+                  {
+                    "symbol": "📺",
+                    "front": "Televisión",
+                    "back": "Imágenes en movimiento y voz"
+                  },
+                  {
+                    "symbol": "💻",
+                    "front": "Internet",
+                    "back": "Texto, imagen, vídeo y sonido, al momento"
+                  }
+                ]
+              },
+              {
+                "caption": "En internet hay periódicos digitales y redes sociales. Las noticias llegan al instante y se actualizan, pero cualquiera puede publicar, así que hay que leer con atención.",
+                "tiles": [
+                  {
+                    "symbol": "🌐",
+                    "label": "periódicos digitales"
+                  },
+                  {
+                    "symbol": "📱",
+                    "label": "redes sociales"
+                  },
+                  {
+                    "symbol": "⚡",
+                    "label": "inmediatez"
+                  }
+                ]
+              },
+              {
+                "caption": "Los periódicos ordenan las noticias en secciones: nacional, internacional, local, deportes, cultura… Así encuentras rápido lo que buscas.",
+                "tiles": [
+                  {
+                    "symbol": "🏛️",
+                    "label": "nacional"
+                  },
+                  {
+                    "symbol": "🌍",
+                    "label": "internacional"
+                  },
+                  {
+                    "symbol": "🏘️",
+                    "label": "local"
+                  },
+                  {
+                    "symbol": "⚽",
+                    "label": "deportes"
+                  },
+                  {
+                    "symbol": "🎭",
+                    "label": "cultura"
+                  }
+                ]
+              },
+              {
+                "caption": "No todo lo que publica un periódico es noticia. Las noticias informan de hechos; en los textos de opinión, el autor explica lo que piensa y firma con su nombre.",
+                "cards": [
+                  {
+                    "symbol": "📰",
+                    "front": "Noticia",
+                    "back": "Informa de hechos de forma objetiva"
+                  },
+                  {
+                    "symbol": "💬",
+                    "front": "Artículo de opinión",
+                    "back": "El autor da su punto de vista"
+                  }
+                ]
+              },
+              {
+                "caption": "Antes de creer o compartir una noticia, mira quién la publica (la fuente), la fecha y si otros medios la cuentan. Las noticias falsas se llaman bulos.",
+                "chain": [
+                  {
+                    "symbol": "🔍",
+                    "label": "mira la fuente"
+                  },
+                  {
+                    "symbol": "📅",
+                    "label": "comprueba la fecha"
+                  },
+                  {
+                    "symbol": "⚖️",
+                    "label": "contrasta en varios medios"
+                  },
+                  {
+                    "symbol": "🚫",
+                    "label": "no difundas bulos"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "noticias-medios-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "med-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué medio de comunicación transmite las noticias solo con voz y sonidos?",
+                  "options": [
+                    "La televisión",
+                    "El periódico",
+                    "La radio",
+                    "Una revista"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "La radio solo se escucha: cuenta las noticias con la voz, la música y los sonidos."
+                },
+                {
+                  "id": "med-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué medio usa sobre todo texto escrito y fotografías?",
+                  "options": [
+                    "El periódico impreso",
+                    "La radio",
+                    "Un pódcast",
+                    "Una emisora"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El periódico impreso se lee: combina el texto escrito con fotografías."
+                },
+                {
+                  "id": "med-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué medio combina imágenes en movimiento y voz?",
+                  "options": [
+                    "La radio",
+                    "La televisión",
+                    "El periódico impreso",
+                    "Una revista impresa"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La televisión muestra imágenes en movimiento acompañadas de la voz de los periodistas."
+                },
+                {
+                  "id": "med-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es una ventaja de las noticias en internet?",
+                  "options": [
+                    "Solo se publican una vez a la semana",
+                    "Nunca llevan imágenes",
+                    "Solo se pueden escuchar",
+                    "Llegan al instante y se pueden actualizar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "En internet las noticias se publican en el momento y se actualizan cuando hay datos nuevos."
+                },
+                {
+                  "id": "med-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué sección del periódico buscarías el resultado de un partido de baloncesto?",
+                  "options": [
+                    "Internacional",
+                    "Cultura",
+                    "Deportes",
+                    "Economía"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Los resultados de los partidos se publican en la sección de deportes."
+                },
+                {
+                  "id": "med-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿En qué sección del periódico leerías sobre una exposición de pintura?",
+                  "options": [
+                    "Deportes",
+                    "Cultura",
+                    "Sucesos",
+                    "El tiempo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Las exposiciones, los libros, el cine o la música aparecen en la sección de cultura."
+                }
+              ]
+            },
+            {
+              "id": "noticias-medios-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "med-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué texto del periódico expresa el punto de vista de su autor?",
+                  "options": [
+                    "La noticia",
+                    "El titular",
+                    "El pie de foto",
+                    "El artículo de opinión"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "En el artículo de opinión el autor explica lo que piensa; la noticia, en cambio, solo informa."
+                },
+                {
+                  "id": "med-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "«El Ayuntamiento abrió ayer tres nuevas bibliotecas.» ¿Es una noticia o una opinión?",
+                  "options": [
+                    "Una opinión, porque habla del Ayuntamiento",
+                    "Una noticia, porque informa de un hecho",
+                    "Una opinión, porque tiene un verbo",
+                    "Ninguna de las dos"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La frase informa de un hecho comprobable sin dar opiniones, así que es propia de una noticia."
+                },
+                {
+                  "id": "med-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es un bulo?",
+                  "options": [
+                    "Una noticia falsa que se difunde como si fuera verdad",
+                    "Una sección del periódico",
+                    "Un tipo de titular",
+                    "Una entrevista de radio"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Un bulo es una noticia falsa que se comparte como si fuera cierta, a menudo por redes sociales."
+                },
+                {
+                  "id": "med-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Te llega una noticia por una red social. ¿Qué debes hacer antes de compartirla?",
+                  "options": [
+                    "Compartirla rápido para ser el primero",
+                    "Creerla si tiene muchos «me gusta»",
+                    "Comprobar la fuente y si otros medios la cuentan",
+                    "Cambiarle el titular"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Comprobar la fuente y contrastar en otros medios ayuda a no difundir bulos."
+                },
+                {
+                  "id": "med-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué dato te ayuda a saber si una noticia es actual?",
+                  "options": [
+                    "El color del titular",
+                    "El tamaño de la foto",
+                    "El número de párrafos",
+                    "La fecha de publicación"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "La fecha indica cuándo se publicó la noticia; una noticia antigua puede no ser actual."
+                },
+                {
+                  "id": "med-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué significa contrastar una noticia?",
+                  "options": [
+                    "Comprobarla en varios medios fiables",
+                    "Leer solo el titular",
+                    "Copiarla en el cuaderno",
+                    "Traducirla a otro idioma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Contrastar es comparar la información en varios medios fiables para ver si es verdad."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "el-articulo",
+          "name": "Los determinantes: el artículo",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Los determinantes son palabras que acompañan al sustantivo y van delante de él. Nos dan información sobre ese sustantivo.",
+                "sentence": [
+                  {
+                    "text": "El",
+                    "tag": "determinante"
+                  },
+                  {
+                    "text": "perro",
+                    "tag": "sustantivo"
+                  },
+                  {
+                    "text": "come."
+                  }
+                ]
+              },
+              {
+                "caption": "El artículo es un tipo de determinante. En «La niña lee un libro», las palabras «la» y «un» son artículos.",
+                "sentence": [
+                  {
+                    "text": "La",
+                    "tag": "artículo"
+                  },
+                  {
+                    "text": "niña",
+                    "tag": "sustantivo"
+                  },
+                  {
+                    "text": "lee"
+                  },
+                  {
+                    "text": "un",
+                    "tag": "artículo"
+                  },
+                  {
+                    "text": "libro.",
+                    "tag": "sustantivo"
+                  }
+                ]
+              },
+              {
+                "caption": "Los artículos determinados son el, la, los y las. Se usan para algo conocido o que ya se ha nombrado: «Me gusta la bici que me regalaste».",
+                "tiles": [
+                  {
+                    "symbol": "el",
+                    "label": "masculino singular"
+                  },
+                  {
+                    "symbol": "la",
+                    "label": "femenino singular"
+                  },
+                  {
+                    "symbol": "los",
+                    "label": "masculino plural"
+                  },
+                  {
+                    "symbol": "las",
+                    "label": "femenino plural"
+                  }
+                ]
+              },
+              {
+                "caption": "Los artículos indeterminados son un, una, unos y unas. Se usan para algo no conocido o no concreto: «Quiero una bici».",
+                "tiles": [
+                  {
+                    "symbol": "un",
+                    "label": "masculino singular"
+                  },
+                  {
+                    "symbol": "una",
+                    "label": "femenino singular"
+                  },
+                  {
+                    "symbol": "unos",
+                    "label": "masculino plural"
+                  },
+                  {
+                    "symbol": "unas",
+                    "label": "femenino plural"
+                  }
+                ]
+              },
+              {
+                "caption": "El artículo concuerda con el sustantivo en género (masculino o femenino) y en número (singular o plural): el gato, la gata, los gatos, las gatas.",
+                "sentence": [
+                  {
+                    "text": "Los",
+                    "tag": "artículo",
+                    "detail": "masc. pl."
+                  },
+                  {
+                    "text": "gatos",
+                    "tag": "sustantivo",
+                    "detail": "masc. pl."
+                  },
+                  {
+                    "text": "y"
+                  },
+                  {
+                    "text": "las",
+                    "tag": "artículo",
+                    "detail": "fem. pl."
+                  },
+                  {
+                    "text": "gatas",
+                    "tag": "sustantivo",
+                    "detail": "fem. pl."
+                  },
+                  {
+                    "text": "juegan."
+                  }
+                ]
+              },
+              {
+                "caption": "Cuando a o de van delante del artículo el, se unen y forman una contracción: a + el = al y de + el = del. Por ejemplo: «Voy al parque» y «Vengo del colegio».",
+                "tiles": [
+                  {
+                    "symbol": "a + el",
+                    "label": "al"
+                  },
+                  {
+                    "symbol": "de + el",
+                    "label": "del"
+                  }
+                ]
+              },
+              {
+                "caption": "Ante sustantivos femeninos en singular que empiezan por a- o ha- tónica se usa «el»: el agua, el hacha, el águila. En plural vuelve «las»: las aguas.",
+                "sentence": [
+                  {
+                    "text": "El",
+                    "tag": "artículo",
+                    "detail": "fem. sing."
+                  },
+                  {
+                    "text": "agua",
+                    "tag": "sustantivo",
+                    "detail": "fem. sing."
+                  },
+                  {
+                    "text": "está"
+                  },
+                  {
+                    "text": "fría."
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "el-articulo-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "art-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Dónde se coloca normalmente el artículo?",
+                  "options": [
+                    "Detrás del verbo",
+                    "Delante del sustantivo",
+                    "Al final de la oración",
+                    "Detrás del sustantivo"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "El artículo es un determinante: acompaña al sustantivo y va delante de él."
+                },
+                {
+                  "id": "art-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas palabras es un artículo determinado?",
+                  "options": [
+                    "un",
+                    "unas",
+                    "una",
+                    "los"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Los artículos determinados son el, la, los y las; «un», «una» y «unas» son indeterminados."
+                },
+                {
+                  "id": "art-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas palabras es un artículo indeterminado?",
+                  "options": [
+                    "unos",
+                    "la",
+                    "el",
+                    "las"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Los artículos indeterminados son un, una, unos y unas."
+                },
+                {
+                  "id": "art-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "En «Una niña encontró la llave», ¿cuáles son los artículos?",
+                  "options": [
+                    "niña y llave",
+                    "encontró y la",
+                    "Una y la",
+                    "Una y niña"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Una» y «la» acompañan a los sustantivos «niña» y «llave»: son artículos."
+                },
+                {
+                  "id": "art-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "Completa con el artículo adecuado: «Ayer vi ___ ciervo en el bosque.»",
+                  "options": [
+                    "el",
+                    "un",
+                    "los",
+                    "las"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Usamos el indeterminado «un» porque hablamos de un ciervo que no se había nombrado antes."
+                },
+                {
+                  "id": "art-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué clase de palabra es el artículo?",
+                  "options": [
+                    "Un determinante",
+                    "Un verbo",
+                    "Un adjetivo",
+                    "Un adverbio"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El artículo es un tipo de determinante, porque acompaña y presenta al sustantivo."
+                }
+              ]
+            },
+            {
+              "id": "el-articulo-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "art-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Completa con el artículo que concuerda: «___ montañas son altas.»",
+                  "options": [
+                    "Los",
+                    "El",
+                    "Las",
+                    "Un"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Montañas» es femenino y plural, así que el artículo debe ser «las»."
+                },
+                {
+                  "id": "art-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas oraciones está bien escrita?",
+                  "options": [
+                    "Voy al cine.",
+                    "Voy a el cine.",
+                    "Voy a la cine.",
+                    "Voy a los cine."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "La preposición «a» y el artículo «el» se unen en la contracción «al»: a + el = al."
+                },
+                {
+                  "id": "art-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas oraciones está bien escrita?",
+                  "options": [
+                    "Salgo de el colegio.",
+                    "Salgo de la colegio.",
+                    "Salgo des colegio.",
+                    "Salgo del colegio."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "La preposición «de» y el artículo «el» se unen en la contracción «del»: de + el = del."
+                },
+                {
+                  "id": "art-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué expresión es correcta?",
+                  "options": [
+                    "la agua fría",
+                    "el agua fría",
+                    "el agua frío",
+                    "los agua fría"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "«Agua» es femenino y empieza por a tónica, por eso lleva «el»; el adjetivo sigue en femenino: fría."
+                },
+                {
+                  "id": "art-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es el plural correcto de «el hacha»?",
+                  "options": [
+                    "los hachas",
+                    "el hachas",
+                    "las hachas",
+                    "unos hachas"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "«Hacha» es femenino: en singular lleva «el» por empezar por ha- tónica, pero en plural se dice «las hachas»."
+                },
+                {
+                  "id": "art-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué artículo concuerda con «lápices»?",
+                  "options": [
+                    "la",
+                    "las",
+                    "una",
+                    "los"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "«Lápices» es masculino y plural, así que concuerda con «los»."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tilde",
+          "name": "Normas generales de acentuación",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Para clasificar una palabra por su sílaba tónica, contamos las sílabas desde el final: última, penúltima, antepenúltima…",
+                "tiles": [
+                  {
+                    "symbol": "ma",
+                    "label": "anterior a la antepenúltima"
+                  },
+                  {
+                    "symbol": "ri",
+                    "label": "antepenúltima"
+                  },
+                  {
+                    "symbol": "po",
+                    "label": "penúltima"
+                  },
+                  {
+                    "symbol": "sa",
+                    "label": "última"
+                  }
+                ]
+              },
+              {
+                "caption": "Palabras agudas: la sílaba tónica es la última.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ca",
+                      "fé"
+                    ],
+                    "tonic": 1,
+                    "label": "aguda"
+                  },
+                  {
+                    "parts": [
+                      "re",
+                      "loj"
+                    ],
+                    "tonic": 1,
+                    "label": "aguda"
+                  },
+                  {
+                    "parts": [
+                      "ca",
+                      "ra",
+                      "col"
+                    ],
+                    "tonic": 2,
+                    "label": "aguda"
+                  }
+                ]
+              },
+              {
+                "caption": "Palabras llanas (también llamadas graves): la sílaba tónica es la penúltima. Son las más abundantes en español.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "me",
+                      "sa"
+                    ],
+                    "tonic": 0,
+                    "label": "llana"
+                  },
+                  {
+                    "parts": [
+                      "ár",
+                      "bol"
+                    ],
+                    "tonic": 0,
+                    "label": "llana"
+                  },
+                  {
+                    "parts": [
+                      "ven",
+                      "ta",
+                      "na"
+                    ],
+                    "tonic": 1,
+                    "label": "llana"
+                  }
+                ]
+              },
+              {
+                "caption": "Palabras esdrújulas: la sílaba tónica es la antepenúltima. Si está antes de la antepenúltima, son sobresdrújulas; casi siempre son verbos con pronombres pegados al final.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "mú",
+                      "si",
+                      "ca"
+                    ],
+                    "tonic": 0,
+                    "label": "esdrújula"
+                  },
+                  {
+                    "parts": [
+                      "te",
+                      "lé",
+                      "fo",
+                      "no"
+                    ],
+                    "tonic": 1,
+                    "label": "esdrújula"
+                  },
+                  {
+                    "parts": [
+                      "dí",
+                      "ga",
+                      "me",
+                      "lo"
+                    ],
+                    "tonic": 0,
+                    "label": "sobresdrújula"
+                  }
+                ]
+              },
+              {
+                "caption": "Las agudas llevan tilde cuando terminan en vocal, en -n o en -s: «sofá», «camión», «compás». Si terminan en otra letra, no la llevan: «reloj», «pared», «comer».",
+                "syllables": [
+                  {
+                    "parts": [
+                      "so",
+                      "fá"
+                    ],
+                    "tonic": 1,
+                    "label": "aguda"
+                  },
+                  {
+                    "parts": [
+                      "ca",
+                      "mión"
+                    ],
+                    "tonic": 1,
+                    "label": "aguda"
+                  },
+                  {
+                    "parts": [
+                      "com",
+                      "pás"
+                    ],
+                    "tonic": 1,
+                    "label": "aguda"
+                  }
+                ]
+              },
+              {
+                "caption": "Las llanas llevan tilde cuando NO terminan en vocal, -n ni -s: «árbol», «lápiz». ¡Justo al revés que las agudas! Por eso «mesa» o «examen» no la llevan.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "ár",
+                      "bol"
+                    ],
+                    "tonic": 0,
+                    "label": "llana"
+                  },
+                  {
+                    "parts": [
+                      "lá",
+                      "piz"
+                    ],
+                    "tonic": 0,
+                    "label": "llana"
+                  },
+                  {
+                    "parts": [
+                      "e",
+                      "xa",
+                      "men"
+                    ],
+                    "tonic": 1,
+                    "label": "llana"
+                  }
+                ]
+              },
+              {
+                "caption": "Las esdrújulas y las sobresdrújulas llevan tilde siempre, terminen como terminen.",
+                "syllables": [
+                  {
+                    "parts": [
+                      "mú",
+                      "si",
+                      "ca"
+                    ],
+                    "tonic": 0,
+                    "label": "esdrújula"
+                  },
+                  {
+                    "parts": [
+                      "pá",
+                      "ja",
+                      "ro"
+                    ],
+                    "tonic": 0,
+                    "label": "esdrújula"
+                  },
+                  {
+                    "parts": [
+                      "dí",
+                      "ga",
+                      "me",
+                      "lo"
+                    ],
+                    "tonic": 0,
+                    "label": "sobresdrújula"
+                  }
+                ]
+              },
+              {
+                "caption": "Los monosílabos no llevan tilde: «pan», «sol», «fue», «dio», «vio». Solo algunos la llevan para no confundirse con otra palabra que se escribe igual: es la tilde diacrítica.",
+                "tiles": [
+                  {
+                    "symbol": "tú / tu",
+                    "label": "tú cantas · tu casa"
+                  },
+                  {
+                    "symbol": "él / el",
+                    "label": "él corre · el perro"
+                  },
+                  {
+                    "symbol": "mí / mi",
+                    "label": "para mí · mi libro"
+                  },
+                  {
+                    "symbol": "sí / si",
+                    "label": "sí, quiero · si llueve"
+                  },
+                  {
+                    "symbol": "té / te",
+                    "label": "un té · te llamo"
+                  },
+                  {
+                    "symbol": "sé / se",
+                    "label": "yo sé · se fue"
+                  },
+                  {
+                    "symbol": "dé / de",
+                    "label": "que me dé · vaso de agua"
+                  },
+                  {
+                    "symbol": "más / mas",
+                    "label": "más grande · mas (pero)"
+                  }
+                ]
+              },
+              {
+                "caption": "Resumen de las reglas generales de acentuación: busca la sílaba tónica, cuenta desde el final y mira cómo termina la palabra.",
+                "tiles": [
+                  {
+                    "symbol": "Agudas",
+                    "label": "tónica última · tilde si terminan en vocal, -n o -s"
+                  },
+                  {
+                    "symbol": "Llanas",
+                    "label": "tónica penúltima · tilde si NO terminan en vocal, -n o -s"
+                  },
+                  {
+                    "symbol": "Esdrújulas y sobresdrújulas",
+                    "label": "tónica antepenúltima o antes · tilde siempre"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "clasificacion-acento-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "cla-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "«Sillón» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "sil-LÓN: la tónica es la última sílaba, así que es aguda."
+                },
+                {
+                  "id": "cla-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "«Libro» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "LI-bro: la tónica es la penúltima sílaba, así que es llana."
+                },
+                {
+                  "id": "cla-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "«Médico» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "MÉ-di-co: la tónica es la antepenúltima sílaba, así que es esdrújula."
+                },
+                {
+                  "id": "cla-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué es una palabra llana?",
+                  "options": [
+                    "La que tiene la tónica en la última sílaba",
+                    "La que tiene la tónica en la penúltima sílaba",
+                    "La que tiene la tónica en la antepenúltima sílaba",
+                    "La que no tiene sílaba tónica"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Las llanas o graves tienen la tónica en la penúltima sílaba, como ME-sa o ÁR-bol."
+                },
+                {
+                  "id": "cla-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es esdrújula?",
+                  "options": [
+                    "ratón",
+                    "lámpara",
+                    "zapato",
+                    "feliz"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "LÁM-pa-ra tiene la tónica en la antepenúltima sílaba. «Ratón» y «feliz» son agudas y «zapato» es llana."
+                },
+                {
+                  "id": "cla-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "«Papel» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "pa-PEL: la tónica es la última sílaba, así que es aguda, aunque no lleve tilde."
+                }
+              ]
+            },
+            {
+              "id": "clasificacion-acento-2",
+              "name": "Nivel 2",
+              "questions": [
+                {
+                  "id": "cla-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra NO es aguda?",
+                  "options": [
+                    "jamón",
+                    "pared",
+                    "mesa",
+                    "comer"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "ME-sa tiene la tónica en la penúltima sílaba: es llana. Ja-MÓN, pa-RED y co-MER son agudas."
+                },
+                {
+                  "id": "cla-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra es sobresdrújula?",
+                  "options": [
+                    "cómpramelo",
+                    "cómpralo",
+                    "compra",
+                    "comprar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "CÓM-pra-me-lo tiene la tónica antes de la antepenúltima: sobresdrújula. «Cómpralo» es esdrújula, «compra» es llana y «comprar» es aguda."
+                },
+                {
+                  "id": "cla-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Busca la intrusa: ¿qué palabra NO es llana?",
+                  "options": [
+                    "árbol",
+                    "lápiz",
+                    "césped",
+                    "jabón"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "ja-BÓN tiene la tónica en la última sílaba: es aguda. ÁR-bol, LÁ-piz y CÉS-ped son llanas."
+                },
+                {
+                  "id": "cla-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "«Brújula» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "BRÚ-ju-la: la tónica es la antepenúltima sílaba, así que es esdrújula."
+                },
+                {
+                  "id": "cla-2-5",
+                  "type": "numeric",
+                  "prompt": "En una palabra esdrújula, ¿en qué sílaba está la tónica, contando desde el final?",
+                  "answer": 3,
+                  "explanation": "Esdrújula = antepenúltima: última (1), penúltima (2), antepenúltima (3)."
+                },
+                {
+                  "id": "cla-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "«Ordenador» es una palabra…",
+                  "options": [
+                    "aguda",
+                    "llana",
+                    "esdrújula",
+                    "sobresdrújula"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "or-de-na-DOR: la tónica es la última sílaba, así que es aguda."
+                }
+              ]
+            },
+            {
+              "id": "tilde-1",
+              "name": "Nivel 3",
+              "questions": [
+                {
+                  "id": "til-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "sofa",
+                    "sofá",
+                    "sófa",
+                    "sófá"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "so-FÁ es aguda y termina en vocal, así que lleva tilde en la última sílaba."
+                },
+                {
+                  "id": "til-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Por qué «reloj» no lleva tilde?",
+                  "options": [
+                    "Porque es llana",
+                    "Porque es aguda y termina en -j",
+                    "Porque es monosílaba",
+                    "Porque es esdrújula"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "re-LOJ es aguda, pero solo llevan tilde las agudas que terminan en vocal, -n o -s. Termina en -j."
+                },
+                {
+                  "id": "til-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "arbol",
+                    "árbol",
+                    "arból",
+                    "árból"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "ÁR-bol es llana y termina en -l (no en vocal, -n ni -s), así que lleva tilde en la sílaba tónica «ár»."
+                },
+                {
+                  "id": "til-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabras llevan tilde siempre?",
+                  "options": [
+                    "Las agudas",
+                    "Las llanas",
+                    "Las esdrújulas",
+                    "Los monosílabos"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Las esdrújulas (y las sobresdrújulas) llevan tilde siempre. Las agudas y las llanas dependen de cómo terminan."
+                },
+                {
+                  "id": "til-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "ratón",
+                    "raton",
+                    "rátón",
+                    "ráton"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "ra-TÓN es aguda y termina en -n, así que lleva tilde en la última sílaba."
+                },
+                {
+                  "id": "til-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "«Mesa» no lleva tilde porque…",
+                  "options": [
+                    "es llana y termina en vocal",
+                    "es aguda y termina en vocal",
+                    "es esdrújula",
+                    "es monosílaba"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "ME-sa es llana y termina en vocal. Las llanas que terminan en vocal, -n o -s no llevan tilde."
+                }
+              ]
+            },
+            {
+              "id": "tilde-2",
+              "name": "Nivel 4",
+              "questions": [
+                {
+                  "id": "til-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe correctamente?",
+                  "options": [
+                    "musica",
+                    "música",
+                    "musíca",
+                    "musicá"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "MÚ-si-ca es esdrújula y las esdrújulas llevan tilde siempre, en la sílaba tónica."
+                },
+                {
+                  "id": "til-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué palabra está MAL escrita?",
+                  "options": [
+                    "lápiz",
+                    "camión",
+                    "pared",
+                    "exámen"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "e-XA-men es llana y termina en -n, así que no lleva tilde: se escribe «examen»."
+                },
+                {
+                  "id": "til-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Completa: «Yo no ___ la respuesta.»",
+                  "options": [
+                    "se",
+                    "sé",
+                    "sí",
+                    "si"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Es el verbo saber (yo sé), que lleva tilde diacrítica. «Se» sin tilde es otra palabra: se fue."
+                },
+                {
+                  "id": "til-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Completa: «Este regalo es para ___.»",
+                  "options": [
+                    "mi",
+                    "mí",
+                    "tu",
+                    "el"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Después de «para» va «mí», con tilde diacrítica. «Mi» sin tilde acompaña a un nombre: mi libro."
+                },
+                {
+                  "id": "til-2-5",
+                  "type": "numeric",
+                  "prompt": "¿Cuántas de estas palabras necesitan tilde? cancion, mesa, arbol, pared",
+                  "answer": 2,
+                  "explanation": "Canción (aguda en -n) y árbol (llana en -l) llevan tilde. Mesa (llana en vocal) y pared (aguda en -d) no."
+                },
+                {
+                  "id": "til-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué monosílabo está bien escrito?",
+                  "options": [
+                    "fué",
+                    "dió",
+                    "pan",
+                    "sól"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Los monosílabos no llevan tilde: pan, fue, dio, sol. Solo la llevan los de la tilde diacrítica, como tú o él."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

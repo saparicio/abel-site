@@ -1,0 +1,2559 @@
+{
+  "id": "science",
+  "name": "Natural Science",
+  "lang": "en",
+  "lessons": [
+    {
+      "id": "leccion-1",
+      "name": "Lesson 1",
+      "topics": [
+        {
+          "id": "sight",
+          "name": "Sight: The Eye",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Your eyes have four guards. The eyebrows stop sweat, the eyelids close to clean and protect the eye, the eyelashes catch dust, and tears wash the eye and keep it wet.",
+                "diagram": {
+                  "name": "eye-front",
+                  "parts": [
+                    {
+                      "id": "eyebrow",
+                      "label": "eyebrow",
+                      "info": "A curved line of hair above the eye that stops sweat from running into it."
+                    },
+                    {
+                      "id": "eyelid",
+                      "label": "eyelid",
+                      "info": "A fold of skin that closes to clean and protect the eye."
+                    },
+                    {
+                      "id": "eyelashes",
+                      "label": "eyelashes",
+                      "info": "Short hairs on the edge of the eyelids that catch dust like a tiny brush."
+                    },
+                    {
+                      "id": "tears",
+                      "label": "tears",
+                      "info": "A salty liquid that washes the eye and keeps it wet."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: the eyelid is the lid of the eye, like the lid on a pot. The eyelashes are a tiny brush that sweeps dust away, and the eyebrow is an umbrella that keeps sweat out.",
+                "tiles": [
+                  {
+                    "symbol": "🍲",
+                    "label": "eye + lid = eyelid"
+                  },
+                  {
+                    "symbol": "🧹",
+                    "label": "eyelashes = brush"
+                  },
+                  {
+                    "symbol": "☂️",
+                    "label": "eyebrow = umbrella"
+                  }
+                ]
+              },
+              {
+                "caption": "At the front of the eye, light passes through the cornea, a clear window. The iris is the coloured ring, and the pupil is the black opening in its centre.",
+                "diagram": {
+                  "name": "eye-section",
+                  "parts": [
+                    {
+                      "id": "cornea",
+                      "label": "cornea",
+                      "info": "The clear window at the front of the eye that lets light in."
+                    },
+                    {
+                      "id": "iris",
+                      "label": "iris",
+                      "info": "The coloured ring that makes the pupil bigger or smaller."
+                    },
+                    {
+                      "id": "pupil",
+                      "label": "pupil",
+                      "info": "The black opening in the centre of the iris where light enters the eye."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "The iris controls how much light gets in. In bright light it makes the pupil smaller; in the dark it makes the pupil bigger so that more light can enter.",
+                "diagram": {
+                  "name": "eye-front",
+                  "parts": [
+                    {
+                      "id": "iris",
+                      "label": "iris",
+                      "info": "The coloured ring that controls how much light gets in."
+                    },
+                    {
+                      "id": "pupil",
+                      "label": "pupil",
+                      "info": "The opening that gets smaller in bright light and bigger in the dark."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: Iris was the Greek goddess of the rainbow, so iris = coloured ring. The pupil is the dark doorway in the middle of the rainbow.",
+                "tiles": [
+                  {
+                    "symbol": "🌈",
+                    "label": "iris = rainbow"
+                  },
+                  {
+                    "symbol": "🚪",
+                    "label": "pupil = doorway"
+                  }
+                ]
+              },
+              {
+                "caption": "Behind the pupil, the lens focuses the light onto the retina, at the back of the eye. The retina is covered with light-sensitive cells. The optic nerve carries the message to the brain.",
+                "diagram": {
+                  "name": "eye-section",
+                  "parts": [
+                    {
+                      "id": "lens",
+                      "label": "lens",
+                      "info": "A clear, flexible disc that focuses light onto the retina."
+                    },
+                    {
+                      "id": "retina",
+                      "label": "retina",
+                      "info": "The back of the eye, covered with cells that sense light."
+                    },
+                    {
+                      "id": "optic-nerve",
+                      "label": "optic nerve",
+                      "info": "Carries the message from the retina to the brain."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: the retina is a cinema screen where the film arrives upside down. The brain is the projectionist who turns the picture the right way up.",
+                "tiles": [
+                  {
+                    "symbol": "🙃",
+                    "label": "retina: image upside down"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain: turns it the right way up"
+                  }
+                ]
+              },
+              {
+                "caption": "Follow the story of light: it enters through the cornea, passes the pupil, is focused by the lens and lands on the retina. Then the optic nerve tells the brain.",
+                "chain": [
+                  {
+                    "symbol": "💡",
+                    "label": "light"
+                  },
+                  {
+                    "symbol": "🪟",
+                    "label": "cornea"
+                  },
+                  {
+                    "symbol": "⚫",
+                    "label": "pupil"
+                  },
+                  {
+                    "symbol": "🔍",
+                    "label": "lens"
+                  },
+                  {
+                    "symbol": "🎬",
+                    "label": "retina"
+                  },
+                  {
+                    "symbol": "🔌",
+                    "label": "optic nerve"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "symbol": "⚫",
+                    "front": "The black opening in the centre of the eye",
+                    "back": "pupil"
+                  },
+                  {
+                    "front": "The coloured ring that controls how much light gets in",
+                    "back": "iris"
+                  },
+                  {
+                    "front": "The clear window at the front of the eye",
+                    "back": "cornea"
+                  },
+                  {
+                    "front": "It focuses light onto the back of the eye",
+                    "back": "lens"
+                  },
+                  {
+                    "front": "The screen at the back of the eye, with light-sensitive cells",
+                    "back": "retina"
+                  },
+                  {
+                    "front": "The cable that carries the message to the brain",
+                    "back": "optic nerve"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "sight-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "sig-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the eye is the black opening in the centre?",
+                  "options": [
+                    "iris",
+                    "pupil",
+                    "lens",
+                    "cornea"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The pupil is the black opening in the centre of the eye; the iris is the coloured ring around it."
+                },
+                {
+                  "id": "sig-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the eye is the coloured ring that controls how much light gets in?",
+                  "options": [
+                    "cornea",
+                    "retina",
+                    "iris",
+                    "eyelid"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The iris is the coloured ring; it makes the pupil smaller or bigger to control the light."
+                },
+                {
+                  "id": "sig-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which tiny hairs catch dust before it gets into your eye?",
+                  "options": [
+                    "eyebrows",
+                    "eyelashes",
+                    "tears",
+                    "eyelids"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The eyelashes catch dust like a tiny brush; the eyebrows stop sweat."
+                },
+                {
+                  "id": "sig-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which clear window at the front of the eye does light pass through first?",
+                  "options": [
+                    "lens",
+                    "pupil",
+                    "cornea",
+                    "retina"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The cornea is the clear window at the front of the eye; light passes through it before the pupil and the lens."
+                },
+                {
+                  "id": "sig-1-5",
+                  "type": "numeric",
+                  "prompt": "How many eyelids does each eye have?",
+                  "answer": 2,
+                  "explanation": "Each eye has 2 eyelids, an upper eyelid and a lower eyelid, which close to clean and protect the eye."
+                },
+                {
+                  "id": "sig-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerve carries the message from the eye to the brain?",
+                  "options": [
+                    "retina",
+                    "lens",
+                    "iris",
+                    "optic nerve"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The optic nerve carries the message from the retina to the brain."
+                }
+              ]
+            },
+            {
+              "id": "sight-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "sig-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "What happens to your pupil in bright light?",
+                  "options": [
+                    "It gets bigger",
+                    "It gets smaller",
+                    "It turns upside down",
+                    "It changes colour"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "In bright light the iris makes the pupil smaller to let less light in; in the dark the pupil gets bigger."
+                },
+                {
+                  "id": "sig-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the eye focuses light onto the retina?",
+                  "options": [
+                    "cornea",
+                    "pupil",
+                    "eyelid",
+                    "lens"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The lens focuses light onto the retina, like a magnifying glass."
+                },
+                {
+                  "id": "sig-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "On which part of the eye does the image arrive upside down?",
+                  "options": [
+                    "retina",
+                    "iris",
+                    "cornea",
+                    "lens"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The image arrives upside down on the retina, at the back of the eye; the brain turns it the right way up."
+                },
+                {
+                  "id": "sig-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which salty liquid washes your eyes and keeps them wet?",
+                  "options": [
+                    "eyelashes",
+                    "tears",
+                    "eyebrows",
+                    "eyelids"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tears wash the eye and keep it wet."
+                },
+                {
+                  "id": "sig-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "Which hairs above your eyes stop sweat running into them?",
+                  "options": [
+                    "eyelashes",
+                    "eyelids",
+                    "eyebrows",
+                    "tears"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The eyebrows stop sweat running into your eyes, like an umbrella."
+                },
+                {
+                  "id": "sig-2-6",
+                  "type": "numeric",
+                  "prompt": "Light, cornea, pupil, lens, retina, optic nerve, brain. In which position is the lens?",
+                  "answer": 4,
+                  "explanation": "Light passes the cornea (2) and the pupil (3); then the lens (4) focuses it onto the retina."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hearing",
+          "name": "Hearing: The Ear",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Every sound is a vibration. Sound waves travel through the air from the thing that vibrates to your ears.",
+                "tiles": [
+                  {
+                    "symbol": "🔔",
+                    "label": "sound: a vibration"
+                  },
+                  {
+                    "symbol": "🌊",
+                    "label": "sound waves"
+                  }
+                ]
+              },
+              {
+                "caption": "The outer ear has two parts. The pinna, the ear flap you can see, collects sound waves like a funnel, and the ear canal carries them inside. Earwax in the ear canal traps dust and germs.",
+                "diagram": {
+                  "name": "ear",
+                  "parts": [
+                    {
+                      "id": "pinna",
+                      "label": "pinna",
+                      "info": "The ear flap you can see, which collects sound waves like a funnel."
+                    },
+                    {
+                      "id": "ear-canal",
+                      "label": "ear canal",
+                      "info": "The tunnel that carries sound waves from the pinna to the eardrum."
+                    },
+                    {
+                      "id": "earwax",
+                      "label": "earwax",
+                      "info": "A sticky wax in the ear canal that traps dust and germs."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "In the middle ear, sound waves hit the eardrum and make it vibrate. The vibration passes along three tiny bones called the ossicles: the hammer, the anvil and the stirrup.",
+                "diagram": {
+                  "name": "ear",
+                  "parts": [
+                    {
+                      "id": "eardrum",
+                      "label": "eardrum",
+                      "info": "A thin skin that vibrates like a drum when sound waves hit it."
+                    },
+                    {
+                      "id": "hammer",
+                      "label": "hammer",
+                      "info": "The first ossicle, joined to the eardrum, which passes the vibration on."
+                    },
+                    {
+                      "id": "anvil",
+                      "label": "anvil",
+                      "info": "The middle ossicle, which passes the vibration from the hammer to the stirrup."
+                    },
+                    {
+                      "id": "stirrup",
+                      "label": "stirrup",
+                      "info": "The last ossicle and the smallest bone in the body, which passes the vibration to the inner ear."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: ear + drum. The eardrum is a thin skin stretched like a drum; sound waves beat it and it vibrates.",
+                "tiles": [
+                  {
+                    "symbol": "🥁",
+                    "label": "ear + drum = eardrum"
+                  }
+                ]
+              },
+              {
+                "caption": "Memory trick: Hammer, Anvil, Stirrup = H-A-S. Your middle ear HAS three tiny bones. The stirrup is the smallest bone in the human body.",
+                "tiles": [
+                  {
+                    "symbol": "🔨",
+                    "label": "H: hammer"
+                  },
+                  {
+                    "symbol": "🪨",
+                    "label": "A: anvil"
+                  },
+                  {
+                    "symbol": "🏇",
+                    "label": "S: stirrup, the smallest bone"
+                  }
+                ]
+              },
+              {
+                "caption": "In the inner ear, the cochlea is full of liquid and tiny hair cells that turn vibrations into nerve messages. The semicircular canals help you keep your balance, and the auditory nerve carries the message to the brain.",
+                "diagram": {
+                  "name": "ear",
+                  "parts": [
+                    {
+                      "id": "cochlea",
+                      "label": "cochlea",
+                      "info": "A snail-shaped tube full of liquid and hair cells that turn vibrations into nerve messages."
+                    },
+                    {
+                      "id": "semicircular-canals",
+                      "label": "semicircular canals",
+                      "info": "Three half circles full of liquid that help you keep your balance."
+                    },
+                    {
+                      "id": "auditory-nerve",
+                      "label": "auditory nerve",
+                      "info": "Carries the message from the cochlea to the brain."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: cochlea comes from the Latin word for a snail shell, so picture a tiny snail curled up in your ear. The semicircular canals are three half circles, like a roller coaster that tells you which way is up.",
+                "tiles": [
+                  {
+                    "symbol": "🐌",
+                    "label": "cochlea = snail shell"
+                  },
+                  {
+                    "symbol": "🎢",
+                    "label": "semicircular = half circles"
+                  }
+                ]
+              },
+              {
+                "caption": "Follow the story of a sound: sound waves enter the pinna, travel down the ear canal, beat the eardrum and shake the ossicles. The liquid in the cochlea ripples, and the auditory nerve tells the brain.",
+                "chain": [
+                  {
+                    "symbol": "🌊",
+                    "label": "sound waves"
+                  },
+                  {
+                    "symbol": "👂",
+                    "label": "pinna"
+                  },
+                  {
+                    "symbol": "🚇",
+                    "label": "ear canal"
+                  },
+                  {
+                    "symbol": "🥁",
+                    "label": "eardrum"
+                  },
+                  {
+                    "symbol": "🦴",
+                    "label": "ossicles"
+                  },
+                  {
+                    "symbol": "🐌",
+                    "label": "cochlea"
+                  },
+                  {
+                    "symbol": "🔌",
+                    "label": "auditory nerve"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "front": "The ear flap you can see",
+                    "back": "pinna"
+                  },
+                  {
+                    "front": "A thin skin that vibrates like a drum",
+                    "back": "eardrum"
+                  },
+                  {
+                    "front": "The three tiny bones of the middle ear",
+                    "back": "ossicles"
+                  },
+                  {
+                    "front": "The smallest bone in the human body",
+                    "back": "stirrup"
+                  },
+                  {
+                    "front": "A snail-shaped tube full of liquid and hair cells",
+                    "back": "cochlea"
+                  },
+                  {
+                    "front": "They help you keep your balance",
+                    "back": "semicircular canals"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "hearing-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "hea-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "What is the ear flap you can see on the side of your head called?",
+                  "options": [
+                    "eardrum",
+                    "pinna",
+                    "cochlea",
+                    "ear canal"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The pinna is the ear flap you can see; it collects sound waves like a funnel."
+                },
+                {
+                  "id": "hea-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "What travels through the air and carries sound to your ears?",
+                  "options": [
+                    "sound waves",
+                    "earwax",
+                    "ossicles",
+                    "auditory nerve"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sound waves are vibrations that travel through the air to your ears."
+                },
+                {
+                  "id": "hea-1-3",
+                  "type": "numeric",
+                  "prompt": "How many ossicles (tiny bones) are there in the middle ear?",
+                  "answer": 3,
+                  "explanation": "There are 3 ossicles: the hammer, the anvil and the stirrup. Remember H-A-S: your middle ear HAS three bones."
+                },
+                {
+                  "id": "hea-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which thin skin vibrates when sound waves hit it?",
+                  "options": [
+                    "pinna",
+                    "cochlea",
+                    "eardrum",
+                    "stirrup"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The eardrum is a thin skin stretched like a drum; sound waves make it vibrate."
+                },
+                {
+                  "id": "hea-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "What traps dust and germs in the ear canal?",
+                  "options": [
+                    "tears",
+                    "earwax",
+                    "eardrum",
+                    "ossicles"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Earwax in the ear canal traps dust and germs and protects the ear."
+                },
+                {
+                  "id": "hea-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the inner ear is shaped like a snail shell?",
+                  "options": [
+                    "semicircular canals",
+                    "anvil",
+                    "ear canal",
+                    "cochlea"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The cochlea is shaped like a snail shell and is full of liquid and hair cells."
+                }
+              ]
+            },
+            {
+              "id": "hearing-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "hea-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which ossicle is the smallest bone in the human body?",
+                  "options": [
+                    "hammer",
+                    "anvil",
+                    "stirrup",
+                    "eardrum"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The stirrup is the smallest bone in the human body; it is the last of the three ossicles."
+                },
+                {
+                  "id": "hea-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which parts of the inner ear help you keep your balance?",
+                  "options": [
+                    "semicircular canals",
+                    "ossicles",
+                    "ear canal",
+                    "pinna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The semicircular canals help you keep your balance; the cochlea is for hearing."
+                },
+                {
+                  "id": "hea-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerve carries messages from the cochlea to the brain?",
+                  "options": [
+                    "optic nerve",
+                    "auditory nerve",
+                    "ear canal",
+                    "eardrum"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The auditory nerve carries hearing messages from the cochlea to the brain."
+                },
+                {
+                  "id": "hea-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Remember the eye: which part focuses light onto the retina?",
+                  "options": [
+                    "iris",
+                    "cornea",
+                    "pupil",
+                    "lens"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The lens focuses light onto the retina at the back of the eye."
+                },
+                {
+                  "id": "hea-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "Which ossicle sits between the hammer and the stirrup?",
+                  "options": [
+                    "cochlea",
+                    "eardrum",
+                    "anvil",
+                    "pinna"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The anvil sits between the hammer and the stirrup: Hammer, Anvil, Stirrup = H-A-S."
+                },
+                {
+                  "id": "hea-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which tunnel carries sound waves from the pinna to the eardrum?",
+                  "options": [
+                    "cochlea",
+                    "ear canal",
+                    "semicircular canals",
+                    "auditory nerve"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The ear canal is the tunnel that carries sound waves from the pinna to the eardrum."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smell",
+          "name": "Smell: The Nose",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Things that smell give off tiny particles called odour molecules. They travel through the air, and when you breathe in, they enter your nose.",
+                "tiles": [
+                  {
+                    "symbol": "🌹",
+                    "label": "a flower gives off a smell"
+                  },
+                  {
+                    "symbol": "💨",
+                    "label": "odour molecules"
+                  }
+                ]
+              },
+              {
+                "caption": "Air goes in through the two nostrils into the nasal cavity, the large space inside your nose.",
+                "diagram": {
+                  "name": "nose",
+                  "parts": [
+                    {
+                      "id": "nostrils",
+                      "label": "nostrils",
+                      "info": "The two openings of the nose where air goes in."
+                    },
+                    {
+                      "id": "nasal-cavity",
+                      "label": "nasal cavity",
+                      "info": "The large space inside the nose that air passes through."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "The nasal cavity is lined with mucus, a sticky liquid. Mucus traps dust and germs, and it dissolves odour molecules so that they can be detected.",
+                "diagram": {
+                  "name": "nose",
+                  "parts": [
+                    {
+                      "id": "mucus",
+                      "label": "mucus",
+                      "info": "A sticky liquid lining the nasal cavity that traps dust and germs and dissolves odour molecules."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "At the top of the nasal cavity are the olfactory receptors, special smell cells. They send a message along the olfactory nerve to the brain.",
+                "diagram": {
+                  "name": "nose",
+                  "parts": [
+                    {
+                      "id": "olfactory-receptors",
+                      "label": "olfactory receptors",
+                      "info": "Smell cells at the top of the nasal cavity that detect odour molecules."
+                    },
+                    {
+                      "id": "olfactory-nerve",
+                      "label": "olfactory nerve",
+                      "info": "Carries the message from the olfactory receptors to the brain."
+                    },
+                    {
+                      "id": "brain",
+                      "label": "brain",
+                      "info": "Receives the message and tells you what you are smelling."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: olfactory sounds like \"oh, factory!\" Picture a busy smell factory at the top of your nose, where the olfactory receptors work.",
+                "tiles": [
+                  {
+                    "symbol": "🏭",
+                    "label": "olfactory = to do with smell"
+                  }
+                ]
+              },
+              {
+                "caption": "Memory trick: each odour molecule is a key and each olfactory receptor is a lock. When the key fits the lock, the receptor sends a message.",
+                "tiles": [
+                  {
+                    "symbol": "🔑",
+                    "label": "odour molecule = key"
+                  },
+                  {
+                    "symbol": "🔒",
+                    "label": "olfactory receptor = lock"
+                  }
+                ]
+              },
+              {
+                "caption": "Smell and taste work together. When you have a cold and your nose is blocked, food seems to taste of less, because you cannot smell it.",
+                "tiles": [
+                  {
+                    "symbol": "🤧",
+                    "label": "blocked nose"
+                  },
+                  {
+                    "symbol": "🍓",
+                    "label": "food tastes of less"
+                  }
+                ]
+              },
+              {
+                "caption": "Follow the story of a smell: odour molecules enter the nostrils and reach the nasal cavity. The olfactory receptors detect them, and the olfactory nerve tells the brain.",
+                "chain": [
+                  {
+                    "symbol": "💨",
+                    "label": "odour molecules"
+                  },
+                  {
+                    "symbol": "👃",
+                    "label": "nostrils"
+                  },
+                  {
+                    "symbol": "🕳️",
+                    "label": "nasal cavity"
+                  },
+                  {
+                    "symbol": "🔒",
+                    "label": "olfactory receptors"
+                  },
+                  {
+                    "symbol": "🔌",
+                    "label": "olfactory nerve"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "front": "Tiny particles that carry a smell through the air",
+                    "back": "odour molecules"
+                  },
+                  {
+                    "front": "The two openings of the nose",
+                    "back": "nostrils"
+                  },
+                  {
+                    "front": "The large space inside the nose",
+                    "back": "nasal cavity"
+                  },
+                  {
+                    "front": "A sticky liquid that traps dust and dissolves odour molecules",
+                    "back": "mucus"
+                  },
+                  {
+                    "front": "The smell cells at the top of the nose",
+                    "back": "olfactory receptors"
+                  },
+                  {
+                    "front": "The nerve that carries smell messages to the brain",
+                    "back": "olfactory nerve"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "smell-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "sme-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "What are the tiny particles that carry a smell through the air?",
+                  "options": [
+                    "sound waves",
+                    "odour molecules",
+                    "mucus",
+                    "nostrils"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Odour molecules are tiny particles that travel through the air and carry a smell to your nose."
+                },
+                {
+                  "id": "sme-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "What are the two openings of your nose called?",
+                  "options": [
+                    "nasal cavity",
+                    "pupils",
+                    "nostrils",
+                    "mucus"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The nostrils are the two openings of the nose; air goes in through them."
+                },
+                {
+                  "id": "sme-1-3",
+                  "type": "numeric",
+                  "prompt": "How many nostrils do you have?",
+                  "answer": 2,
+                  "explanation": "You have 2 nostrils, the two openings through which air enters the nose."
+                },
+                {
+                  "id": "sme-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which sticky liquid in the nose traps dust and dissolves odour molecules?",
+                  "options": [
+                    "tears",
+                    "earwax",
+                    "nasal cavity",
+                    "mucus"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mucus is the sticky liquid in the nose; it traps dust and dissolves odour molecules."
+                },
+                {
+                  "id": "sme-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "What are the smell cells at the top of the nasal cavity called?",
+                  "options": [
+                    "olfactory receptors",
+                    "olfactory nerve",
+                    "nostrils",
+                    "retina"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The olfactory receptors are the smell cells at the top of the nasal cavity."
+                },
+                {
+                  "id": "sme-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "What is the large space inside your nose called?",
+                  "options": [
+                    "ear canal",
+                    "nasal cavity",
+                    "nostrils",
+                    "cochlea"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The nasal cavity is the large space inside your nose, lined with mucus."
+                }
+              ]
+            },
+            {
+              "id": "smell-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "sme-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerve carries smell messages to the brain?",
+                  "options": [
+                    "optic nerve",
+                    "auditory nerve",
+                    "olfactory nerve",
+                    "olfactory receptors"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The olfactory nerve carries smell messages from the olfactory receptors to the brain."
+                },
+                {
+                  "id": "sme-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which sense works together with smell, so that food tastes of less when your nose is blocked?",
+                  "options": [
+                    "taste",
+                    "sight",
+                    "hearing",
+                    "touch"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Smell and taste work together: with a blocked nose you cannot smell your food, so it seems to taste of less."
+                },
+                {
+                  "id": "sme-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Remember the ear: which ossicle is the smallest bone in the human body?",
+                  "options": [
+                    "hammer",
+                    "anvil",
+                    "eardrum",
+                    "stirrup"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The stirrup is the smallest bone in the human body."
+                },
+                {
+                  "id": "sme-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "After the nostrils, where do odour molecules go next?",
+                  "options": [
+                    "brain",
+                    "olfactory nerve",
+                    "nasal cavity",
+                    "eardrum"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "After the nostrils, odour molecules reach the nasal cavity, where the olfactory receptors detect them."
+                },
+                {
+                  "id": "sme-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "What does the word olfactory mean?",
+                  "options": [
+                    "to do with hearing",
+                    "to do with smell",
+                    "to do with sight",
+                    "to do with touch"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Olfactory means to do with smell: olfactory receptors are smell cells and the olfactory nerve carries smell messages."
+                },
+                {
+                  "id": "sme-2-6",
+                  "type": "numeric",
+                  "prompt": "Odour molecules, nostrils, nasal cavity, olfactory receptors, olfactory nerve, brain. In which position are the olfactory receptors?",
+                  "answer": 4,
+                  "explanation": "The olfactory receptors are in position 4: after the odour molecules (1), the nostrils (2) and the nasal cavity (3)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "taste",
+          "name": "Taste: The Tongue",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Your tongue is a strong muscle. When you eat, saliva in your mouth dissolves the food so that you can taste it.",
+                "diagram": {
+                  "name": "tongue",
+                  "parts": [
+                    {
+                      "id": "tongue",
+                      "label": "tongue",
+                      "info": "A strong muscle that moves food around your mouth and helps you taste it."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "The tongue is covered with small bumps called papillae. Inside the papillae are the taste buds, which contain taste receptor cells.",
+                "diagram": {
+                  "name": "tongue",
+                  "parts": [
+                    {
+                      "id": "papillae",
+                      "label": "papillae",
+                      "info": "Small bumps that cover the tongue, like little hills."
+                    },
+                    {
+                      "id": "taste-buds",
+                      "label": "taste buds",
+                      "info": "Groups of cells hidden inside the papillae, like flower buds."
+                    },
+                    {
+                      "id": "taste-receptor-cells",
+                      "label": "taste receptor cells",
+                      "info": "Cells inside each taste bud that detect the taste of dissolved food."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: the papillae are little hills on your tongue, and the taste buds are flower buds hiding in the hills.",
+                "tiles": [
+                  {
+                    "symbol": "⛰️",
+                    "label": "papillae = little hills"
+                  },
+                  {
+                    "symbol": "🌱",
+                    "label": "taste buds = flower buds"
+                  }
+                ]
+              },
+              {
+                "caption": "There are five basic tastes: sweet, salty, sour, bitter and umami. Umami is the savoury taste of foods like cheese, tomatoes, mushrooms and meat broth.",
+                "tiles": [
+                  {
+                    "symbol": "🍬",
+                    "label": "sweet"
+                  },
+                  {
+                    "symbol": "🧂",
+                    "label": "salty"
+                  },
+                  {
+                    "symbol": "🍋",
+                    "label": "sour"
+                  },
+                  {
+                    "symbol": "☕",
+                    "label": "bitter"
+                  },
+                  {
+                    "symbol": "🍄",
+                    "label": "umami"
+                  }
+                ]
+              },
+              {
+                "caption": "Memory trick: \"Sweet Sally Sees Big Umbrellas\" = Sweet, Salty, Sour, Bitter, Umami. Count them on one hand: five tastes, five fingers.",
+                "tiles": [
+                  {
+                    "symbol": "✋",
+                    "label": "5 tastes = 5 fingers"
+                  }
+                ]
+              },
+              {
+                "caption": "Every area of the tongue can detect all five tastes. The old \"tongue map\", with one taste for each area, is a myth.",
+                "tiles": [
+                  {
+                    "symbol": "🗺️",
+                    "label": "tongue map: a myth"
+                  },
+                  {
+                    "symbol": "👅",
+                    "label": "every area: all five tastes"
+                  }
+                ]
+              },
+              {
+                "caption": "The taste receptor cells send messages along the taste nerves to the brain, which tells you what you are eating.",
+                "diagram": {
+                  "name": "tongue",
+                  "parts": [
+                    {
+                      "id": "taste-receptor-cells",
+                      "label": "taste receptor cells",
+                      "info": "Cells in the taste buds that detect a taste and start the message."
+                    },
+                    {
+                      "id": "taste-nerves",
+                      "label": "taste nerves",
+                      "info": "Carry the message from the taste receptor cells to the brain."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Follow the story of a taste: saliva dissolves the food, which reaches the papillae and the taste buds inside them. The taste nerves tell the brain.",
+                "chain": [
+                  {
+                    "symbol": "🍎",
+                    "label": "food"
+                  },
+                  {
+                    "symbol": "💦",
+                    "label": "saliva"
+                  },
+                  {
+                    "symbol": "⛰️",
+                    "label": "papillae"
+                  },
+                  {
+                    "symbol": "🌱",
+                    "label": "taste buds"
+                  },
+                  {
+                    "symbol": "🔌",
+                    "label": "taste nerves"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "front": "A strong muscle in your mouth",
+                    "back": "tongue"
+                  },
+                  {
+                    "front": "A liquid that dissolves food so that you can taste it",
+                    "back": "saliva"
+                  },
+                  {
+                    "front": "The small bumps on the tongue",
+                    "back": "papillae"
+                  },
+                  {
+                    "front": "Groups of taste cells inside the papillae",
+                    "back": "taste buds"
+                  },
+                  {
+                    "front": "The savoury taste of cheese and mushrooms",
+                    "back": "umami"
+                  },
+                  {
+                    "front": "The taste of a lemon",
+                    "back": "sour"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "taste-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "tas-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "What are the small bumps on your tongue called?",
+                  "options": [
+                    "taste buds",
+                    "papillae",
+                    "nostrils",
+                    "ossicles"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The papillae are the small bumps on the tongue; the taste buds are inside them."
+                },
+                {
+                  "id": "tas-1-2",
+                  "type": "numeric",
+                  "prompt": "How many basic tastes are there?",
+                  "answer": 5,
+                  "explanation": "There are 5 basic tastes: sweet, salty, sour, bitter and umami."
+                },
+                {
+                  "id": "tas-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which liquid in your mouth dissolves food so that you can taste it?",
+                  "options": [
+                    "mucus",
+                    "tears",
+                    "saliva",
+                    "earwax"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Saliva dissolves food so that the taste buds can detect it."
+                },
+                {
+                  "id": "tas-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which taste does a lemon have?",
+                  "options": [
+                    "sweet",
+                    "salty",
+                    "bitter",
+                    "sour"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "A lemon tastes sour."
+                },
+                {
+                  "id": "tas-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "What is found inside the papillae, with taste receptor cells?",
+                  "options": [
+                    "taste buds",
+                    "saliva",
+                    "umami",
+                    "olfactory receptors"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The taste buds are inside the papillae and contain the taste receptor cells."
+                },
+                {
+                  "id": "tas-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "The tongue is a strong...",
+                  "options": [
+                    "bone",
+                    "muscle",
+                    "nerve",
+                    "receptor"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The tongue is a strong muscle that moves food around your mouth."
+                }
+              ]
+            },
+            {
+              "id": "taste-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "tas-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which taste is the savoury taste of cheese, tomatoes and mushrooms?",
+                  "options": [
+                    "bitter",
+                    "umami",
+                    "salty",
+                    "sweet"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Umami is the savoury taste of cheese, tomatoes, mushrooms and meat broth."
+                },
+                {
+                  "id": "tas-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which taste do coffee and dark chocolate have?",
+                  "options": [
+                    "bitter",
+                    "sour",
+                    "umami",
+                    "sweet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coffee and dark chocolate taste bitter."
+                },
+                {
+                  "id": "tas-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which area of the tongue can detect salty tastes?",
+                  "options": [
+                    "only the tip",
+                    "only the sides",
+                    "every area",
+                    "only the back"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Every area of the tongue detects all five tastes, salty too; the tongue map is a myth."
+                },
+                {
+                  "id": "tas-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Remember the nose: what are the smell cells at the top of the nasal cavity called?",
+                  "options": [
+                    "olfactory nerve",
+                    "taste buds",
+                    "olfactory receptors",
+                    "nostrils"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The olfactory receptors are the smell cells at the top of the nasal cavity."
+                },
+                {
+                  "id": "tas-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerves carry taste messages to the brain?",
+                  "options": [
+                    "taste nerves",
+                    "optic nerve",
+                    "auditory nerve",
+                    "olfactory nerve"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The taste nerves carry messages from the taste buds to the brain."
+                },
+                {
+                  "id": "tas-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which taste do sweets and honey have?",
+                  "options": [
+                    "salty",
+                    "sweet",
+                    "sour",
+                    "umami"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sweets and honey taste sweet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "touch",
+          "name": "Touch: The Skin",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Your skin is the sense organ of touch. It covers your whole body, so it is the largest organ of the body.",
+                "tiles": [
+                  {
+                    "symbol": "🧍",
+                    "label": "skin: the largest organ"
+                  }
+                ]
+              },
+              {
+                "caption": "Skin has three layers: the epidermis on the outside, the dermis in the middle and the hypodermis, a layer of fat, on the inside.",
+                "diagram": {
+                  "name": "skin",
+                  "parts": [
+                    {
+                      "id": "epidermis",
+                      "label": "epidermis",
+                      "info": "The outer layer of the skin, which protects your body."
+                    },
+                    {
+                      "id": "dermis",
+                      "label": "dermis",
+                      "info": "The middle layer of the skin, with most of the touch receptors."
+                    },
+                    {
+                      "id": "hypodermis",
+                      "label": "hypodermis",
+                      "info": "The inner layer of the skin, made of fat that keeps you warm."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "The dermis has most of the touch receptors, as well as the sweat glands and the roots of your hairs.",
+                "diagram": {
+                  "name": "skin",
+                  "parts": [
+                    {
+                      "id": "touch-receptors",
+                      "label": "touch receptors",
+                      "info": "Tiny sensors in the dermis that feel what touches your skin."
+                    },
+                    {
+                      "id": "sweat-gland",
+                      "label": "sweat gland",
+                      "info": "A coiled tube that makes sweat to cool you down."
+                    },
+                    {
+                      "id": "hair-root",
+                      "label": "hair root",
+                      "info": "The bottom of a hair, deep in the skin, where the hair grows."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: derma means skin. Epi means on top, so the epidermis is on top; hypo means under, so the hypodermis is underneath; the dermis is the skin in the middle.",
+                "tiles": [
+                  {
+                    "symbol": "⬆️",
+                    "label": "epi = on top"
+                  },
+                  {
+                    "symbol": "🎯",
+                    "label": "dermis = middle"
+                  },
+                  {
+                    "symbol": "⬇️",
+                    "label": "hypo = under"
+                  }
+                ]
+              },
+              {
+                "caption": "Touch receptors detect pressure, temperature (heat and cold) and pain. Pain receptors warn you of danger.",
+                "diagram": {
+                  "name": "skin",
+                  "parts": [
+                    {
+                      "id": "touch-receptors",
+                      "label": "touch receptors",
+                      "info": "Sensors that detect pressure, heat, cold and pain."
+                    },
+                    {
+                      "id": "nerve",
+                      "label": "nerve",
+                      "info": "Carries the message from the touch receptors to the spinal cord and the brain."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Your fingertips and your lips have the most touch receptors, so they are the most sensitive parts of your skin.",
+                "tiles": [
+                  {
+                    "symbol": "☝️",
+                    "label": "fingertips"
+                  },
+                  {
+                    "symbol": "👄",
+                    "label": "lips"
+                  }
+                ]
+              },
+              {
+                "caption": "Memory trick: read with your fingers, feel with your lips. People who are blind read Braille with their fingertips, because fingertips have so many receptors.",
+                "tiles": [
+                  {
+                    "symbol": "👆",
+                    "label": "fingertips read Braille"
+                  },
+                  {
+                    "symbol": "💋",
+                    "label": "lips feel the most"
+                  }
+                ]
+              },
+              {
+                "caption": "Follow the story of a touch: a stimulus presses the skin, the touch receptors in the dermis send a message along the nerves to the spinal cord and up to the brain.",
+                "chain": [
+                  {
+                    "symbol": "🌵",
+                    "label": "stimulus"
+                  },
+                  {
+                    "symbol": "📡",
+                    "label": "touch receptors in the dermis"
+                  },
+                  {
+                    "symbol": "🔌",
+                    "label": "nerves"
+                  },
+                  {
+                    "symbol": "🪢",
+                    "label": "spinal cord"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "brain"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "front": "The largest organ of the body",
+                    "back": "skin"
+                  },
+                  {
+                    "front": "The outer layer of the skin",
+                    "back": "epidermis"
+                  },
+                  {
+                    "front": "The middle layer, with most of the touch receptors",
+                    "back": "dermis"
+                  },
+                  {
+                    "front": "The inner layer of fat",
+                    "back": "hypodermis"
+                  },
+                  {
+                    "front": "The two places with the most touch receptors",
+                    "back": "fingertips and lips"
+                  },
+                  {
+                    "front": "These receptors warn you of danger",
+                    "back": "pain receptors"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "touch-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "tou-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which is the largest organ of the body?",
+                  "options": [
+                    "tongue",
+                    "skin",
+                    "brain",
+                    "cochlea"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The skin is the largest organ of the body; it covers the whole body."
+                },
+                {
+                  "id": "tou-1-2",
+                  "type": "numeric",
+                  "prompt": "How many layers does the skin have?",
+                  "answer": 3,
+                  "explanation": "The skin has 3 layers: the epidermis, the dermis and the hypodermis."
+                },
+                {
+                  "id": "tou-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "What is the outer layer of the skin called?",
+                  "options": [
+                    "dermis",
+                    "hypodermis",
+                    "epidermis",
+                    "eardrum"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The epidermis is the outer layer of the skin: epi means on top."
+                },
+                {
+                  "id": "tou-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which layer of the skin has most of the touch receptors?",
+                  "options": [
+                    "dermis",
+                    "epidermis",
+                    "hypodermis",
+                    "papillae"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The dermis, the middle layer, has most of the touch receptors."
+                },
+                {
+                  "id": "tou-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "What is the inner fat layer of the skin called?",
+                  "options": [
+                    "epidermis",
+                    "hypodermis",
+                    "dermis",
+                    "mucus"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The hypodermis is the inner layer of fat: hypo means under."
+                },
+                {
+                  "id": "tou-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which touch receptors warn you of danger?",
+                  "options": [
+                    "pressure receptors",
+                    "pain receptors",
+                    "temperature receptors",
+                    "olfactory receptors"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pain receptors warn you of danger, so you can move away from it."
+                }
+              ]
+            },
+            {
+              "id": "touch-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "tou-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which parts of the body have the most touch receptors?",
+                  "options": [
+                    "eyebrows and eyelashes",
+                    "nostrils and pinna",
+                    "ear canal and eardrum",
+                    "fingertips and lips"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The fingertips and the lips have the most touch receptors, so they are the most sensitive."
+                },
+                {
+                  "id": "tou-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "A hot pan touches your hand. Which receptors detect the heat?",
+                  "options": [
+                    "temperature receptors",
+                    "pressure receptors",
+                    "taste buds",
+                    "olfactory receptors"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Temperature receptors in the skin detect heat and cold."
+                },
+                {
+                  "id": "tou-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "You press a button. Which touch receptors detect it?",
+                  "options": [
+                    "pain receptors",
+                    "temperature receptors",
+                    "pressure receptors",
+                    "olfactory receptors"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Pressure receptors in the skin detect pushing and pressing."
+                },
+                {
+                  "id": "tou-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Remember the tongue: which taste is the savoury taste of cheese and mushrooms?",
+                  "options": [
+                    "sweet",
+                    "bitter",
+                    "sour",
+                    "umami"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Umami is the savoury taste of cheese and mushrooms."
+                },
+                {
+                  "id": "tou-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "In which layer of the skin are the sweat glands and the hair roots?",
+                  "options": [
+                    "epidermis",
+                    "dermis",
+                    "hypodermis",
+                    "retina"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The sweat glands and the hair roots are in the dermis, the middle layer of the skin."
+                },
+                {
+                  "id": "tou-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "In the touch story, where does the message go just before the brain?",
+                  "options": [
+                    "spinal cord",
+                    "dermis",
+                    "epidermis",
+                    "hypodermis"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The nerves carry the message from the touch receptors to the spinal cord and then up to the brain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nervous-system",
+          "name": "The Nervous System",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "The central nervous system (CNS) is made of the brain and the spinal cord. The skull protects the brain, and the spine, or vertebral column, protects the spinal cord.",
+                "diagram": {
+                  "name": "nervous-system",
+                  "parts": [
+                    {
+                      "id": "brain",
+                      "label": "brain",
+                      "info": "The control centre of the body and part of the central nervous system (CNS)."
+                    },
+                    {
+                      "id": "skull",
+                      "label": "skull",
+                      "info": "A hard case of bone that protects the brain."
+                    },
+                    {
+                      "id": "spinal-cord",
+                      "label": "spinal cord",
+                      "info": "A thick bundle of nerve fibres inside the spine, the other part of the CNS."
+                    },
+                    {
+                      "id": "spine",
+                      "label": "spine",
+                      "info": "The vertebral column, a chain of small bones that protects the spinal cord."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "The peripheral nervous system (PNS) is all the nerves that connect the central nervous system with the rest of the body.",
+                "diagram": {
+                  "name": "nervous-system",
+                  "parts": [
+                    {
+                      "id": "nerves",
+                      "label": "nerves",
+                      "info": "They form the peripheral nervous system (PNS), linking the CNS with every part of the body."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Nerves are made of neurons, or nerve cells. Each neuron has a cell body with a nucleus inside, the control centre of the cell.",
+                "diagram": {
+                  "name": "neuron",
+                  "parts": [
+                    {
+                      "id": "cell-body",
+                      "label": "cell body",
+                      "info": "The main part of the neuron, which keeps the cell alive."
+                    },
+                    {
+                      "id": "nucleus",
+                      "label": "nucleus",
+                      "info": "The control centre of the cell, inside the cell body."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Dendrites are short branches that receive messages. The axon is a long fibre that carries the message away from the cell body to the axon terminals.",
+                "diagram": {
+                  "name": "neuron",
+                  "parts": [
+                    {
+                      "id": "dendrites",
+                      "label": "dendrites",
+                      "info": "Short branches that receive messages, like doors in."
+                    },
+                    {
+                      "id": "axon",
+                      "label": "axon",
+                      "info": "A long fibre that carries the message away from the cell body."
+                    },
+                    {
+                      "id": "axon-terminals",
+                      "label": "axon terminals",
+                      "info": "The ends of the axon, which pass the message on to the next neuron."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Memory trick: the Axon sends the message Away; the Dendrites are the Doors where it comes in, and they branch like a tree.",
+                "tiles": [
+                  {
+                    "symbol": "🚪",
+                    "label": "Dendrites = Doors in"
+                  },
+                  {
+                    "symbol": "🚀",
+                    "label": "Axon = Away"
+                  }
+                ]
+              },
+              {
+                "caption": "A synapse is a tiny gap where a message passes from one neuron to the next. A nerve is a bundle of neuron fibres, like a cable full of wires.",
+                "diagram": {
+                  "name": "neuron",
+                  "parts": [
+                    {
+                      "id": "synapse",
+                      "label": "synapse",
+                      "info": "A tiny gap where the message jumps from one neuron to the next."
+                    }
+                  ]
+                }
+              },
+              {
+                "caption": "Follow a message inside a neuron: it comes in through the dendrites, passes the cell body, runs along the axon to the axon terminals and jumps across the synapse to the next neuron.",
+                "chain": [
+                  {
+                    "symbol": "🌳",
+                    "label": "dendrites"
+                  },
+                  {
+                    "symbol": "🏠",
+                    "label": "cell body"
+                  },
+                  {
+                    "symbol": "🧵",
+                    "label": "axon"
+                  },
+                  {
+                    "symbol": "🖐️",
+                    "label": "axon terminals"
+                  },
+                  {
+                    "symbol": "✨",
+                    "label": "synapse"
+                  }
+                ]
+              },
+              {
+                "caption": "Memory trick: Sensory nerves bring what you Sense into the CNS; Motor nerves make you Move by carrying orders from the CNS to the muscles. Receptors in the sense organs are where it all starts: they detect the stimuli.",
+                "tiles": [
+                  {
+                    "symbol": "📡",
+                    "label": "receptors: detect stimuli"
+                  },
+                  {
+                    "symbol": "📥",
+                    "label": "sensory nerves: to the CNS"
+                  },
+                  {
+                    "symbol": "📤",
+                    "label": "motor nerves: to the muscles"
+                  },
+                  {
+                    "symbol": "⚡",
+                    "label": "reflex act: a fast answer"
+                  }
+                ]
+              },
+              {
+                "caption": "A reflex act is very fast. If you touch something hot, the spinal cord orders the muscle to pull your hand away before the brain even notices.",
+                "chain": [
+                  {
+                    "symbol": "🔥",
+                    "label": "stimulus"
+                  },
+                  {
+                    "symbol": "📡",
+                    "label": "receptor"
+                  },
+                  {
+                    "symbol": "📥",
+                    "label": "sensory nerve"
+                  },
+                  {
+                    "symbol": "🪢",
+                    "label": "spinal cord"
+                  },
+                  {
+                    "symbol": "📤",
+                    "label": "motor nerve"
+                  },
+                  {
+                    "symbol": "💪",
+                    "label": "muscle"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: read each clue, say the word, then tap the card to check.",
+                "cards": [
+                  {
+                    "front": "A nerve cell",
+                    "back": "neuron"
+                  },
+                  {
+                    "front": "Branches that receive messages",
+                    "back": "dendrites"
+                  },
+                  {
+                    "front": "A long fibre that carries the message away",
+                    "back": "axon"
+                  },
+                  {
+                    "front": "A tiny gap between two neurons",
+                    "back": "synapse"
+                  },
+                  {
+                    "front": "The brain and the spinal cord",
+                    "back": "central nervous system"
+                  },
+                  {
+                    "front": "Nerves that carry orders to the muscles",
+                    "back": "motor nerves"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "nervous-system-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "ner-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "A neuron is a nerve cell. Where does the message leave the neuron to cross the synapse?",
+                  "options": [
+                    "dendrites",
+                    "cell body",
+                    "nucleus",
+                    "axon terminals"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The message leaves the neuron at the axon terminals and crosses the synapse to the next neuron."
+                },
+                {
+                  "id": "ner-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which branches of a neuron receive messages?",
+                  "options": [
+                    "axon",
+                    "dendrites",
+                    "axon terminals",
+                    "nucleus"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The dendrites are the doors where messages come in; they branch like a tree."
+                },
+                {
+                  "id": "ner-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which long fibre carries the message away from the cell body?",
+                  "options": [
+                    "dendrites",
+                    "synapse",
+                    "axon",
+                    "nucleus"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The axon carries the message away from the cell body: Axon = Away."
+                },
+                {
+                  "id": "ner-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "What is the tiny gap where a message passes from one neuron to the next?",
+                  "options": [
+                    "nerve",
+                    "nucleus",
+                    "synapse",
+                    "axon terminals"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "A synapse is the tiny gap where a message passes from one neuron to the next."
+                },
+                {
+                  "id": "ner-1-5",
+                  "type": "numeric",
+                  "prompt": "Stimulus, receptor, sensory nerve, spinal cord, motor nerve, muscle. In which position is the motor nerve?",
+                  "answer": 5,
+                  "explanation": "The motor nerve is in position 5: it carries the order from the spinal cord to the muscle."
+                },
+                {
+                  "id": "ner-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the neuron contains the nucleus?",
+                  "options": [
+                    "cell body",
+                    "axon",
+                    "dendrites",
+                    "synapse"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The nucleus is inside the cell body, the control centre of the neuron."
+                }
+              ]
+            },
+            {
+              "id": "nervous-system-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "ner-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "What do we call a bundle of neuron fibres?",
+                  "options": [
+                    "synapse",
+                    "nerve",
+                    "dendrites",
+                    "cell body"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "A nerve is a bundle of neuron fibres, like a cable full of wires."
+                },
+                {
+                  "id": "ner-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "The central nervous system is the brain and the spinal cord. Which bones protect the spinal cord?",
+                  "options": [
+                    "skull",
+                    "spine",
+                    "stirrup",
+                    "hammer"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The spine, or vertebral column, protects the spinal cord; the skull protects the brain."
+                },
+                {
+                  "id": "ner-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which system is made of all the nerves that connect the CNS with the rest of the body?",
+                  "options": [
+                    "brain",
+                    "spinal cord",
+                    "central nervous system",
+                    "peripheral nervous system"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The peripheral nervous system is all the nerves that connect the central nervous system with the rest of the body."
+                },
+                {
+                  "id": "ner-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerves carry messages from the receptors in the sense organs to the CNS?",
+                  "options": [
+                    "motor nerves",
+                    "sensory nerves",
+                    "axon terminals",
+                    "synapse"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sensory nerves carry what you sense from the receptors to the CNS; motor nerves carry orders to the muscles."
+                },
+                {
+                  "id": "ner-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "You touch a hot pan and pull your hand away before you notice. Which organ controls this reflex act?",
+                  "options": [
+                    "brain",
+                    "spinal cord",
+                    "skin",
+                    "receptors"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "A reflex act is controlled by the spinal cord, before the brain notices."
+                },
+                {
+                  "id": "ner-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "Remember the skin: which layer of the skin is on the outside?",
+                  "options": [
+                    "dermis",
+                    "hypodermis",
+                    "epidermis",
+                    "retina"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The epidermis is the outer layer of the skin: epi means on top."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "senses-review",
+          "name": "Review: The Five Senses",
+          "explanation": {
+            "steps": [
+              {
+                "caption": "Each sense has its own sense organ. Say the organ for each sense, then tap the card to check.",
+                "cards": [
+                  {
+                    "symbol": "🌈",
+                    "front": "sight",
+                    "back": "eye"
+                  },
+                  {
+                    "symbol": "🎵",
+                    "front": "hearing",
+                    "back": "ear"
+                  },
+                  {
+                    "symbol": "🌹",
+                    "front": "smell",
+                    "back": "nose"
+                  },
+                  {
+                    "symbol": "🍓",
+                    "front": "taste",
+                    "back": "tongue"
+                  },
+                  {
+                    "symbol": "🧸",
+                    "front": "touch",
+                    "back": "skin"
+                  }
+                ]
+              },
+              {
+                "caption": "Sight: name each part of the eye.",
+                "cards": [
+                  {
+                    "front": "The clear window at the front",
+                    "back": "cornea"
+                  },
+                  {
+                    "front": "The coloured ring",
+                    "back": "iris"
+                  },
+                  {
+                    "front": "The black opening that gets bigger in the dark",
+                    "back": "pupil"
+                  },
+                  {
+                    "front": "It focuses light",
+                    "back": "lens"
+                  },
+                  {
+                    "front": "The screen where the image arrives upside down",
+                    "back": "retina"
+                  },
+                  {
+                    "front": "It carries the message from the eye to the brain",
+                    "back": "optic nerve"
+                  }
+                ]
+              },
+              {
+                "caption": "Hearing: name each part of the ear.",
+                "cards": [
+                  {
+                    "front": "The ear flap you can see",
+                    "back": "pinna"
+                  },
+                  {
+                    "front": "Ear + drum",
+                    "back": "eardrum"
+                  },
+                  {
+                    "front": "Hammer, anvil and stirrup",
+                    "back": "ossicles"
+                  },
+                  {
+                    "front": "The snail-shaped tube",
+                    "back": "cochlea"
+                  },
+                  {
+                    "front": "Three half circles for balance",
+                    "back": "semicircular canals"
+                  },
+                  {
+                    "front": "It carries hearing messages to the brain",
+                    "back": "auditory nerve"
+                  }
+                ]
+              },
+              {
+                "caption": "Smell: name each part of the nose.",
+                "cards": [
+                  {
+                    "front": "The two openings of the nose",
+                    "back": "nostrils"
+                  },
+                  {
+                    "front": "The large space inside the nose",
+                    "back": "nasal cavity"
+                  },
+                  {
+                    "front": "The sticky liquid that dissolves odour molecules",
+                    "back": "mucus"
+                  },
+                  {
+                    "front": "The smell cells, like locks for odour keys",
+                    "back": "olfactory receptors"
+                  },
+                  {
+                    "front": "It carries smell messages to the brain",
+                    "back": "olfactory nerve"
+                  }
+                ]
+              },
+              {
+                "caption": "Taste: name each part or taste.",
+                "cards": [
+                  {
+                    "front": "It dissolves food in your mouth",
+                    "back": "saliva"
+                  },
+                  {
+                    "front": "Little hills on the tongue",
+                    "back": "papillae"
+                  },
+                  {
+                    "front": "Flower buds hiding in the hills",
+                    "back": "taste buds"
+                  },
+                  {
+                    "front": "The savoury taste",
+                    "back": "umami"
+                  },
+                  {
+                    "front": "They carry taste messages to the brain",
+                    "back": "taste nerves"
+                  }
+                ]
+              },
+              {
+                "caption": "Touch: name each part of the skin.",
+                "cards": [
+                  {
+                    "front": "Epi = on top",
+                    "back": "epidermis"
+                  },
+                  {
+                    "front": "The middle layer, with most of the receptors",
+                    "back": "dermis"
+                  },
+                  {
+                    "front": "Hypo = under, the fat layer",
+                    "back": "hypodermis"
+                  },
+                  {
+                    "front": "Heat and cold receptors detect this",
+                    "back": "temperature"
+                  },
+                  {
+                    "front": "The two most sensitive places",
+                    "back": "fingertips and lips"
+                  }
+                ]
+              },
+              {
+                "caption": "The nervous system: name each part.",
+                "cards": [
+                  {
+                    "front": "A nerve cell",
+                    "back": "neuron"
+                  },
+                  {
+                    "front": "The Doors where messages come in",
+                    "back": "dendrites"
+                  },
+                  {
+                    "front": "It sends the message Away",
+                    "back": "axon"
+                  },
+                  {
+                    "front": "The tiny gap between neurons",
+                    "back": "synapse"
+                  },
+                  {
+                    "front": "The brain and the spinal cord",
+                    "back": "central nervous system"
+                  },
+                  {
+                    "front": "All the nerves that connect the CNS with the body",
+                    "back": "peripheral nervous system"
+                  }
+                ]
+              },
+              {
+                "caption": "The full journey: a receptor detects a stimulus, a sensory nerve carries the message to the CNS, and a motor nerve carries the order to a muscle.",
+                "chain": [
+                  {
+                    "symbol": "🔥",
+                    "label": "stimulus"
+                  },
+                  {
+                    "symbol": "📡",
+                    "label": "receptor"
+                  },
+                  {
+                    "symbol": "📥",
+                    "label": "sensory nerve"
+                  },
+                  {
+                    "symbol": "🧠",
+                    "label": "CNS"
+                  },
+                  {
+                    "symbol": "📤",
+                    "label": "motor nerve"
+                  },
+                  {
+                    "symbol": "💪",
+                    "label": "muscle"
+                  }
+                ]
+              },
+              {
+                "caption": "Test yourself: mix it up! Each card comes from a different topic.",
+                "cards": [
+                  {
+                    "front": "The black opening in the centre of the eye",
+                    "back": "pupil"
+                  },
+                  {
+                    "front": "The smallest bone in the human body",
+                    "back": "stirrup"
+                  },
+                  {
+                    "front": "The smell cells at the top of the nasal cavity",
+                    "back": "olfactory receptors"
+                  },
+                  {
+                    "front": "The small bumps on the tongue",
+                    "back": "papillae"
+                  },
+                  {
+                    "front": "The middle layer of the skin",
+                    "back": "dermis"
+                  },
+                  {
+                    "front": "The long fibre that carries a message away",
+                    "back": "axon"
+                  }
+                ]
+              }
+            ]
+          },
+          "levels": [
+            {
+              "id": "senses-review-1",
+              "name": "Level 1",
+              "questions": [
+                {
+                  "id": "rev-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the eye gets bigger in the dark?",
+                  "options": [
+                    "iris",
+                    "pupil",
+                    "lens",
+                    "retina"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The pupil gets bigger in the dark to let more light in; the iris controls its size."
+                },
+                {
+                  "id": "rev-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the ear vibrates like a drum?",
+                  "options": [
+                    "cochlea",
+                    "pinna",
+                    "eardrum",
+                    "stirrup"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The eardrum is a thin skin that vibrates like a drum when sound waves hit it."
+                },
+                {
+                  "id": "rev-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of a neuron receives messages?",
+                  "options": [
+                    "axon",
+                    "synapse",
+                    "axon terminals",
+                    "dendrites"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "The dendrites receive messages: they are the Doors where the message comes in."
+                },
+                {
+                  "id": "rev-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which sticky liquid in the nose dissolves odour molecules?",
+                  "options": [
+                    "saliva",
+                    "mucus",
+                    "tears",
+                    "earwax"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mucus in the nasal cavity dissolves odour molecules and traps dust."
+                },
+                {
+                  "id": "rev-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "Which layer of the skin is made of fat?",
+                  "options": [
+                    "hypodermis",
+                    "epidermis",
+                    "dermis",
+                    "cornea"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The hypodermis is the inner layer of the skin, made of fat."
+                },
+                {
+                  "id": "rev-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which small bumps on the tongue contain the taste buds?",
+                  "options": [
+                    "ossicles",
+                    "nostrils",
+                    "papillae",
+                    "receptors"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The papillae are the small bumps on the tongue; the taste buds are inside them."
+                }
+              ]
+            },
+            {
+              "id": "senses-review-2",
+              "name": "Level 2",
+              "questions": [
+                {
+                  "id": "rev-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "Which part of the inner ear helps you keep your balance?",
+                  "options": [
+                    "cochlea",
+                    "semicircular canals",
+                    "eardrum",
+                    "ear canal"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "The semicircular canals help you keep your balance; the cochlea is for hearing."
+                },
+                {
+                  "id": "rev-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerve carries messages from the retina to the brain?",
+                  "options": [
+                    "optic nerve",
+                    "auditory nerve",
+                    "olfactory nerve",
+                    "motor nerve"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "The optic nerve carries messages from the retina to the brain."
+                },
+                {
+                  "id": "rev-2-3",
+                  "type": "numeric",
+                  "prompt": "Stimulus, receptor, sensory nerve, CNS, motor nerve, muscle. In which position is the sensory nerve?",
+                  "answer": 3,
+                  "explanation": "The sensory nerve is in position 3: it carries the message from the receptor to the CNS."
+                },
+                {
+                  "id": "rev-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "Which liquid in your mouth dissolves food so that you can taste it?",
+                  "options": [
+                    "mucus",
+                    "saliva",
+                    "tears",
+                    "earwax"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Saliva dissolves food so that the taste buds can detect it."
+                },
+                {
+                  "id": "rev-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "Which nerve carries smell messages to the brain?",
+                  "options": [
+                    "taste nerves",
+                    "auditory nerve",
+                    "olfactory nerve",
+                    "optic nerve"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The olfactory nerve carries smell messages from the olfactory receptors to the brain."
+                },
+                {
+                  "id": "rev-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "Which parts of the body have the most touch receptors?",
+                  "options": [
+                    "ear canal and eardrum",
+                    "eyebrows and eyelashes",
+                    "fingertips and lips",
+                    "nostrils and pinna"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "The fingertips and the lips have the most touch receptors."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

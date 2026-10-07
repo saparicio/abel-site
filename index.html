@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>ABEL</title>
+    <script>
+      (function () {
+        var t;
+        try { t = localStorage.getItem('abel-theme'); } catch (e) {}
+        if (t !== 'light' && t !== 'dark') {
+          try { t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } catch (e) { t = 'light'; }
+        }
+        if (t === 'dark') document.documentElement.classList.add('dark');
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-WcYY_AUB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-KjIP6OBC.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

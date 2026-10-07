@@ -1,0 +1,1247 @@
+{
+  "id": "math",
+  "name": "Matemáticas",
+  "lessons": [
+    {
+      "id": "leccion-1",
+      "name": "Lección 1",
+      "topics": [
+        {
+          "id": "decimales",
+          "name": "Decimales",
+          "explanation": {
+            "steps": [
+              { "caption": "Este cuadrado es 1 unidad entera. Lo partimos en 100 casillas iguales.", "grids": [{ "fill": 100, "label": "1 unidad" }] },
+              { "caption": "Una columna es 1 de las 10 columnas: una décima. Se escribe 0,1.", "grids": [{ "fill": 10, "label": "0,1 = 1 décima" }] },
+              { "caption": "Una casilla es 1 de las 100 casillas: una centésima. Se escribe 0,01.", "grids": [{ "fill": 1, "label": "0,01 = 1 centésima" }] },
+              { "caption": "0,45 son 4 columnas completas y 5 casillas sueltas: 4 décimas y 5 centésimas.", "grids": [{ "fill": 45, "label": "0,45" }] },
+              { "caption": "¿Cuál es mayor, 0,5 o 0,45? Mira cuánto se colorea: 0,5 llena 5 columnas y 0,45 no llega.", "grids": [{ "fill": 50, "label": "0,5" }, { "fill": 45, "label": "0,45" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "decimales-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "dec-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estos números es el mayor?",
+                  "options": ["0,5", "0,45", "0,405", "0,054"],
+                  "correctIndex": 0,
+                  "explanation": "Compara cifra a cifra: 0,5 tiene 5 décimas, más que las 4 décimas de 0,45 y 0,405 y las 0 décimas de 0,054."
+                },
+                {
+                  "id": "dec-1-2",
+                  "type": "numeric",
+                  "prompt": "Calcula: 2,75 + 0,75",
+                  "answer": 3.5,
+                  "explanation": "Suma alineando la coma: 2,75 + 0,75 = 3,50, que es lo mismo que 3,5."
+                },
+                {
+                  "id": "dec-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe «tres décimas» con cifras?",
+                  "options": ["3", "0,03", "0,3", "0,003"],
+                  "correctIndex": 2,
+                  "explanation": "Las décimas son la primera cifra después de la coma: tres décimas = 0,3."
+                },
+                {
+                  "id": "dec-1-4",
+                  "type": "numeric",
+                  "prompt": "Calcula: 1,2 × 3",
+                  "answer": 3.6,
+                  "explanation": "Multiplica 12 × 3 = 36 y coloca una cifra decimal: 3,6."
+                },
+                {
+                  "id": "dec-1-5",
+                  "type": "numeric",
+                  "prompt": "Redondea 4,68 a las décimas.",
+                  "answer": 4.7,
+                  "explanation": "La cifra de las centésimas es 8 (5 o más), así que las décimas suben de 6 a 7: 4,7."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcentajes",
+          "name": "Porcentajes",
+          "explanation": {
+            "steps": [
+              { "caption": "«Por ciento» significa «de cada 100». El cuadrado entero tiene 100 casillas: es el 100 %.", "grids": [{ "fill": 100, "label": "100 %" }] },
+              { "caption": "El 50 % son 50 de cada 100 casillas: justo la mitad.", "grids": [{ "fill": 50, "label": "50 % = 1/2" }] },
+              { "caption": "El 25 % son 25 de cada 100 casillas: la cuarta parte. El 25 % de 200 es 200 ÷ 4 = 50.", "grids": [{ "fill": 25, "label": "25 % = 1/4" }] },
+              { "caption": "El 10 % son 10 de cada 100: una columna de diez. El 10 % de 80 es 80 ÷ 10 = 8.", "grids": [{ "fill": 10, "label": "10 % = 1/10" }] },
+              { "caption": "0,35 y 35 % colorean las mismas casillas: son el mismo número.", "grids": [{ "fill": 35, "label": "0,35" }, { "fill": 35, "label": "35 %" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "porcentajes-1",
+              "name": "Nivel 1",
+              "questions": [
+                {
+                  "id": "por-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué fracción es igual al 50 %?",
+                  "options": ["1/4", "1/2", "1/5", "2/3"],
+                  "correctIndex": 1,
+                  "explanation": "50 % significa 50 de cada 100, es decir, la mitad: 1/2."
+                },
+                {
+                  "id": "por-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es el 10 % de 80?",
+                  "answer": 8,
+                  "explanation": "El 10 % es dividir entre 10: 80 ÷ 10 = 8."
+                },
+                {
+                  "id": "por-1-3",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es el 25 % de 200?",
+                  "answer": 50,
+                  "explanation": "El 25 % es la cuarta parte: 200 ÷ 4 = 50."
+                },
+                {
+                  "id": "por-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Una camiseta cuesta 20 € y tiene un 20 % de descuento. ¿Cuánto pagas?",
+                  "options": ["4 €", "18 €", "16 €", "24 €"],
+                  "correctIndex": 2,
+                  "explanation": "El 20 % de 20 € es 4 €. Pagas 20 € − 4 € = 16 €."
+                },
+                {
+                  "id": "por-1-5",
+                  "type": "numeric",
+                  "prompt": "Escribe 0,35 como porcentaje (solo el número).",
+                  "answer": 35,
+                  "explanation": "Multiplica por 100: 0,35 × 100 = 35, es decir, 35 %."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "descomposicion",
+          "name": "Descomposición numérica",
+          "explanation": {
+            "steps": [
+              { "caption": "Cada cifra de un número ocupa una posición. Cada posición vale 10 veces más que la de su derecha.", "tiles": [{ "symbol": "CM", "label": "centenas de millar = 100.000" }, { "symbol": "DM", "label": "decenas de millar = 10.000" }, { "symbol": "UM", "label": "unidades de millar = 1000" }, { "symbol": "C", "label": "centenas = 100" }, { "symbol": "D", "label": "decenas = 10" }, { "symbol": "U", "label": "unidades = 1" }] },
+              { "caption": "Descomponer es separar el número en el valor de cada cifra: 358 = 300 + 50 + 8.", "tiles": [{ "symbol": "300", "label": "3 C" }, { "symbol": "50", "label": "5 D" }, { "symbol": "8", "label": "8 U" }, { "symbol": "358", "label": "300 + 50 + 8" }] },
+              { "caption": "Con los millares pasa igual: la cifra de las unidades de millar vale miles. 4627 = 4000 + 600 + 20 + 7.", "tiles": [{ "symbol": "4000", "label": "4 UM" }, { "symbol": "600", "label": "6 C" }, { "symbol": "20", "label": "2 D" }, { "symbol": "7", "label": "7 U" }, { "symbol": "4627", "label": "4000 + 600 + 20 + 7" }] },
+              { "caption": "Hasta las centenas de millar: 472.135 = 400.000 + 70.000 + 2000 + 100 + 30 + 5.", "tiles": [{ "symbol": "400.000", "label": "4 CM" }, { "symbol": "70.000", "label": "7 DM" }, { "symbol": "2000", "label": "2 UM" }, { "symbol": "100", "label": "1 C" }, { "symbol": "30", "label": "3 D" }, { "symbol": "5", "label": "5 U" }, { "symbol": "472.135", "label": "400.000 + 70.000 + 2000 + 100 + 30 + 5" }] },
+              { "caption": "Si una cifra es 0, esa posición no suma nada y no se escribe: 50.208 = 50.000 + 200 + 8.", "tiles": [{ "symbol": "50.000", "label": "5 DM" }, { "symbol": "0", "label": "0 UM" }, { "symbol": "200", "label": "2 C" }, { "symbol": "0", "label": "0 D" }, { "symbol": "8", "label": "8 U" }, { "symbol": "50.208", "label": "50.000 + 200 + 8" }] },
+              { "caption": "La descomposición te ayudará a escribir números romanos: cada parte se escribe por separado. 1994 = 1000 + 900 + 90 + 4.", "tiles": [{ "symbol": "1000", "label": "M" }, { "symbol": "900", "label": "CM" }, { "symbol": "90", "label": "XC" }, { "symbol": "4", "label": "IV" }, { "symbol": "1994", "label": "MCMXCIV" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "descomposicion-1",
+              "name": "Nivel 1 · Hasta las unidades de millar",
+              "questions": [
+                {
+                  "id": "desc-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Qué cifra ocupa el lugar de las decenas en 485?",
+                  "answer": 8,
+                  "explanation": "En 485 hay 4 centenas, 8 decenas y 5 unidades. La cifra de las decenas es 8."
+                },
+                {
+                  "id": "desc-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la descomposición de 736?",
+                  "options": [
+                    "700 + 30 + 6",
+                    "700 + 3 + 6",
+                    "70 + 30 + 6",
+                    "7 + 3 + 6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "736 = 7 centenas + 3 decenas + 6 unidades = 700 + 30 + 6."
+                },
+                {
+                  "id": "desc-1-3",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es 600 + 7?",
+                  "answer": 607,
+                  "explanation": "6 centenas, 0 decenas y 7 unidades: 607. La decena que falta se escribe con 0."
+                },
+                {
+                  "id": "desc-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué valor tiene la cifra 3 en 3820?",
+                  "options": [
+                    "3",
+                    "30",
+                    "300",
+                    "3000"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "El 3 está en las unidades de millar: vale 3 × 1000 = 3000."
+                },
+                {
+                  "id": "desc-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la descomposición de 1994?",
+                  "options": [
+                    "1000 + 900 + 90 + 4",
+                    "1000 + 90 + 9 + 4",
+                    "100 + 900 + 90 + 4",
+                    "1000 + 900 + 9 + 4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1994 = 1 UM + 9 C + 9 D + 4 U = 1000 + 900 + 90 + 4."
+                }
+              ]
+            },
+            {
+              "id": "descomposicion-2",
+              "name": "Nivel 2 · Hasta las centenas de millar",
+              "questions": [
+                {
+                  "id": "desc-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Qué cifra ocupa el lugar de las centenas de millar en 582.316?",
+                  "answer": 5,
+                  "explanation": "La primera cifra de un número de 6 cifras son las centenas de millar: 5."
+                },
+                {
+                  "id": "desc-2-2",
+                  "type": "numeric",
+                  "prompt": "¿Qué cifra ocupa el lugar de las decenas de millar en 47.305?",
+                  "answer": 4,
+                  "explanation": "47.305 = 4 DM + 7 UM + 3 C + 0 D + 5 U. La cifra de las decenas de millar es 4."
+                },
+                {
+                  "id": "desc-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál es la descomposición de 63.048?",
+                  "options": [
+                    "60.000 + 3000 + 40 + 8",
+                    "60.000 + 3000 + 400 + 8",
+                    "6000 + 300 + 40 + 8",
+                    "60.000 + 300 + 40 + 8"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "63.048 = 6 DM + 3 UM + 0 C + 4 D + 8 U. Las centenas son 0 y no se escriben."
+                },
+                {
+                  "id": "desc-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué número es 200.000 + 5000 + 70?",
+                  "options": [
+                    "205.070",
+                    "250.070",
+                    "205.700",
+                    "25.070"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "2 CM, 0 DM, 5 UM, 0 C, 7 D y 0 U: 205.070. Las posiciones que faltan llevan 0."
+                },
+                {
+                  "id": "desc-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué valor tiene la cifra 9 en 791.204?",
+                  "options": [
+                    "9000",
+                    "90.000",
+                    "900.000",
+                    "900"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "El 9 está en las decenas de millar: vale 9 × 10.000 = 90.000."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "romanos",
+          "name": "Números romanos",
+          "explanation": {
+            "steps": [
+              { "caption": "Los romanos escribían los números con 7 letras. Cada letra tiene un valor.", "tiles": [{ "symbol": "I", "label": "1" }, { "symbol": "V", "label": "5" }, { "symbol": "X", "label": "10" }, { "symbol": "L", "label": "50" }, { "symbol": "C", "label": "100" }, { "symbol": "D", "label": "500" }, { "symbol": "M", "label": "1000" }] },
+              { "caption": "Regla de la suma: una letra escrita a la derecha de otra de igual o mayor valor se suma. XVI = 10 + 5 + 1 = 16.", "tiles": [{ "symbol": "X", "label": "10" }, { "symbol": "V", "label": "5" }, { "symbol": "I", "label": "1" }, { "symbol": "XVI", "label": "16" }] },
+              { "caption": "Regla de la repetición: I, X, C y M se pueden repetir hasta 3 veces seguidas. V, L y D nunca se repiten.", "tiles": [{ "symbol": "III", "label": "3" }, { "symbol": "XXX", "label": "30" }, { "symbol": "CCC", "label": "300" }, { "symbol": "MMM", "label": "3000" }] },
+              { "caption": "Regla de la resta: I, X o C delante de una letra de más valor se restan. Solo valen estas seis parejas.", "tiles": [{ "symbol": "IV", "label": "5 − 1 = 4" }, { "symbol": "IX", "label": "10 − 1 = 9" }, { "symbol": "XL", "label": "50 − 10 = 40" }, { "symbol": "XC", "label": "100 − 10 = 90" }, { "symbol": "CD", "label": "500 − 100 = 400" }, { "symbol": "CM", "label": "1000 − 100 = 900" }] },
+              { "caption": "Para escribir un número, haz primero su descomposición numérica: 1994 = 1000 + 900 + 90 + 4. Después escribe cada parte en romano y júntalas.", "tiles": [{ "symbol": "M", "label": "1000" }, { "symbol": "CM", "label": "900" }, { "symbol": "XC", "label": "90" }, { "symbol": "IV", "label": "4" }, { "symbol": "MCMXCIV", "label": "1994" }] },
+              { "caption": "Con estas reglas, el número más grande que se puede escribir es 3999.", "tiles": [{ "symbol": "MMM", "label": "3000" }, { "symbol": "CM", "label": "900" }, { "symbol": "XC", "label": "90" }, { "symbol": "IX", "label": "9" }, { "symbol": "MMMCMXCIX", "label": "3999" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "romanos-1",
+              "name": "Nivel 1 · Los símbolos",
+              "questions": [
+                {
+                  "id": "rom-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto vale la letra L?",
+                  "options": [
+                    "5",
+                    "500",
+                    "50",
+                    "100"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "L vale 50. Los siete símbolos son I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 y M = 1000."
+                },
+                {
+                  "id": "rom-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es XVII?",
+                  "answer": 17,
+                  "explanation": "Cada letra se suma porque ninguna tiene a su derecha otra de más valor: X + V + I + I = 10 + 5 + 1 + 1 = 17."
+                },
+                {
+                  "id": "rom-1-3",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es CCLXI?",
+                  "answer": 261,
+                  "explanation": "C + C + L + X + I = 100 + 100 + 50 + 10 + 1 = 261."
+                },
+                {
+                  "id": "rom-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 30 en números romanos?",
+                  "options": [
+                    "XXXX",
+                    "XXX",
+                    "LXX",
+                    "XC"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "X vale 10 y se puede repetir hasta 3 veces: XXX = 10 + 10 + 10 = 30."
+                },
+                {
+                  "id": "rom-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuál de estas escrituras NO es correcta?",
+                  "options": [
+                    "XX",
+                    "CC",
+                    "MM",
+                    "VV"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "V, L y D nunca se repiten. Para escribir 10 se usa X."
+                }
+              ]
+            },
+            {
+              "id": "romanos-2",
+              "name": "Nivel 2 · La resta",
+              "questions": [
+                {
+                  "id": "rom-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es IX?",
+                  "answer": 9,
+                  "explanation": "I delante de X se resta: 10 − 1 = 9."
+                },
+                {
+                  "id": "rom-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 4 en números romanos?",
+                  "options": [
+                    "IIII",
+                    "VI",
+                    "IV",
+                    "IIV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "I no se repite 4 veces. I delante de V se resta: IV = 5 − 1 = 4."
+                },
+                {
+                  "id": "rom-2-3",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es XL?",
+                  "answer": 40,
+                  "explanation": "X delante de L se resta: 50 − 10 = 40."
+                },
+                {
+                  "id": "rom-2-4",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es CXC?",
+                  "answer": 190,
+                  "explanation": "C + XC = 100 + (100 − 10) = 100 + 90 = 190."
+                },
+                {
+                  "id": "rom-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 99 en números romanos?",
+                  "options": [
+                    "XCIX",
+                    "IC",
+                    "XCVIIII",
+                    "LXXXXIX"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "99 = 90 + 9 = XC + IX. I solo se resta delante de V o X, por eso IC no es correcto."
+                }
+              ]
+            },
+            {
+              "id": "romanos-3",
+              "name": "Nivel 3 · Hasta 3999",
+              "questions": [
+                {
+                  "id": "rom-3-1",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es CDXLIV?",
+                  "answer": 444,
+                  "explanation": "CD + XL + IV = 400 + 40 + 4 = 444."
+                },
+                {
+                  "id": "rom-3-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué número es MCMXCIV?",
+                  "options": [
+                    "2194",
+                    "1994",
+                    "1996",
+                    "1694"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "M + CM + XC + IV = 1000 + 900 + 90 + 4 = 1994."
+                },
+                {
+                  "id": "rom-3-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 2024 en números romanos?",
+                  "options": [
+                    "MMXIV",
+                    "MCMXXIV",
+                    "MMXXVI",
+                    "MMXXIV"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "2024 = 2000 + 20 + 4 = MM + XX + IV = MMXXIV."
+                },
+                {
+                  "id": "rom-3-4",
+                  "type": "numeric",
+                  "prompt": "¿Qué número es DCCCLXXXVIII?",
+                  "answer": 888,
+                  "explanation": "D + CCC + L + XXX + V + III = 500 + 300 + 50 + 30 + 5 + 3 = 888."
+                },
+                {
+                  "id": "rom-3-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 3999 en números romanos?",
+                  "options": [
+                    "MMMIM",
+                    "MMMCMXCIX",
+                    "MMMCMIC",
+                    "MMMDCCCCXCIX"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "3999 = 3000 + 900 + 90 + 9 = MMM + CM + XC + IX. Es el número más grande que se escribe sin raya."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "romanos-grandes",
+          "name": "Números romanos grandes",
+          "explanation": {
+            "steps": [
+              { "caption": "Con las 7 letras solo llegamos hasta 3999. Para números más grandes, los romanos dibujaban una raya encima de las letras.", "tiles": [{ "symbol": "MMMCMXCIX", "label": "3999" }, { "symbol": "I̅V̅", "label": "4000" }] },
+              { "caption": "Una raya encima multiplica el valor de la letra por 1000.", "tiles": [{ "symbol": "V̅", "label": "5 × 1000 = 5000" }, { "symbol": "X̅", "label": "10 × 1000 = 10.000" }, { "symbol": "L̅", "label": "50 × 1000 = 50.000" }, { "symbol": "C̅", "label": "100 × 1000 = 100.000" }, { "symbol": "D̅", "label": "500 × 1000 = 500.000" }, { "symbol": "M̅", "label": "1000 × 1000 = 1.000.000" }] },
+              { "caption": "Para escribir un número mayor que 3999, separa los millares: el número de millares se escribe con raya y el resto, como siempre. Hasta 3999 no se usa la raya: 3000 es MMM.", "tiles": [{ "symbol": "X̅I̅I̅", "label": "12 × 1000 = 12.000" }, { "symbol": "D", "label": "500" }, { "symbol": "X̅I̅I̅D", "label": "12.500" }] },
+              { "caption": "Más ejemplos: la parte con raya son los millares y la parte sin raya, lo que sobra.", "tiles": [{ "symbol": "I̅V̅", "label": "4000" }, { "symbol": "V̅I̅I̅I̅", "label": "8000" }, { "symbol": "V̅I̅I̅CCC", "label": "7300" }, { "symbol": "X̅L̅V̅", "label": "45.000" }] },
+              { "caption": "Para leerlo, multiplica por 1000 lo que lleva raya y súmale lo demás: X̅V̅CC = 15 × 1000 + 200 = 15.200.", "tiles": [{ "symbol": "X̅V̅", "label": "15.000" }, { "symbol": "CC", "label": "200" }, { "symbol": "X̅V̅CC", "label": "15.200" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "romanos-grandes-1",
+              "name": "Nivel 1 · Leer con raya",
+              "questions": [
+                {
+                  "id": "romg-1-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto vale V̅?",
+                  "options": [
+                    "5000",
+                    "5",
+                    "500",
+                    "50.000"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "La raya multiplica por 1000: V̅ = 5 × 1000 = 5000."
+                },
+                {
+                  "id": "romg-1-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué número es I̅V̅?",
+                  "options": [
+                    "6000",
+                    "4000",
+                    "400",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "IV es 4 y con raya vale 4 × 1000 = 4000."
+                },
+                {
+                  "id": "romg-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué número es X̅V̅CC?",
+                  "options": [
+                    "15.000",
+                    "1520",
+                    "15.200",
+                    "152.000"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "X̅V̅ = 15 × 1000 = 15.000, y CC = 200. En total, 15.200."
+                },
+                {
+                  "id": "romg-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto vale M̅?",
+                  "options": [
+                    "1000",
+                    "100.000",
+                    "10.000",
+                    "1.000.000"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "M vale 1000 y con raya 1000 × 1000 = 1.000.000."
+                },
+                {
+                  "id": "romg-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué número es L̅X̅DCC?",
+                  "options": [
+                    "60.700",
+                    "6070",
+                    "60.000",
+                    "160.700"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "L̅X̅ = 60 × 1000 = 60.000, y DCC = 700. En total, 60.700."
+                }
+              ]
+            },
+            {
+              "id": "romanos-grandes-2",
+              "name": "Nivel 2 · Escribir con raya",
+              "questions": [
+                {
+                  "id": "romg-2-1",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 8000 en números romanos?",
+                  "options": [
+                    "MMMMMMMM",
+                    "V̅I̅I̅I̅",
+                    "V̅III",
+                    "VIIIM"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "8000 = 8 × 1000. 8 es VIII y, con raya, V̅I̅I̅I̅."
+                },
+                {
+                  "id": "romg-2-2",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 4500 en números romanos?",
+                  "options": [
+                    "MMMMD",
+                    "I̅V̅V̅",
+                    "I̅V̅D",
+                    "IVD"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "4500 = 4 millares + 500 = I̅V̅ + D = I̅V̅D."
+                },
+                {
+                  "id": "romg-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 20.000 en números romanos?",
+                  "options": [
+                    "XX",
+                    "X̅X",
+                    "M̅M̅",
+                    "X̅X̅"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "20.000 = 20 × 1000. 20 es XX y, con raya, X̅X̅."
+                },
+                {
+                  "id": "romg-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 12.019 en números romanos?",
+                  "options": [
+                    "X̅I̅I̅XIX",
+                    "X̅I̅I̅XXI",
+                    "XIIXIX",
+                    "X̅I̅I̅X̅I̅X̅"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "12.019 = 12 millares + 19. 12 con raya es X̅I̅I̅ y 19 es XIX: X̅I̅I̅XIX."
+                },
+                {
+                  "id": "romg-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 1.000.000 en números romanos?",
+                  "options": [
+                    "M",
+                    "C̅",
+                    "M̅",
+                    "X̅"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "M vale 1000; con raya vale 1000 × 1000 = 1.000.000: M̅."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "multiplicacion-varias-cifras",
+          "name": "Multiplicaciones de varias cifras",
+          "explanation": {
+            "steps": [
+              { "caption": "Para multiplicar por una cifra, multiplicamos 214 por 3 empezando por las unidades. El resultado, 642, se escribe debajo de la raya.", "multiplication": { "factors": [214, 3] } },
+              { "caption": "Con dos cifras hay dos productos parciales: 23 × 2 = 46 y 23 × 1 = 23. El segundo empieza un lugar a la izquierda porque son decenas. Sumamos: 46 + 230 = 276.", "multiplication": { "factors": [23, 12] } },
+              { "caption": "345 × 26: primero 345 × 6 = 2070. Después 345 × 2 = 690, un lugar a la izquierda. Al sumar 2070 + 6900 obtenemos 8970.", "multiplication": { "factors": [345, 26] } },
+              { "caption": "Con tres cifras hay tres productos parciales: 3702, 2468 y 1234. Cada uno empieza un lugar más a la izquierda. Su suma es 151.782.", "multiplication": { "factors": [1234, 123] } },
+              { "caption": "Un 0 en el multiplicador da una fila de ceros: 205 × 0 = 0. La fila de las centenas, 205, empieza dos lugares a la izquierda. Total: 21.115.", "multiplication": { "factors": [205, 103] } },
+              { "caption": "Resumen: para multiplicar por varias cifras sigue siempre estos tres pasos.", "tiles": [{ "symbol": "1º", "label": "multiplica por las unidades" }, { "symbol": "2º", "label": "por las decenas, un lugar a la izquierda" }, { "symbol": "3º", "label": "suma los productos parciales" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "multiplicacion-varias-cifras-1",
+              "name": "Nivel 1 · Por dos cifras",
+              "questions": [
+                {
+                  "id": "mvc-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 23 × 12?",
+                  "answer": 276,
+                  "explanation": "23 × 2 = 46 y 23 × 1 = 23, un lugar a la izquierda: 46 + 230 = 276."
+                },
+                {
+                  "id": "mvc-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 48 × 25?",
+                  "answer": 1200,
+                  "explanation": "48 × 5 = 240 y 48 × 2 = 96, un lugar a la izquierda: 240 + 960 = 1200."
+                },
+                {
+                  "id": "mvc-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "En 345 × 26, ¿cuál es el primer producto parcial (345 × 6)?",
+                  "options": [
+                    "2070",
+                    "690",
+                    "1890",
+                    "2076"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El primer producto parcial es el de las unidades: 345 × 6 = 2070."
+                },
+                {
+                  "id": "mvc-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué resultado es razonable para 412 × 19?",
+                  "options": [
+                    "783",
+                    "7828",
+                    "78.228",
+                    "1236"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "412 es casi 400 y 19 es casi 20; como 400 × 20 = 8000, el resultado razonable es 7828."
+                },
+                {
+                  "id": "mvc-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 1250 × 34?",
+                  "options": [
+                    "8750",
+                    "40.500",
+                    "42.500",
+                    "425.000"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "1250 × 4 = 5000 y 1250 × 3 = 3750, un lugar a la izquierda: 5000 + 37.500 = 42.500."
+                },
+                {
+                  "id": "mvc-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 2307 × 45?",
+                  "options": [
+                    "20.763",
+                    "103.715",
+                    "12.535",
+                    "103.815"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "2307 × 5 = 11.535 y 2307 × 4 = 9228, un lugar a la izquierda: 11.535 + 92.280 = 103.815."
+                }
+              ]
+            },
+            {
+              "id": "multiplicacion-varias-cifras-2",
+              "name": "Nivel 2 · Por tres cifras",
+              "questions": [
+                {
+                  "id": "mvc-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 12 × 205?",
+                  "answer": 2460,
+                  "explanation": "12 × 5 = 60, 12 × 0 = 0 y 12 × 2 = 24, dos lugares a la izquierda: 60 + 0 + 2400 = 2460."
+                },
+                {
+                  "id": "mvc-2-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 31 × 123?",
+                  "answer": 3813,
+                  "explanation": "31 × 3 = 93, 31 × 2 = 62 y 31 × 1 = 31: 93 + 620 + 3100 = 3813."
+                },
+                {
+                  "id": "mvc-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 205 × 103?",
+                  "options": [
+                    "21.115",
+                    "2665",
+                    "20.615",
+                    "211.150"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Los productos parciales son 615, 0 y 20.500, y su suma es 615 + 0 + 20.500 = 21.115."
+                },
+                {
+                  "id": "mvc-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "En 1234 × 123, ¿cuántos productos parciales hay?",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hay un producto parcial por cada cifra del multiplicador, y 123 tiene 3 cifras."
+                },
+                {
+                  "id": "mvc-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 345 × 126?",
+                  "options": [
+                    "4347",
+                    "43.470",
+                    "34.500",
+                    "434.700"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Los productos parciales son 2070, 6900 y 34.500, y su suma es 2070 + 6900 + 34.500 = 43.470."
+                },
+                {
+                  "id": "mvc-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué resultado es razonable para 498 × 302?",
+                  "options": [
+                    "15.039",
+                    "1503",
+                    "1.503.960",
+                    "150.396"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "498 es casi 500 y 302 es casi 300; como 500 × 300 = 150.000, el resultado razonable es 150.396."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "propiedad-distributiva",
+          "name": "Propiedad distributiva",
+          "explanation": {
+            "steps": [
+              { "caption": "Multiplicar un número por una suma es lo mismo que multiplicarlo por cada sumando y sumar los resultados.", "area": { "rows": 3, "cols": [4, 2] } },
+              { "caption": "Sin dibujo: el 3 multiplica a cada sumando. Primero 3 × 4 = 12, después 3 × 2 = 6 y al final sumamos: 12 + 6 = 18.", "rewrite": ["3 × (4 + 2)", "*3 × 4* + 3 × 2", "12 + *3 × 2*", "12 + 6", "18"] },
+              { "caption": "Otro rectángulo: 4 filas de 5 y 4 filas de 3. 4 × (5 + 3) = 4 × 5 + 4 × 3 = 20 + 12 = 32.", "area": { "rows": 4, "cols": [5, 3] } },
+              { "caption": "También funciona con restas: el 5 multiplica al 10 y al 2, y después restamos: 50 − 10 = 40.", "rewrite": ["5 × (10 − 2)", "*5 × 10* − 5 × 2", "50 − *5 × 2*", "50 − 10", "40"] },
+              { "caption": "Al revés se llama sacar factor común: el 6 se repite en los dos productos, así que se escribe una vez: 6 × (7 + 3) = 6 × 10 = 60.", "rewrite": ["6 × 7 + 6 × 3", "6 × *(7 + 3)*", "6 × 10", "60"] },
+              { "caption": "Truco de cálculo mental: 12 = 10 + 2, así que 7 × 12 = 7 × 10 + 7 × 2 = 70 + 14 = 84.", "rewrite": ["7 × 12", "7 × (10 + 2)", "*7 × 10* + 7 × 2", "70 + 14", "84"] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "propiedad-distributiva-1",
+              "name": "Nivel 1 · Multiplicar una suma",
+              "questions": [
+                {
+                  "id": "dist-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 4 × (5 + 3)?",
+                  "answer": 32,
+                  "explanation": "4 × 5 + 4 × 3 = 20 + 12 = 32."
+                },
+                {
+                  "id": "dist-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 6 × (10 + 3)?",
+                  "answer": 78,
+                  "explanation": "6 × 10 + 6 × 3 = 60 + 18 = 78."
+                },
+                {
+                  "id": "dist-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué expresión es igual a 3 × (4 + 2)?",
+                  "options": [
+                    "3 × 4 + 3 × 2",
+                    "3 × 4 + 2",
+                    "3 + 4 × 2",
+                    "3 × 4 × 2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El 3 multiplica a cada sumando: 3 × 4 + 3 × 2 = 12 + 6 = 18."
+                },
+                {
+                  "id": "dist-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "Un rectángulo de cuadraditos tiene 5 filas y en cada fila hay 4 cuadraditos de un color y 2 de otro. ¿Cuántos cuadraditos hay?",
+                  "options": [
+                    "11",
+                    "30",
+                    "22",
+                    "40"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Son 5 × (4 + 2) = 5 × 4 + 5 × 2 = 20 + 10 = 30 cuadraditos."
+                },
+                {
+                  "id": "dist-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 8 × (10 + 5)?",
+                  "options": [
+                    "85",
+                    "45",
+                    "120",
+                    "130"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "8 × 10 + 8 × 5 = 80 + 40 = 120."
+                },
+                {
+                  "id": "dist-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "9 × (2 + 6) = 9 × 2 + __ × 6. ¿Qué número va en el hueco?",
+                  "options": [
+                    "2",
+                    "6",
+                    "8",
+                    "9"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "El 9 multiplica a los dos sumandos, así que también va delante del 6: 9 × 2 + 9 × 6."
+                }
+              ]
+            },
+            {
+              "id": "propiedad-distributiva-2",
+              "name": "Nivel 2 · Restas, factor común y cálculo mental",
+              "questions": [
+                {
+                  "id": "dist-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 5 × (10 − 2)?",
+                  "answer": 40,
+                  "explanation": "5 × 10 − 5 × 2 = 50 − 10 = 40."
+                },
+                {
+                  "id": "dist-2-2",
+                  "type": "numeric",
+                  "prompt": "Calcula 8 × 13 pensando que 13 = 10 + 3.",
+                  "answer": 104,
+                  "explanation": "8 × 10 + 8 × 3 = 80 + 24 = 104."
+                },
+                {
+                  "id": "dist-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué expresión es igual a 4 × 7 + 4 × 3?",
+                  "options": [
+                    "4 × 7 × 3",
+                    "4 × (7 + 3)",
+                    "4 + 7 + 3",
+                    "8 × 10"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "El 4 se repite en los dos productos y se saca factor común: 4 × (7 + 3) = 4 × 10 = 40."
+                },
+                {
+                  "id": "dist-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 9 × 6 + 9 × 4?",
+                  "options": [
+                    "58",
+                    "94",
+                    "90",
+                    "540"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sacando factor común: 9 × (6 + 4) = 9 × 10 = 90."
+                },
+                {
+                  "id": "dist-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué expresión es igual a 6 × (20 − 1)?",
+                  "options": [
+                    "6 × 20 − 1",
+                    "6 × 20 + 6 × 1",
+                    "6 − 20 × 1",
+                    "6 × 20 − 6 × 1"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "El 6 multiplica a los dos números de la resta: 6 × 20 − 6 × 1 = 120 − 6 = 114."
+                },
+                {
+                  "id": "dist-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué cálculo da el resultado de 25 × 11?",
+                  "options": [
+                    "25 × 10 + 25 × 1 = 275",
+                    "25 × 10 + 1 = 251",
+                    "25 + 11 = 36",
+                    "25 × 1 + 1 = 26"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Como 11 = 10 + 1, 25 × 11 = 25 × 10 + 25 × 1 = 250 + 25 = 275."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "potencias",
+          "name": "Potencias",
+          "explanation": {
+            "steps": [
+              { "caption": "2⁵ se lee «dos elevado a cinco». El 2 es la base y el 5 es el exponente: dice cuántas veces se multiplica la base por sí misma.", "tiles": [{ "symbol": "2⁵", "label": "potencia" }, { "symbol": "2", "label": "base" }, { "symbol": "5", "label": "exponente" }] },
+              { "caption": "2⁵ es el 2 multiplicado por sí mismo 5 veces: 2 × 2 × 2 × 2 × 2 = 32. ¡Ojo! No es 2 × 5 = 10.", "rewrite": ["2⁵", "2 × 2 × 2 × 2 × 2", "32"] },
+              { "caption": "Con exponente 2 se dice «al cuadrado»: 3² = 3 × 3 = 9. Son las casillas de un cuadrado de 3 por 3.", "area": { "rows": 3, "cols": [3] } },
+              { "caption": "Con exponente 3 se dice «al cubo»: 4³ = 4 × 4 × 4. Primero 4 × 4 = 16 y después 16 × 4 = 64.", "rewrite": ["4³", "*4 × 4* × 4", "16 × 4", "64"] },
+              { "caption": "Las potencias de 10 son un 1 seguido de tantos ceros como dice el exponente: 10⁴ = 10.000 tiene 4 ceros.", "tiles": [{ "symbol": "10²", "label": "100" }, { "symbol": "10³", "label": "1000" }, { "symbol": "10⁴", "label": "10.000" }, { "symbol": "10⁶", "label": "1.000.000" }] },
+              { "caption": "Cualquier número elevado a 1 es él mismo: 5¹ = 5. Y el 1 elevado a cualquier exponente sigue siendo 1: 1⁷ = 1.", "tiles": [{ "symbol": "5¹", "label": "5" }, { "symbol": "1⁷", "label": "1" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "potencias-1",
+              "name": "Nivel 1 · Base, exponente y cuadrados",
+              "questions": [
+                {
+                  "id": "pot-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 6²?",
+                  "answer": 36,
+                  "explanation": "6² = 6 × 6 = 36."
+                },
+                {
+                  "id": "pot-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 2⁴?",
+                  "answer": 16,
+                  "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16."
+                },
+                {
+                  "id": "pot-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se lee 7²?",
+                  "options": [
+                    "siete al cuadrado",
+                    "siete por dos",
+                    "dos elevado a siete",
+                    "siete al cubo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El exponente 2 se lee «al cuadrado», así que 7² es siete al cuadrado: 7 × 7."
+                },
+                {
+                  "id": "pot-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "En 9⁵, ¿cuál es la base?",
+                  "options": [
+                    "5",
+                    "9",
+                    "45",
+                    "14"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "La base es el número que se multiplica, el 9; el 5 es el exponente."
+                },
+                {
+                  "id": "pot-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 8²?",
+                  "options": [
+                    "16",
+                    "10",
+                    "64",
+                    "82"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "8² = 8 × 8 = 64, no 8 × 2."
+                },
+                {
+                  "id": "pot-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se escribe 5 × 5 × 5 como potencia?",
+                  "options": [
+                    "5 × 3",
+                    "3⁵",
+                    "15",
+                    "5³"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "El 5 se multiplica 3 veces por sí mismo: base 5 y exponente 3, 5³."
+                }
+              ]
+            },
+            {
+              "id": "potencias-2",
+              "name": "Nivel 2 · Cubos y potencias de 10",
+              "questions": [
+                {
+                  "id": "pot-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 3³?",
+                  "answer": 27,
+                  "explanation": "3³ = 3 × 3 × 3 = 9 × 3 = 27."
+                },
+                {
+                  "id": "pot-2-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 10³?",
+                  "answer": 1000,
+                  "explanation": "10³ es un 1 seguido de 3 ceros: 1000."
+                },
+                {
+                  "id": "pot-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cómo se lee 6³?",
+                  "options": [
+                    "seis al cubo",
+                    "seis al cuadrado",
+                    "seis por tres",
+                    "tres elevado a seis"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El exponente 3 se lee «al cubo», así que 6³ es seis al cubo: 6 × 6 × 6."
+                },
+                {
+                  "id": "pot-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 10⁵?",
+                  "options": [
+                    "50",
+                    "100.000",
+                    "10.000",
+                    "1.000.000"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "10⁵ es un 1 seguido de 5 ceros: 100.000."
+                },
+                {
+                  "id": "pot-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 5³?",
+                  "options": [
+                    "15",
+                    "25",
+                    "125",
+                    "53"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "5³ = 5 × 5 × 5 = 25 × 5 = 125."
+                },
+                {
+                  "id": "pot-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Qué potencia de 10 es 1.000.000?",
+                  "options": [
+                    "10⁵",
+                    "10⁷",
+                    "10⁴",
+                    "10⁶"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "1.000.000 es un 1 seguido de 6 ceros, así que es 10⁶."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "operaciones-combinadas",
+          "name": "Operaciones combinadas",
+          "explanation": {
+            "steps": [
+              { "caption": "Para resolver operaciones combinadas hay un orden: primero paréntesis, después potencias, luego multiplicaciones y divisiones, y al final sumas y restas.", "tiles": [{ "symbol": "( )", "label": "1º paréntesis" }, { "symbol": "a²", "label": "2º potencias" }, { "symbol": "× :", "label": "3º multiplicar y dividir" }, { "symbol": "+ −", "label": "4º sumar y restar" }] },
+              { "caption": "Primero se multiplica y después se suma. ¡No es 14!", "rewrite": ["3 + *4 × 2*", "3 + 8", "11"] },
+              { "caption": "Si hay paréntesis, se hacen primero: (3 + 4) × 2 = 7 × 2 = 14.", "rewrite": ["*(3 + 4)* × 2", "7 × 2", "14"] },
+              { "caption": "Multiplicar y dividir tienen la misma importancia: se hacen de izquierda a derecha. 20 : 4 = 5 y 5 × 3 = 15.", "rewrite": ["*20 : 4* × 3", "5 × 3", "15"] },
+              { "caption": "Las potencias van antes que las multiplicaciones: 3² = 9, después 9 × 2 = 18 y al final 2 + 18 = 20.", "rewrite": ["2 + *3²* × 2", "2 + *9 × 2*", "2 + 18", "20"] },
+              { "caption": "Todo junto: paréntesis (2 + 4 = 6), potencia (2² = 4), división (6 : 3 = 2) y al final sumas y restas de izquierda a derecha: 18 − 2 + 4 = 20.", "rewrite": ["18 − *(2 + 4)* : 3 + 2²", "18 − 6 : 3 + *2²*", "18 − *6 : 3* + 4", "*18 − 2* + 4", "16 + 4", "20"] },
+              { "caption": "Repaso: 1º paréntesis, 2º potencias, 3º multiplicar y dividir, 4º sumar y restar. Las operaciones de la misma importancia, de izquierda a derecha.", "tiles": [{ "symbol": "( )", "label": "1º paréntesis" }, { "symbol": "a²", "label": "2º potencias" }, { "symbol": "× :", "label": "3º multiplicar y dividir" }, { "symbol": "+ −", "label": "4º sumar y restar" }] }
+            ]
+          },
+          "levels": [
+            {
+              "id": "operaciones-combinadas-1",
+              "name": "Nivel 1 · Sin paréntesis",
+              "questions": [
+                {
+                  "id": "comb-1-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 5 + 3 × 4?",
+                  "answer": 17,
+                  "explanation": "Primero se multiplica, 3 × 4 = 12, y después se suma: 5 + 12 = 17."
+                },
+                {
+                  "id": "comb-1-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 30 − 4 × 5?",
+                  "answer": 10,
+                  "explanation": "Primero se multiplica, 4 × 5 = 20, y después se resta: 30 − 20 = 10."
+                },
+                {
+                  "id": "comb-1-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 2 + 6 × 3 − 1?",
+                  "options": [
+                    "19",
+                    "23",
+                    "14",
+                    "16"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Primero 6 × 3 = 18 y después, de izquierda a derecha, 2 + 18 − 1 = 19."
+                },
+                {
+                  "id": "comb-1-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 24 : 4 × 2 + 1?",
+                  "options": [
+                    "4",
+                    "13",
+                    "2",
+                    "18"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "División y multiplicación de izquierda a derecha: 24 : 4 = 6, 6 × 2 = 12, y al final 12 + 1 = 13."
+                },
+                {
+                  "id": "comb-1-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 10 − 2 × 3 + 4?",
+                  "options": [
+                    "28",
+                    "0",
+                    "8",
+                    "56"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Primero 2 × 3 = 6 y después, de izquierda a derecha, 10 − 6 + 4 = 8."
+                },
+                {
+                  "id": "comb-1-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 18 : 3 + 3 × 2?",
+                  "options": [
+                    "18",
+                    "6",
+                    "2",
+                    "12"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Primero la división y la multiplicación, 18 : 3 = 6 y 3 × 2 = 6, y después la suma: 6 + 6 = 12."
+                }
+              ]
+            },
+            {
+              "id": "operaciones-combinadas-2",
+              "name": "Nivel 2 · Con paréntesis y potencias",
+              "questions": [
+                {
+                  "id": "comb-2-1",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es (6 + 4) × 3?",
+                  "answer": 30,
+                  "explanation": "Primero el paréntesis, 6 + 4 = 10, y después 10 × 3 = 30."
+                },
+                {
+                  "id": "comb-2-2",
+                  "type": "numeric",
+                  "prompt": "¿Cuánto es 5 × 2² − 3?",
+                  "answer": 17,
+                  "explanation": "Primero la potencia, 2² = 4, después 5 × 4 = 20 y al final 20 − 3 = 17."
+                },
+                {
+                  "id": "comb-2-3",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 4 × (5 − 2) + 1?",
+                  "options": [
+                    "13",
+                    "19",
+                    "17",
+                    "8"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Primero el paréntesis, 5 − 2 = 3, después 4 × 3 = 12 y al final 12 + 1 = 13."
+                },
+                {
+                  "id": "comb-2-4",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 1 + 2 × 3²?",
+                  "options": [
+                    "27",
+                    "19",
+                    "37",
+                    "81"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Primero la potencia, 3² = 9, después 2 × 9 = 18 y al final 1 + 18 = 19."
+                },
+                {
+                  "id": "comb-2-5",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 50 − (3 + 2)²?",
+                  "options": [
+                    "51",
+                    "43",
+                    "25",
+                    "2401"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Primero el paréntesis, 3 + 2 = 5, después la potencia, 5² = 25, y al final 50 − 25 = 25."
+                },
+                {
+                  "id": "comb-2-6",
+                  "type": "multiple-choice",
+                  "prompt": "¿Cuánto es 30 : (2 + 4) + 2³?",
+                  "options": [
+                    "27",
+                    "343",
+                    "231",
+                    "13"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Primero el paréntesis, 2 + 4 = 6, después la potencia, 2³ = 8, luego 30 : 6 = 5 y al final 5 + 8 = 13."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
