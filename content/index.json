@@ -1,0 +1,7 @@
+{
+  "subjects": [
+    { "id": "math", "name": "Matemáticas", "available": true, "file": "math.json" },
+    { "id": "language", "name": "Lengua", "available": true, "file": "language.json" },
+    { "id": "science", "name": "Natural Science", "available": true, "file": "science.json" }
+  ]
+}

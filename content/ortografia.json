@@ -1,0 +1,1316 @@
+{
+  "rules": [
+    {
+      "id": "m-n",
+      "name": "m antes de p y b, n antes de v",
+      "icon": "🐝",
+      "points": [
+        "Antes de p y de b se escribe m: campo, hombre.",
+        "Antes de v se escribe n: invierno, enviar."
+      ],
+      "tip": "La m es amiga de la p y de la b: campo, hombre. La v prefiere a la n: invierno.",
+      "words": [
+        {
+          "id": "mn-1",
+          "pattern": "ca[m]po",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Los niños juegan en el campo.",
+          "why": "Antes de p se escribe m."
+        },
+        {
+          "id": "mn-2",
+          "pattern": "ho[m]bre",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Aquel hombre lleva un sombrero.",
+          "why": "Antes de b se escribe m."
+        },
+        {
+          "id": "mn-3",
+          "pattern": "i[n]vierno",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "En invierno hace mucho frío.",
+          "why": "Antes de v se escribe n."
+        },
+        {
+          "id": "mn-4",
+          "pattern": "e[n]viar",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Voy a enviar una carta a mi abuela.",
+          "why": "Antes de v se escribe n."
+        },
+        {
+          "id": "mn-5",
+          "pattern": "tie[m]po",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Hoy hace buen tiempo.",
+          "why": "Antes de p se escribe m."
+        },
+        {
+          "id": "mn-6",
+          "pattern": "so[m]bra",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Descansamos a la sombra del árbol.",
+          "why": "Antes de b se escribe m."
+        },
+        {
+          "id": "mn-7",
+          "pattern": "ca[m]bio",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Hubo un cambio de planes.",
+          "why": "Antes de b se escribe m."
+        },
+        {
+          "id": "mn-8",
+          "pattern": "e[m]pujar",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "En la fila no hay que empujar.",
+          "why": "Antes de p se escribe m."
+        },
+        {
+          "id": "mn-9",
+          "pattern": "co[n]vertir",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "El mago quiere convertir la rana en príncipe.",
+          "why": "Antes de v se escribe n."
+        },
+        {
+          "id": "mn-10",
+          "pattern": "i[n]vitar",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Quiero invitar a mis amigos a casa.",
+          "why": "Antes de v se escribe n."
+        },
+        {
+          "id": "mn-11",
+          "pattern": "a[m]bulancia",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "La ambulancia llegó muy rápido.",
+          "why": "Antes de b se escribe m."
+        },
+        {
+          "id": "mn-12",
+          "pattern": "tro[m]peta",
+          "options": [
+            "m",
+            "n"
+          ],
+          "sentence": "Mi primo toca la trompeta.",
+          "why": "Antes de p se escribe m."
+        }
+      ]
+    },
+    {
+      "id": "b-v",
+      "name": "b o v",
+      "icon": "🅱️",
+      "points": [
+        "Se escribe b antes de r y de l: brazo, blanco.",
+        "Se escribe b en el pasado -aba: cantaba, jugaba.",
+        "Los verbos en -bir llevan b: escribir, subir. Excepciones: vivir, hervir y servir.",
+        "Llevan b las palabras que empiezan por bu-, bur- y bus-, y las que terminan en -ble.",
+        "Llevan v los adjetivos terminados en -ava, -ave, -avo, -iva, -ivo: suave, bravo, activo."
+      ],
+      "tip": "Si suena a pasado con -aba, pon b. Si es un adjetivo en -avo o -ivo, pon v.",
+      "words": [
+        {
+          "id": "bv-1",
+          "pattern": "[b]razo",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Me duele el brazo derecho.",
+          "why": "Delante de r se escribe b: br."
+        },
+        {
+          "id": "bv-2",
+          "pattern": "[b]lanco",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "El gato blanco duerme en el sofá.",
+          "why": "Delante de l se escribe b: bl."
+        },
+        {
+          "id": "bv-3",
+          "pattern": "canta[b]a",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mi abuela cantaba canciones antiguas.",
+          "why": "El pasado en -aba de los verbos en -ar se escribe con b."
+        },
+        {
+          "id": "bv-4",
+          "pattern": "juga[b]a",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mi hermano jugaba al fútbol.",
+          "why": "El pasado en -aba de los verbos en -ar se escribe con b."
+        },
+        {
+          "id": "bv-5",
+          "pattern": "escri[b]ir",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Me gusta escribir cuentos.",
+          "why": "Los verbos terminados en -bir se escriben con b (menos vivir, hervir y servir)."
+        },
+        {
+          "id": "bv-6",
+          "pattern": "su[b]ir",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Vamos a subir la montaña.",
+          "why": "Los verbos terminados en -bir se escriben con b (menos vivir, hervir y servir)."
+        },
+        {
+          "id": "bv-7",
+          "pattern": "[b]uscar",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Tengo que buscar mi lápiz.",
+          "why": "Las palabras que empiezan por bus- se escriben con b."
+        },
+        {
+          "id": "bv-8",
+          "pattern": "[b]urbuja",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "La burbuja de jabón explotó.",
+          "why": "Las palabras que empiezan por bur- se escriben con b."
+        },
+        {
+          "id": "bv-9",
+          "pattern": "ama[b]le",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "La profesora es muy amable.",
+          "why": "Las palabras terminadas en -ble se escriben con b."
+        },
+        {
+          "id": "bv-10",
+          "pattern": "sua[v]e",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Esta manta es muy suave.",
+          "why": "Los adjetivos terminados en -ave se escriben con v."
+        },
+        {
+          "id": "bv-11",
+          "pattern": "bra[v]o",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "El mar está bravo hoy.",
+          "why": "Los adjetivos terminados en -avo se escriben con v."
+        },
+        {
+          "id": "bv-12",
+          "pattern": "acti[v]o",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mi perro es muy activo.",
+          "why": "Los adjetivos terminados en -ivo se escriben con v."
+        },
+        {
+          "id": "bv-13",
+          "pattern": "octa[v]a",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mi equipo quedó en octava posición.",
+          "why": "Los adjetivos terminados en -ava se escriben con v."
+        }
+      ]
+    },
+    {
+      "id": "g-j",
+      "name": "g o j",
+      "icon": "🦒",
+      "points": [
+        "Los verbos terminados en -ger y -gir se escriben con g: recoger, elegir. Excepciones: tejer y crujir.",
+        "Las palabras que empiezan por geo- y las que terminan en -gía llevan g: geografía, biología.",
+        "Las palabras terminadas en -aje y -jero llevan j: viaje, viajero."
+      ],
+      "tip": "Verbo en -ger o -gir: g. Palabra en -aje o -jero: j.",
+      "words": [
+        {
+          "id": "gj-1",
+          "pattern": "reco[g]er",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Hay que recoger los juguetes.",
+          "why": "Los verbos terminados en -ger se escriben con g."
+        },
+        {
+          "id": "gj-2",
+          "pattern": "prote[g]er",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Debemos proteger la naturaleza.",
+          "why": "Los verbos terminados en -ger se escriben con g."
+        },
+        {
+          "id": "gj-3",
+          "pattern": "ele[g]ir",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Puedes elegir un libro.",
+          "why": "Los verbos terminados en -gir se escriben con g."
+        },
+        {
+          "id": "gj-4",
+          "pattern": "diri[g]ir",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El maestro va a dirigir el coro.",
+          "why": "Los verbos terminados en -gir se escriben con g."
+        },
+        {
+          "id": "gj-5",
+          "pattern": "[g]eografía",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Mañana tenemos examen de geografía.",
+          "why": "Las palabras que empiezan por geo- se escriben con g."
+        },
+        {
+          "id": "gj-6",
+          "pattern": "biolo[g]ía",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "En biología estudiamos los seres vivos.",
+          "why": "Las palabras terminadas en -gía se escriben con g."
+        },
+        {
+          "id": "gj-7",
+          "pattern": "ener[g]ía",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El sol nos da energía.",
+          "why": "Las palabras terminadas en -gía se escriben con g."
+        },
+        {
+          "id": "gj-8",
+          "pattern": "via[j]e",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El viaje en tren fue muy largo.",
+          "why": "Las palabras terminadas en -aje se escriben con j."
+        },
+        {
+          "id": "gj-9",
+          "pattern": "gara[j]e",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El coche está en el garaje.",
+          "why": "Las palabras terminadas en -aje se escriben con j."
+        },
+        {
+          "id": "gj-10",
+          "pattern": "paisa[j]e",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Desde aquí se ve un paisaje precioso.",
+          "why": "Las palabras terminadas en -aje se escriben con j."
+        },
+        {
+          "id": "gj-11",
+          "pattern": "via[j]ero",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El viajero llevaba una mochila.",
+          "why": "Las palabras terminadas en -jero se escriben con j."
+        },
+        {
+          "id": "gj-12",
+          "pattern": "extran[j]ero",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "Mi tío vive en el extranjero.",
+          "why": "Las palabras terminadas en -jero se escriben con j."
+        },
+        {
+          "id": "gj-13",
+          "pattern": "relo[j]ero",
+          "options": [
+            "g",
+            "j"
+          ],
+          "sentence": "El relojero arregló el reloj de mi abuelo.",
+          "why": "Las palabras terminadas en -jero se escriben con j."
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "name": "la h",
+      "icon": "🤫",
+      "points": [
+        "La h no suena, pero se escribe.",
+        "Llevan h las palabras que empiezan por hie-, hue- y hum- seguido de vocal: hielo, huevo, humo.",
+        "Llevan h todas las formas de los verbos haber y hacer: hemos, hecho, hizo.",
+        "Cuidado: muchas palabras que empiezan por vocal no llevan h: ola, uso, oso."
+      ],
+      "tip": "Si empieza por hie- o hue-, la h va delante. Si viene de haber o hacer, también.",
+      "words": [
+        {
+          "id": "h-1",
+          "pattern": "[h]ielo",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "El agua se convirtió en hielo.",
+          "why": "Las palabras que empiezan por hie- llevan h."
+        },
+        {
+          "id": "h-2",
+          "pattern": "[h]ierba",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "La hierba está mojada.",
+          "why": "Las palabras que empiezan por hie- llevan h."
+        },
+        {
+          "id": "h-3",
+          "pattern": "[h]uevo",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Me comí un huevo frito.",
+          "why": "Las palabras que empiezan por hue- llevan h."
+        },
+        {
+          "id": "h-4",
+          "pattern": "[h]ueso",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "El perro mordía un hueso.",
+          "why": "Las palabras que empiezan por hue- llevan h."
+        },
+        {
+          "id": "h-5",
+          "pattern": "[h]umo",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Sale humo de la chimenea.",
+          "why": "Las palabras que empiezan por hum- seguido de vocal llevan h."
+        },
+        {
+          "id": "h-6",
+          "pattern": "[h]umano",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "El cuerpo humano tiene muchos huesos.",
+          "why": "Las palabras que empiezan por hum- seguido de vocal llevan h."
+        },
+        {
+          "id": "h-7",
+          "pattern": "[h]emos",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Ya hemos llegado al colegio.",
+          "why": "«Hemos» es del verbo haber, que siempre lleva h."
+        },
+        {
+          "id": "h-8",
+          "pattern": "[h]echo",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Ya he hecho los deberes.",
+          "why": "«Hecho» es del verbo hacer, que siempre lleva h."
+        },
+        {
+          "id": "h-9",
+          "pattern": "[h]izo",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Mi madre hizo una tarta.",
+          "why": "«Hizo» es del verbo hacer, que siempre lleva h."
+        },
+        {
+          "id": "h-10",
+          "pattern": "[]ola",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Una ola enorme mojó la toalla.",
+          "why": "«Ola» del mar se escribe sin h; «hola», el saludo, sí la lleva."
+        },
+        {
+          "id": "h-11",
+          "pattern": "[]uso",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "El uso del casco es obligatorio.",
+          "why": "«Uso» se escribe sin h."
+        },
+        {
+          "id": "h-12",
+          "pattern": "[]armario",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Guarda la ropa en el armario.",
+          "why": "«Armario» se escribe sin h."
+        },
+        {
+          "id": "h-13",
+          "pattern": "[]oso",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "El oso pardo vive en el bosque.",
+          "why": "«Oso», el animal, se escribe sin h."
+        }
+      ]
+    },
+    {
+      "id": "ll-y",
+      "name": "ll o y",
+      "icon": "🐿️",
+      "points": [
+        "Las palabras terminadas en -illo y -illa se escriben con ll: bolsillo, ardilla.",
+        "Al final de palabra, el sonido /i/ después de vocal se escribe con y: rey, hoy, muy.",
+        "Las formas verbales con -yendo y -yó se escriben con y: leyendo, cayó."
+      ],
+      "tip": "Una ardilla en el bolsillo: -illa e -illo con ll. El rey y el hoy terminan en y.",
+      "words": [
+        {
+          "id": "lly-1",
+          "pattern": "bolsi[ll]o",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Guardé la moneda en el bolsillo.",
+          "why": "Las palabras terminadas en -illo y -illa se escriben con ll."
+        },
+        {
+          "id": "lly-2",
+          "pattern": "ardi[ll]a",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "La ardilla sube al árbol.",
+          "why": "Las palabras terminadas en -illo y -illa se escriben con ll."
+        },
+        {
+          "id": "lly-3",
+          "pattern": "pasi[ll]o",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "No corras por el pasillo.",
+          "why": "Las palabras terminadas en -illo y -illa se escriben con ll."
+        },
+        {
+          "id": "lly-4",
+          "pattern": "mesi[ll]a",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "El libro está en la mesilla.",
+          "why": "Las palabras terminadas en -illo y -illa se escriben con ll."
+        },
+        {
+          "id": "lly-5",
+          "pattern": "cuchi[ll]o",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Corta el pan con el cuchillo.",
+          "why": "Las palabras terminadas en -illo y -illa se escriben con ll."
+        },
+        {
+          "id": "lly-6",
+          "pattern": "re[y]",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "El rey vivía en un castillo.",
+          "why": "Al final de palabra, el sonido /i/ después de vocal se escribe con y."
+        },
+        {
+          "id": "lly-7",
+          "pattern": "ho[y]",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Mañana no, hoy vamos al cine.",
+          "why": "Al final de palabra, el sonido /i/ después de vocal se escribe con y."
+        },
+        {
+          "id": "lly-8",
+          "pattern": "mu[y]",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "El examen fue muy fácil.",
+          "why": "Al final de palabra, el sonido /i/ después de vocal se escribe con y."
+        },
+        {
+          "id": "lly-9",
+          "pattern": "le[y]endo",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Estoy leyendo un cuento.",
+          "why": "Las formas con -yendo y -yó se escriben con y."
+        },
+        {
+          "id": "lly-10",
+          "pattern": "o[y]endo",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Estaba oyendo música.",
+          "why": "Las formas con -yendo y -yó se escriben con y."
+        },
+        {
+          "id": "lly-11",
+          "pattern": "ca[y]ó",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "La pelota cayó al río.",
+          "why": "Las formas con -yendo y -yó se escriben con y."
+        },
+        {
+          "id": "lly-12",
+          "pattern": "cre[y]ó",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Nadie creyó su historia.",
+          "why": "Las formas con -yendo y -yó se escriben con y."
+        },
+        {
+          "id": "lly-13",
+          "pattern": "hu[y]ó",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "El ladrón huyó corriendo.",
+          "why": "Las formas con -yendo y -yó se escriben con y."
+        }
+      ]
+    },
+    {
+      "id": "c-z-qu",
+      "name": "c, z o qu",
+      "icon": "🧀",
+      "points": [
+        "El sonido /θ/ se escribe con z delante de a, o, u: zapato, zorro, azul.",
+        "El sonido /θ/ se escribe con c delante de e, i: cena, cine.",
+        "El sonido /k/ se escribe con qu delante de e, i: queso, quince.",
+        "Las palabras que terminan en z hacen el plural en -ces: lápiz, lápices; pez, peces."
+      ],
+      "tip": "La z no se junta con la e ni con la i: allí va la c. Y para sonar /k/ ante e, i, pon qu.",
+      "words": [
+        {
+          "id": "czq-1",
+          "pattern": "[z]apato",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Se me rompió el zapato.",
+          "why": "Antes de a, o, u el sonido /θ/ se escribe con z."
+        },
+        {
+          "id": "czq-2",
+          "pattern": "[z]orro",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "El zorro es muy astuto.",
+          "why": "Antes de a, o, u el sonido /θ/ se escribe con z."
+        },
+        {
+          "id": "czq-3",
+          "pattern": "a[z]ul",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "El cielo está azul.",
+          "why": "Antes de a, o, u el sonido /θ/ se escribe con z."
+        },
+        {
+          "id": "czq-4",
+          "pattern": "ta[z]a",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Bebo leche en una taza.",
+          "why": "Antes de a, o, u el sonido /θ/ se escribe con z."
+        },
+        {
+          "id": "czq-5",
+          "pattern": "[c]ena",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "La cena está lista.",
+          "why": "Antes de e, i el sonido /θ/ se escribe con c."
+        },
+        {
+          "id": "czq-6",
+          "pattern": "[c]ine",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Fuimos al cine el sábado.",
+          "why": "Antes de e, i el sonido /θ/ se escribe con c."
+        },
+        {
+          "id": "czq-7",
+          "pattern": "[c]iruela",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Me comí una ciruela.",
+          "why": "Antes de e, i el sonido /θ/ se escribe con c."
+        },
+        {
+          "id": "czq-8",
+          "pattern": "[qu]eso",
+          "options": [
+            "c",
+            "z",
+            "qu"
+          ],
+          "sentence": "Me gusta el queso.",
+          "why": "El sonido /k/ delante de e se escribe con qu."
+        },
+        {
+          "id": "czq-9",
+          "pattern": "[qu]ince",
+          "options": [
+            "c",
+            "z",
+            "qu"
+          ],
+          "sentence": "Tengo quince cromos.",
+          "why": "El sonido /k/ delante de i se escribe con qu."
+        },
+        {
+          "id": "czq-10",
+          "pattern": "pe[qu]eño",
+          "options": [
+            "c",
+            "z",
+            "qu"
+          ],
+          "sentence": "Mi hermano es pequeño.",
+          "why": "El sonido /k/ delante de e se escribe con qu."
+        },
+        {
+          "id": "czq-11",
+          "pattern": "lápi[c]es",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Tengo muchos lápices de colores.",
+          "why": "Las palabras que terminan en z forman el plural en -ces: la z cambia a c."
+        },
+        {
+          "id": "czq-12",
+          "pattern": "pe[c]es",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "En la pecera hay tres peces.",
+          "why": "Las palabras que terminan en z forman el plural en -ces: la z cambia a c."
+        },
+        {
+          "id": "czq-13",
+          "pattern": "lu[c]es",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Apaga las luces al salir.",
+          "why": "Las palabras que terminan en z forman el plural en -ces: la z cambia a c."
+        },
+        {
+          "id": "czq-14",
+          "pattern": "vo[c]es",
+          "options": [
+            "c",
+            "z"
+          ],
+          "sentence": "Se oían voces en el patio.",
+          "why": "Las palabras que terminan en z forman el plural en -ces: la z cambia a c."
+        }
+      ]
+    },
+    {
+      "id": "r-rr",
+      "name": "r o rr",
+      "icon": "🐶",
+      "points": [
+        "Entre dos vocales, el sonido fuerte se escribe con rr: perro, carro.",
+        "Al principio de palabra se escribe una sola r, aunque suene fuerte: ratón, rosa.",
+        "Después de l, n y s también se escribe una sola r: alrededor, enredo, honrado."
+      ],
+      "tip": "La rr solo vive entre dos vocales. Al empezar la palabra o después de l, n o s, basta una r.",
+      "words": [
+        {
+          "id": "rr-1",
+          "pattern": "pe[rr]o",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Mi perro ladra mucho.",
+          "why": "Entre vocales, el sonido fuerte se escribe con rr."
+        },
+        {
+          "id": "rr-2",
+          "pattern": "ca[rr]o",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "El carro de la compra está lleno.",
+          "why": "Entre vocales, el sonido fuerte se escribe con rr."
+        },
+        {
+          "id": "rr-3",
+          "pattern": "to[rr]e",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "La torre del castillo es muy alta.",
+          "why": "Entre vocales, el sonido fuerte se escribe con rr."
+        },
+        {
+          "id": "rr-4",
+          "pattern": "ga[rr]a",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "El águila tiene una garra afilada.",
+          "why": "Entre vocales, el sonido fuerte se escribe con rr."
+        },
+        {
+          "id": "rr-5",
+          "pattern": "tie[rr]a",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "La tierra está húmeda.",
+          "why": "Entre vocales, el sonido fuerte se escribe con rr."
+        },
+        {
+          "id": "rr-6",
+          "pattern": "[r]atón",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "El ratón se escondió en un agujero.",
+          "why": "Al principio de palabra, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-7",
+          "pattern": "[r]osa",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Me regalaron una rosa amarilla.",
+          "why": "Al principio de palabra, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-8",
+          "pattern": "[r]egalo",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Me hicieron un regalo sorpresa.",
+          "why": "Al principio de palabra, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-9",
+          "pattern": "al[r]ededor",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Corrimos alrededor del patio.",
+          "why": "Después de l, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-10",
+          "pattern": "en[r]edo",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Había un enredo de cables.",
+          "why": "Después de n, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-11",
+          "pattern": "hon[r]ado",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Es un vecino honrado.",
+          "why": "Después de n, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-12",
+          "pattern": "son[r]isa",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Tiene una sonrisa preciosa.",
+          "why": "Después de n, el sonido fuerte se escribe con una sola r."
+        },
+        {
+          "id": "rr-13",
+          "pattern": "en[r]ollar",
+          "options": [
+            "r",
+            "rr"
+          ],
+          "sentence": "Hay que enrollar la alfombra.",
+          "why": "Después de n, el sonido fuerte se escribe con una sola r."
+        }
+      ]
+    },
+    {
+      "id": "tildes",
+      "name": "La tilde",
+      "icon": "✍️",
+      "points": [
+        "Las palabras agudas llevan tilde si terminan en vocal, n o s: café, camión, compás.",
+        "Las palabras esdrújulas llevan tilde siempre: música, pájaro.",
+        "Si la i o la u tónica va junto a a, e, o, se separan (hiato) y llevan tilde: día, río, país."
+      ],
+      "tip": "Busca la sílaba que suena más fuerte. Si es la última y acaba en vocal, n o s, o si es la antepenúltima, ¡tilde!",
+      "words": [
+        {
+          "id": "til-1",
+          "pattern": "caf[é]",
+          "options": [
+            "e",
+            "é"
+          ],
+          "sentence": "Mi padre toma café.",
+          "why": "Es aguda y termina en vocal: lleva tilde."
+        },
+        {
+          "id": "til-2",
+          "pattern": "sof[á]",
+          "options": [
+            "a",
+            "á"
+          ],
+          "sentence": "Me senté en el sofá.",
+          "why": "Es aguda y termina en vocal: lleva tilde."
+        },
+        {
+          "id": "til-3",
+          "pattern": "cami[ó]n",
+          "options": [
+            "o",
+            "ó"
+          ],
+          "sentence": "El camión llevaba fruta.",
+          "why": "Es aguda y termina en n: lleva tilde."
+        },
+        {
+          "id": "til-4",
+          "pattern": "canci[ó]n",
+          "options": [
+            "o",
+            "ó"
+          ],
+          "sentence": "Cantamos una canción.",
+          "why": "Es aguda y termina en n: lleva tilde."
+        },
+        {
+          "id": "til-5",
+          "pattern": "comp[á]s",
+          "options": [
+            "a",
+            "á"
+          ],
+          "sentence": "Dibujé un círculo con el compás.",
+          "why": "Es aguda y termina en s: lleva tilde."
+        },
+        {
+          "id": "til-6",
+          "pattern": "m[ú]sica",
+          "options": [
+            "u",
+            "ú"
+          ],
+          "sentence": "Me encanta la música.",
+          "why": "Es esdrújula: las esdrújulas siempre llevan tilde."
+        },
+        {
+          "id": "til-7",
+          "pattern": "p[á]jaro",
+          "options": [
+            "a",
+            "á"
+          ],
+          "sentence": "Un pájaro canta en la rama.",
+          "why": "Es esdrújula: las esdrújulas siempre llevan tilde."
+        },
+        {
+          "id": "til-8",
+          "pattern": "l[á]mpara",
+          "options": [
+            "a",
+            "á"
+          ],
+          "sentence": "Enciende la lámpara.",
+          "why": "Es esdrújula: las esdrújulas siempre llevan tilde."
+        },
+        {
+          "id": "til-9",
+          "pattern": "tel[é]fono",
+          "options": [
+            "e",
+            "é"
+          ],
+          "sentence": "Suena el teléfono.",
+          "why": "Es esdrújula: las esdrújulas siempre llevan tilde."
+        },
+        {
+          "id": "til-10",
+          "pattern": "d[í]a",
+          "options": [
+            "i",
+            "í"
+          ],
+          "sentence": "Hoy es un día soleado.",
+          "why": "Hay hiato: la vocal cerrada tónica va junto a una abierta y lleva tilde."
+        },
+        {
+          "id": "til-11",
+          "pattern": "r[í]o",
+          "options": [
+            "i",
+            "í"
+          ],
+          "sentence": "Nadamos en el río.",
+          "why": "Hay hiato: la vocal cerrada tónica va junto a una abierta y lleva tilde."
+        },
+        {
+          "id": "til-12",
+          "pattern": "pa[í]s",
+          "options": [
+            "i",
+            "í"
+          ],
+          "sentence": "Viajamos a otro país.",
+          "why": "Hay hiato: la vocal cerrada tónica va junto a una abierta y lleva tilde."
+        },
+        {
+          "id": "til-13",
+          "pattern": "ma[í]z",
+          "options": [
+            "i",
+            "í"
+          ],
+          "sentence": "Las gallinas comen maíz.",
+          "why": "Hay hiato: la vocal cerrada tónica va junto a una abierta y lleva tilde."
+        },
+        {
+          "id": "til-14",
+          "pattern": "b[ú]ho",
+          "options": [
+            "u",
+            "ú"
+          ],
+          "sentence": "El búho vuela de noche.",
+          "why": "Hay hiato: la vocal cerrada tónica va junto a una abierta y lleva tilde."
+        }
+      ]
+    },
+    {
+      "id": "palabras-clave",
+      "name": "Palabras que hay que recordar",
+      "icon": "🧠",
+      "points": [
+        "Algunas palabras no siguen una regla fácil: hay que recordarlas.",
+        "Léelas, escúchalas y escríbelas muchas veces."
+      ],
+      "tip": "Mira la palabra, tápala, escríbela y comprueba. ¡Así se queda en la memoria!",
+      "words": [
+        {
+          "id": "pc-1",
+          "pattern": "ha[b]ía",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Ayer había mucha gente en la plaza.",
+          "why": "«Había» es del verbo haber: se escribe con h y con b."
+        },
+        {
+          "id": "pc-2",
+          "pattern": "i[b]a",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mi hermana iba al colegio en bici.",
+          "why": "«Iba», del verbo ir, se escribe con b."
+        },
+        {
+          "id": "pc-3",
+          "pattern": "[h]acer",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Tengo que hacer los deberes.",
+          "why": "«Hacer» se escribe con h."
+        },
+        {
+          "id": "pc-4",
+          "pattern": "ve[z]",
+          "options": [
+            "z",
+            "s"
+          ],
+          "sentence": "Esta vez gano yo.",
+          "why": "«Vez» se escribe con z: una vez, dos veces."
+        },
+        {
+          "id": "pc-5",
+          "pattern": "[h]ay",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "En la nevera hay leche.",
+          "why": "«Hay», del verbo haber, se escribe con h."
+        },
+        {
+          "id": "pc-6",
+          "pattern": "a[h]ora",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Ven aquí ahora mismo.",
+          "why": "«Ahora» lleva una h en medio."
+        },
+        {
+          "id": "pc-7",
+          "pattern": "[h]asta",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Contamos hasta diez.",
+          "why": "«Hasta» se escribe con h."
+        },
+        {
+          "id": "pc-8",
+          "pattern": "tam[b]ién",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Yo también quiero jugar.",
+          "why": "«También» se escribe con b: antes de b va m."
+        },
+        {
+          "id": "pc-9",
+          "pattern": "[v]oy",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mañana voy a la piscina.",
+          "why": "«Voy», del verbo ir, se escribe con v."
+        },
+        {
+          "id": "pc-10",
+          "pattern": "hu[b]o",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Ayer hubo una tormenta.",
+          "why": "«Hubo», del verbo haber, se escribe con h y con b."
+        },
+        {
+          "id": "pc-11",
+          "pattern": "[ll]evar",
+          "options": [
+            "ll",
+            "y"
+          ],
+          "sentence": "Tengo que llevar el abrigo.",
+          "why": "«Llevar» se escribe con ll."
+        },
+        {
+          "id": "pc-12",
+          "pattern": "[v]amos",
+          "options": [
+            "b",
+            "v"
+          ],
+          "sentence": "Mañana vamos de excursión.",
+          "why": "«Vamos», del verbo ir, se escribe con v."
+        },
+        {
+          "id": "pc-13",
+          "pattern": "a[h]í",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Deja la mochila ahí.",
+          "why": "«Ahí» lleva una h en medio y tilde en la í."
+        },
+        {
+          "id": "pc-14",
+          "pattern": "[h]ola",
+          "options": [
+            "h",
+            ""
+          ],
+          "sentence": "Siempre dice hola al entrar.",
+          "why": "«Hola», el saludo, se escribe con h."
+        }
+      ]
+    }
+  ]
+}
